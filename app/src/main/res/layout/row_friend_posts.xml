@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rlRow"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_40">
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="@dimen/size_40"
+                android:layout_height="@dimen/size_40"
+                android:layout_gravity="center_vertical"
+                app:civ_border_color="@color/black_trans"
+                app:civ_border_width="1dp"
+                app:civ_shadow="false"
+                app:civ_shadow_radius="1"
+                app:civ_shadow_color="#8BC34A"
+                android:src="@drawable/profile_placeholder"/>
+            <LinearLayout
+                android:layout_marginStart="@dimen/size_10"
+                android:orientation="vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <CustomView.CustomTextView
+                    android:textColor="#808080"
+                    android:textSize="@dimen/textsize_15"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:customFont="@string/DroidSans"/>
+
+                <CustomView.CustomTextView
+                    android:id="@+id/txtPostDate"
+                    android:textColor="@color/daily_text_color"
+                    android:textSize="10sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:customFont="@string/DroidSans"/>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgPost"
+            android:layout_marginTop="@dimen/size_20"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_200"/>
+
+        <CustomView.CustomTextView
+            android:maxLines="5"
+            android:layout_marginTop="@dimen/margin_10"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:customFont="@string/DroidSans"/>
+
+        <RelativeLayout
+
+            android:layout_marginTop="@dimen/size_20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/likesBox"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="@dimen/margin_15"
+                    android:layout_height="@dimen/margin_15"
+                    android:src="@drawable/heart"/>
+                <CustomView.CustomTextView
+                    android:id="@+id/txtLikes"
+                    android:layout_marginStart="@dimen/size_10"
+                    android:textColor="@color/daily_text_color"
+                    android:textSize="10sp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:customFont="@string/DroidSans"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/commentsBox"
+
+                android:layout_marginStart="@dimen/size_30"
+                android:layout_centerHorizontal="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="@dimen/margin_15"
+                    android:layout_height="@dimen/margin_15"
+                    android:src="@drawable/comments"/>
+                <CustomView.CustomTextView
+                    android:id="@+id/txtViewAllComments"
+                    android:layout_marginStart="@dimen/size_10"
+                    android:textColor="@color/daily_text_color"
+                    android:textSize="@dimen/textsize_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:customFont="@string/DroidSans"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/readBox"
+
+                android:layout_alignParentEnd="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <ImageView
+                    android:layout_width="@dimen/margin_15"
+                    android:layout_height="@dimen/margin_15"
+                    android:src="@drawable/eye"/>
+                <CustomView.CustomTextView
+                    android:layout_marginStart="@dimen/size_10"
+                    android:textColor="@color/daily_text_color"
+                    android:textSize="@dimen/textsize_10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    app:customFont="@string/DroidSans"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </LinearLayout>
+
+</RelativeLayout>

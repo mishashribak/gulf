@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/relParentLayout"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_height="wrap_content"
+    android:padding="@dimen/margin_5"
+    android:layout_margin="12dp"
+    android:gravity="center"
+    android:background="@drawable/rounded_corner_location_gray_bg"
+    android:layout_gravity="center"
+>
+
+    <CustomView.CustomTextView
+        android:id="@+id/tvLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/locations"
+        android:paddingHorizontal="@dimen/size_20"
+        android:paddingVertical="5dp"
+        android:textColor="@color/white"
+        android:gravity="center"
+        android:textSize="@dimen/textsize_22"
+        android:background="@drawable/rounded_corner_blue_locn_bg"
+        app:customFont="@string/DroidSans"
+        />
+
+</RelativeLayout>

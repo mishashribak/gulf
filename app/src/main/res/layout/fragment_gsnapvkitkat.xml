@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data />
+
+    <RelativeLayout
+        android:clickable="true"
+        android:id="@+id/relParentLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorwhite"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <ImageView
+            android:visibility="invisible"
+            android:id="@+id/imgFocus"
+            android:layout_centerInParent="true"
+            android:src="@drawable/ic_focus_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp" />
+
+
+        <com.otaliastudios.cameraview.CameraView
+            android:id="@+id/camera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:keepScreenOn="true"
+            app:cameraExperimental="true"
+            app:cameraEngine="camera2"
+            app:cameraPreview="glSurface"
+            app:cameraPlaySounds="true"
+            app:cameraGrid="off"
+            app:cameraAudio="on"
+            app:cameraFacing="back"
+            app:cameraGestureTap="autoFocus"
+            app:cameraGestureLongTap="none"
+            app:cameraGesturePinch="zoom"
+            app:cameraAutoFocusMarker="@string/cameraview_default_autofocus_marker">
+
+        </com.otaliastudios.cameraview.CameraView>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imgBack"
+                android:rotationY="@integer/locale_mirror_flip"
+                android:layout_margin="@dimen/margin_20"
+                android:layout_width="@dimen/toolbar_icon_size"
+                android:layout_height="@dimen/toolbar_icon_size"
+                android:src="@mipmap/back" />
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:orientation="horizontal"
+                android:gravity="end"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/iv_screenlight"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="@dimen/margin_10"
+                    android:padding="@dimen/margin_5"
+                    android:src="@mipmap/brightness_medium" />
+
+                <ImageView
+                    android:id="@+id/iv_flash"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginEnd="@dimen/size_10"
+                    android:padding="@dimen/margin_5"
+                    android:src="@mipmap/flashh_off" />
+
+                <ImageView
+                    android:id="@+id/iv_cameraflip"
+                    android:layout_marginEnd="@dimen/size_10"
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@mipmap/flip" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:visibility="gone"
+            android:id="@+id/iv_filter"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_above="@+id/rvFilter"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:src="@mipmap/filter" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:visibility="gone"
+            android:scrollbars="vertical"
+            android:scrollbarThumbVertical="@color/darkPurple"
+            android:scrollbarSize="@dimen/size_1"
+            android:id="@+id/rvFilter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/progressBarCircle" />
+
+
+        <ProgressBar
+            android:id="@+id/progressBarCircle"
+            android:indeterminateTint="@color/colorBgOptionGray"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_above="@+id/vtabbottom"
+            android:layout_centerInParent="true"
+            android:layout_gravity="center"
+            android:background="@drawable/view_circle_fin"
+            android:elevation="@dimen/margin_5"
+            android:indeterminate="false"
+            android:indeterminateDrawable="@drawable/view_circle_in_progress"
+            android:max="100"
+            android:progressDrawable="@drawable/view_circle_in_progress"
+            android:rotation="-90" />
+
+        <ImageView
+            android:id="@+id/imgGallery"
+            android:layout_above="@+id/vtabbottom"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:layout_alignParentEnd="true"
+            android:layout_width="@dimen/photo_edit_icon"
+            android:layout_height="@dimen/photo_edit_icon"
+            android:src="@drawable/gallery_white"/>
+
+        <!--</RelativeLayout>-->
+
+        <RelativeLayout
+            android:id="@+id/vtabbottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/iv_chat"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="@dimen/margin_30" />
+
+
+            <ImageView
+                android:id="@+id/iv_cross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/margin_40"
+                android:layout_marginTop="3dp"
+                android:layout_marginEnd="@dimen/margin_40"
+                android:src="@mipmap/cross_camera"
+                android:visibility="gone" />
+
+
+            <CustomView.CustomTextView
+                android:id="@+id/tv_cross"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/iv_chat"
+                android:layout_centerHorizontal="true"
+                android:layout_marginStart="@dimen/margin_30"
+                android:layout_marginTop="@dimen/margin_10"
+                android:layout_marginEnd="@dimen/margin_30"
+                android:text="@string/story"
+                android:textColor="@color/colorwhite"
+                android:textSize="@dimen/textsize_16"
+                android:visibility="invisible"
+                app:customFont="@string/DroidSans" />
+
+            <ImageView
+                android:id="@+id/iv_story"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/margin_30"
+                android:src="@mipmap/timeline_inactive" />
+        </RelativeLayout>
+
+
+        <View
+            android:id="@+id/shutter_effect"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alpha="0.8"
+            android:background="@android:color/white"
+            android:visibility="gone" />
+
+
+        <ImageView
+            android:id="@+id/ivWhite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/margin_8"
+            android:src="@drawable/white_bg"
+            android:visibility="gone" />
+
+    </RelativeLayout>
+
+</layout>

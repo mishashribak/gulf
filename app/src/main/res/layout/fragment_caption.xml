@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context="com.app.khaleeji.Fragments.CaptionFragment">
+
+    <RelativeLayout
+        android:id="@+id/toolbar"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/actionBarSize"
+        android:background="@color/colorOrange"
+        android:padding="@dimen/margin_8">
+
+        <ImageView
+            android:id="@+id/img_back"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/margin_2"
+            android:src="@drawable/ic_arrow_back_black_24dp" />
+
+        <TextView
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:layout_centerVertical="true"
+            android:text="@string/new_post"
+            android:textColor="@color/white"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_share"
+            style="@style/Base.TextAppearance.AppCompat.Medium"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:text="@string/share"
+            android:textColor="@color/white" />
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/img"
+        android:scaleType="centerCrop"
+        android:layout_width="@dimen/size_80"
+        android:layout_height="@dimen/size_80"
+        android:layout_below="@+id/toolbar"
+        android:layout_margin="@dimen/margin_8" />
+
+    <EditText
+        android:id="@+id/txt_caption"
+        android:layout_width="281dp"
+        android:layout_height="67dp"
+        android:layout_below="@+id/toolbar"
+        android:layout_alignEnd="@+id/toolbar"
+        android:layout_marginStart="15dp"
+        android:layout_toEndOf="@+id/img"
+        android:textColor="@color/black"
+        android:background="@color/white"
+        android:clickable="true"
+        android:focusable="true"
+        android:hint="@string/write_a_caption_for_your_memory" />
+
+</RelativeLayout>

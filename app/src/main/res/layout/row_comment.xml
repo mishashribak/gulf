@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_10"
+    android:id="@+id/rowItem"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgProfile"
+        android:layout_width="@dimen/size_30"
+        android:layout_height="@dimen/size_30"
+        android:src="@drawable/profile_placeholder"/>
+
+    <LinearLayout
+        android:layout_weight="1"
+        android:layout_marginStart="@dimen/margin_10"
+        android:layout_marginEnd="@dimen/size_10"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <CustomView.CustomTextView
+            android:id="@+id/txtFullName"
+            app:customFont="@string/DroidSans"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_12" />
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvViewComment"
+            android:layout_marginTop="@dimen/margin_5"
+            app:customFont="@string/DroidSans"
+            android:layout_width="match_parent"
+            android:textColor="@color/black"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_12" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imgClose"
+        android:layout_gravity="center_vertical"
+        android:visibility="gone"
+        android:layout_marginEnd="@dimen/margin_10"
+        android:layout_width="@dimen/margin_15"
+        android:layout_height="@dimen/margin_15"
+        android:src="@drawable/close_comment"/>
+
+</LinearLayout>

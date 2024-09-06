@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--Commented by rohit-->
+
+    <!--<item android:drawable="@color/userdetail_tabactive" android:state_selected="true" />-->
+    <!--<item android:drawable="@color/userdetail_tabactive" android:state_pressed="true" />-->
+    <!--<item android:drawable="@drawable/main_toolbar" />-->
+
+    <item android:drawable="@color/colorActiveTab" android:state_selected="true" />
+    <item android:drawable="@color/colorActiveTab" android:state_pressed="true" />
+    <item android:drawable="@drawable/main_toolbar" />
+
+
+    <!--<item android:drawable="@color/brown" android:state_selected="true"  android:color="@color/dark"  />-->
+    <!--<item android:drawable="@color/colorwhite" android:state_pressed="true" />-->
+    <!--<item android:drawable="@drawable/main_toolbar"-->
+    <!--/>-->
+</selector>

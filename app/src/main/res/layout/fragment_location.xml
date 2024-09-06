@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:clickable="true"
+    android:id="@+id/linParentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout
+        android:id="@+id/rlsearch"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@drawable/rectangle_box_nearby"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:rotationY="@integer/locale_mirror_flip"
+            android:layout_width="20dp"
+            android:layout_marginStart="@dimen/size_10"
+            android:layout_height="@dimen/size_20"
+            android:src="@drawable/search_purple" />
+
+        <AutoCompleteTextView
+            android:id="@+id/et_currentlocation"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_weight="1"
+            android:background="@color/transparents"
+            android:ems="10"
+            android:hint="@string/search"
+            android:singleLine="true"
+            android:textAllCaps="false"
+            android:textColor="@color/black"
+            android:textAlignment="viewStart"
+            android:textSize="@dimen/textsize_14"
+            />
+    </LinearLayout>
+
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvNearByLocation"
+        android:scrollbars="vertical"
+        android:scrollbarThumbVertical="@color/darkPurple"
+        android:scrollbarSize="@dimen/size_1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/margin_10"
+        android:padding="@dimen/margin_10"
+        />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/fragment_main_photo_edit_image_rv"
+        android:scrollbars="vertical"
+        android:scrollbarThumbVertical="@color/darkPurple"
+        android:scrollbarSize="@dimen/size_1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:padding="@dimen/size_10"
+        android:visibility="gone"
+        />
+
+</LinearLayout>

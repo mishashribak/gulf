@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginEnd="@dimen/size_20"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal">
+
+    <LinearLayout
+        android:id="@+id/llRow"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="@dimen/size_70"
+            android:layout_height="@dimen/size_70"
+            app:civ_border_color="@color/black_trans"
+            app:civ_border_width="1dp"
+            app:civ_shadow="false"
+            app:civ_shadow_radius="1"
+            app:civ_shadow_color="#8BC34A"
+            android:src="@drawable/profile_placeholder"/>
+
+        <CustomView.CustomTextView
+            android:id="@+id/txtName"
+            android:textColor="@color/darkPurple"
+            android:textSize="12sp"
+            android:text="1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:customFont="@string/DroidSans_Bold"/>
+
+        <CustomView.CustomTextView
+            android:id="@+id/txtHotspot"
+            android:textColor="@color/darkPurple"
+            android:textSize="12sp"
+            android:text="hotspot"
+            android:padding="@dimen/margin_5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:customFont="@string/DroidSans_Bold"/>
+    </LinearLayout>
+</RelativeLayout>

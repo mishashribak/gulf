@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="horizontal"
+    >
+
+
+    <RelativeLayout
+        android:id="@+id/layoutmain"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical"
+
+        >
+
+        <RelativeLayout
+            android:id="@+id/topPanel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorSearch4"
+            android:paddingBottom="10dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingTop="10dp"
+            >
+
+            <!--android:background="#70C99692"-->
+
+            <com.mikhaellopez.circularimageview.CircularImageView
+                xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/profile_image"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+
+                android:src="@drawable/profile_placeholder"
+                app:civ_border_color="@color/black_trans"
+                app:civ_border_width="1dp"
+                app:civ_shadow="false"
+                app:civ_shadow_color="#8BC34A"
+
+                app:civ_shadow_radius="1" />
+
+            <!--android:layout_marginStart="@dimen/margin_16"-->
+
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/profile_image"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+
+                android:orientation="vertical">
+
+
+                <CustomView.CustomTextView
+                    android:id="@+id/tvusername"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="4dp"
+                    android:text="Sarah Shekh"
+                    android:textColor="@color/colorBlue"
+                    android:textSize="@dimen/textsize_16"
+                    app:customFont="@string/DroidSans_Bold"
+                    />
+
+                <!--app:customFont="@string/DroidSans"-->
+                <!--android:textColor="#ffffff"-->
+
+                <CustomView.CustomTextView
+                    android:id="@+id/tvmessage"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginTop="2dp"
+                    android:text="Dum Loaring"
+                    android:textColor="@color/black"
+                    android:textSize="@dimen/textsize_12"
+                    app:customFont="@string/DroidSans_Bold"
+                    />
+
+                <!--android:textColor="#ffffff"-->
+                <!--app:customFont="@string/DroidSans"-->
+
+
+
+            </LinearLayout>
+
+
+            <CustomView.CustomTextView
+                android:id="@+id/tvduration"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:clickable="false"
+                android:focusable="false"
+                android:focusableInTouchMode="false"
+                android:gravity="center"
+                android:text="2 min"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/textsize_14"
+                app:customFont="@string/DroidSans_Bold"
+               />
+
+            <!--android:layout_marginTop="10dp"-->
+
+            <!--android:layout_centerVertical="true"-->
+
+            <CustomView.CustomTextView
+                android:id="@+id/tvTypingStatus"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="TYPING_STOPPED"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_12"
+                app:customFont="@string/DroidSans_Bold"
+                android:layout_alignParentEnd="true"
+                android:layout_below="@+id/tvduration"
+                />
+
+            <!--android:textColor="#ffffff"-->
+            <!--app:customFont="@string/DroidSans"-->
+
+
+        </RelativeLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_below="@+id/topPanel"
+            android:background="@color/colorwhite" />
+
+    </RelativeLayout>
+</LinearLayout>

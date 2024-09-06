@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginStart="@dimen/margin_5"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="@dimen/size_70"
+            android:layout_height="@dimen/size_70">
+            <com.mikhaellopez.circularimageview.CircularImageView
+                android:id="@+id/imgProfile"
+                android:layout_centerInParent="true"
+                android:layout_width="@dimen/size_60"
+                android:layout_height="@dimen/size_60"
+                android:src="@drawable/profile_placeholder"/>
+            <ImageView
+                android:id="@+id/imgClose"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_width="@dimen/margin_20"
+                android:layout_height="@dimen/margin_20"
+                android:src="@drawable/group_chat_close"/>
+        </RelativeLayout>
+
+        <CustomView.CustomTextView
+            android:id="@+id/txtName"
+            android:textColor="@color/darkPurple"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:singleLine="true"
+            android:maxWidth="@dimen/size_80"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:customFont="@string/DroidSans_Bold"/>
+    </LinearLayout>
+
+</RelativeLayout>

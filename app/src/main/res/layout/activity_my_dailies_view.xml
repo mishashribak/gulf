@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.app.khaleeji.Activity.DailiesActivity">
+
+    <photoEditor.widget.SlidingUpPanelLayout
+        android:id="@+id/sliding_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="bottom"
+        app:umanoDragView="@+id/dragView"
+        app:umanoOverlay="true"
+        app:umanoInitialState="hidden"
+        >
+
+        <!--app:umanoShadowHeight="4dp"-->
+
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent"-->
+            <!--android:background="@color/red"-->
+            <!--&gt;-->
+
+
+        <!--</RelativeLayout>-->
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:elevation="@dimen/margin_5"
+            >
+
+            <View
+                android:id="@+id/swipeView"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/red"
+                android:elevation="@dimen/margin_5"
+                />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/black"
+            >
+
+            <com.carlosmuvi.segmentedprogressbar.SegmentedProgressBar
+                android:id="@+id/segmented_progressbar"
+                android:layout_width="match_parent"
+                android:layout_height="3dp"
+                app:container_color="@color/colorBgGray"
+                app:fill_color="@color/colorwhite"
+                app:gap_size="@dimen/margin_2"
+                />
+
+
+            <Utility.CustomViewPager
+                android:id="@+id/dummyPager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_below="@+id/segmented_progressbar"
+                android:elevation="@dimen/margin_5"
+                />
+
+
+        </RelativeLayout>
+
+
+    </photoEditor.widget.SlidingUpPanelLayout>
+
+</RelativeLayout>

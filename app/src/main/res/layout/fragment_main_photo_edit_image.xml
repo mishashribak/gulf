@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:clickable="true"
+    android:layout_height="match_parent">
+
+    <CustomView.CustomTextView
+        android:padding="@dimen/margin_5"
+        app:customFont="@string/DroidSans"
+        style="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/txt_title"
+        android:textColor="@color/white"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_below="@+id/txt_title"
+        android:scrollbars="vertical"
+        android:scrollbarThumbVertical="@color/white"
+        android:scrollbarSize="@dimen/size_1"
+        android:id="@+id/fragment_main_photo_edit_image_rv"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</RelativeLayout>

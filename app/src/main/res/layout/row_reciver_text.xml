@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="24dp"
+    android:gravity="start"
+    android:orientation="horizontal"
+    android:padding="4dp">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/img_profile_pic"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginEnd="8dp"
+                android:layout_gravity="bottom"
+                android:src="@drawable/profile_placeholder" />
+            <ImageView
+                android:rotationY="@integer/locale_mirror_flip"
+                android:layout_gravity="bottom"
+                android:layout_marginEnd="-5dp"
+                android:layout_width="@dimen/size_20"
+                android:layout_height="@dimen/size_20"
+                android:src="@drawable/in_tag"/>
+
+            <LinearLayout
+                android:background="@drawable/text_out"
+                android:layout_gravity="bottom"
+                android:minWidth="@dimen/size_50"
+                android:minHeight="@dimen/size_40"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <CustomView.CustomTextView
+                    android:id="@+id/txtUsername"
+                    android:visibility="gone"
+                    android:textSize="@dimen/textsize_10"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:paddingHorizontal="@dimen/size_10"
+                    android:layout_width="@dimen/size_200"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/yellow_dark" />
+
+                <CustomView.CustomTextView
+                    android:id="@+id/txt_message"
+                    android:textSize="@dimen/textsize_12"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:layout_marginBottom="@dimen/margin_5"
+                    android:paddingHorizontal="@dimen/size_10"
+                    android:layout_width="@dimen/size_200"
+                    android:layout_height="wrap_content"
+                    android:textColor="@android:color/black" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <CustomView.CustomTextView
+            android:id="@+id/txt_date"
+            android:layout_marginStart="@dimen/size_50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="start" />
+
+    </LinearLayout>
+</LinearLayout>

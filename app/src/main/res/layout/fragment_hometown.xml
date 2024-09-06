@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<fetchHotspotAndFrndsDetailData></fetchHotspotAndFrndsDetailData>-->
+    <data/>
+
+    <RelativeLayout
+        android:clickable="true"
+        android:background="@color/sign_setting_bk"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_100"
+            android:background="@color/white"/>
+        <!--    toolbar-->
+        <RelativeLayout
+            android:id="@+id/toolbar"
+
+            android:paddingHorizontal="@dimen/size_10"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height_big"
+            android:background="@drawable/toolbar_style1_dark_purple">
+            <ImageView
+                android:id="@+id/imgBack"
+                android:rotationY="@integer/locale_mirror_flip"
+                android:layout_centerInParent="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/margin_10"
+                android:layout_width="@dimen/toolbar_icon_size"
+                android:layout_height="@dimen/toolbar_icon_size"
+                android:src="@mipmap/back"/>
+            <CustomView.CustomTextView
+                app:customFont="@string/DroidSans"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/toolbar_title_size"
+                android:textColor="@color/white"
+                android:text="@string/choose_hometown"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="@color/sign_setting_bk"
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/margin_5"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:layout_marginEnd="@dimen/margin_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CustomView.CustomTextView
+                android:layout_marginTop="@dimen/size_50"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_40"
+                android:gravity="center"
+                android:textColor="@color/darkPurple"
+                android:textSize="@dimen/textsize_20"
+                android:text="@string/what_hometown"
+                app:customFont="@string/DroidSans"/>
+
+            <RelativeLayout
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:layout_width="@dimen/size_200"
+                android:layout_height="@dimen/size_50"
+                android:layout_marginTop="@dimen/size_30"
+                android:paddingHorizontal="@dimen/size_10"
+                android:background="@drawable/rounded_box_gender_female"
+                android:orientation="horizontal">
+                <AutoCompleteTextView
+                    android:id="@+id/txtHomeTown"
+                    android:background="@color/transparents"
+                    android:layout_width="@dimen/size_130"
+                    android:layout_centerVertical="true"
+                    android:layout_height="wrap_content"
+                    android:textAlignment="textStart"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/margin_10"
+                    android:textDirection="locale"
+                    android:textColor="@color/backgroundDefaultColor"
+                    android:textSize="@dimen/textsize_15"
+                    app:customFont="@string/DroidSans"/>
+
+                <ImageView
+                    android:id="@+id/imgLocation"
+                    android:layout_width="@dimen/size_20"
+                    android:layout_height="@dimen/size_20"
+                    android:layout_alignParentEnd="true"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/meetup" />
+
+                </RelativeLayout>
+
+
+            <CustomView.CustomTextView
+                android:id="@+id/txtContinue"
+                android:layout_marginHorizontal="@dimen/size_20"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_40"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/size_50"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_15"
+                android:background="@drawable/rounded_box_yellow_20"
+                android:text="@string/bt_continue"
+                app:customFont="@string/DroidSans"/>
+
+            <CustomView.CustomTextView
+                android:layout_marginTop="@dimen/size_30"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/backgroundDefaultColor"
+                android:textSize="@dimen/textsize_15"
+                android:text="@string/step3"
+                app:customFont="@string/DroidSans"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</layout>

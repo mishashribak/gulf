@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:gravity="center_horizontal"
+    android:layout_width="match_parent"
+    android:clickable="true"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:id="@+id/pop_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <LinearLayout android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:background="@drawable/avtar_pup_take"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/size_20"
+            android:layout_marginRight="@dimen/size_20">
+            <CustomView.CustomButtonView android:textSize="@dimen/textsize_12"
+                android:textColor="@color/backgroundDefaultColor"
+                android:id="@+id/btReport"
+                android:background="@drawable/rounded_box_white"
+                android:paddingHorizontal="@dimen/margin_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginTop="10.0dip"
+                android:layout_marginRight="10.0dip"
+                app:customFont="@string/DroidSans"
+                android:text="@string/report" />
+            <CustomView.CustomButtonView
+                android:textSize="@dimen/textsize_12"
+                android:textColor="@color/backgroundDefaultColor"
+                android:id="@+id/btBlock"
+                android:background="@drawable/rounded_box_white"
+                android:paddingHorizontal="@dimen/margin_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginVertical="10.0dip"
+                android:layout_marginRight="10.0dip"
+                app:customFont="@string/DroidSans"
+                android:text="@string/block" />
+
+            <CustomView.CustomButtonView
+                android:textSize="@dimen/textsize_12"
+                android:textColor="@color/backgroundDefaultColor"
+                android:id="@+id/btUnBlock"
+                android:background="@drawable/rounded_box_white"
+                android:paddingHorizontal="@dimen/margin_10"
+                android:visibility="gone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10.0dip"
+                android:layout_marginVertical="10.0dip"
+                android:layout_marginRight="10.0dip"
+                app:customFont="@string/DroidSans"
+                android:text="@string/unblock" />
+
+            <CustomView.CustomButtonView
+                android:textSize="@dimen/textsize_12"
+                android:textColor="@color/white"
+                android:id="@+id/btCancel"
+                android:background="@drawable/avtar_pup_cancel"
+                android:paddingHorizontal="@dimen/margin_10"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/margin_10"
+                app:customFont="@string/DroidSans"
+                android:text="@string/cancel" />
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

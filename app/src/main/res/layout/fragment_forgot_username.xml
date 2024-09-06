@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data/>
+
+    <RelativeLayout
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_100"
+            android:background="@color/white"/>
+        <!--    toolbar-->
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:paddingHorizontal="@dimen/size_10"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height_big"
+            android:background="@drawable/toolbar_style1_dark_purple">
+            <ImageView
+                android:id="@+id/imgBack"
+                android:rotationY="@integer/locale_mirror_flip"
+                android:layout_centerInParent="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/margin_10"
+                android:layout_width="@dimen/toolbar_icon_size"
+                android:layout_height="@dimen/toolbar_icon_size"
+                android:src="@mipmap/back"/>
+            <CustomView.CustomTextView
+                android:id="@+id/phoneTitle"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/toolbar_title_size"
+                android:textColor="@color/white"
+                app:customFont="@string/DroidSans"
+                android:text="@string/forgot_username_title"/>
+
+            <CustomView.CustomTextView
+                android:id="@+id/emailTitle"
+                android:visibility="gone"
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/toolbar_title_size"
+                android:textColor="@color/white"
+                app:customFont="@string/DroidSans"
+                android:text="@string/resetpassword"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:layout_marginStart="@dimen/margin_5"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:layout_marginEnd="@dimen/margin_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_box_purple_20">
+
+            <CustomView.CustomTextView
+                android:layout_marginTop="@dimen/size_50"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize_25"
+                android:textColor="@color/white"
+                android:text="@string/your_account_username"
+                app:customFont="@string/DroidSans_Bold"/>
+
+            <CustomView.CustomTextView
+                android:id="@+id/txtUsername"
+                android:layout_marginTop="@dimen/size_20"
+                android:layout_marginHorizontal="@dimen/size_10"
+                android:layout_width="wrap_content"
+                android:minWidth="@dimen/size_200"
+                android:minHeight="@dimen/size_50"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="30sp"
+                android:paddingHorizontal="@dimen/size_20"
+                android:paddingVertical="@dimen/size_10"
+                android:textColor="@color/yellow_dark"
+                android:background="@drawable/rounded_box_ehite_20"
+                app:customFont="@string/DroidSans_Bold"/>
+
+            <CustomView.CustomTextView
+                android:layout_marginTop="@dimen/size_20"
+                android:layout_marginHorizontal="@dimen/size_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:text="@string/you_can_sign_in"
+                app:customFont="@string/DroidSans"/>
+
+            <CustomView.CustomTextView
+                android:id="@+id/txtSignin"
+                android:layout_marginTop="@dimen/size_30"
+                android:layout_marginHorizontal="@dimen/size_20"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_50"
+                android:gravity="center"
+                android:textSize="20sp"
+                android:textColor="@color/white"
+                android:background="@drawable/rounded_box_yellow_20"
+                android:text="@string/message_signin"
+                app:customFont="@string/DroidSans"/>
+
+            <LinearLayout
+                android:layout_marginStart="@dimen/size_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CustomView.CustomTextView
+                    android:layout_marginTop="@dimen/size_20"
+                    android:id="@+id/tv_forgetpassword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:textSize="20sp"
+                    android:text="@string/forgotpassword"
+                    android:textColor="@color/colorwhite"
+                    app:customFont="@string/DroidSans" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </RelativeLayout>
+</layout>

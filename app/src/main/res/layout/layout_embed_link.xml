@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:background="@color/black"
+    android:clickable="true"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <RelativeLayout
+        android:id="@+id/relSrchayout"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_50"
+        android:elevation="@dimen/margin_5"
+        >
+
+        <ImageView
+            android:id="@+id/ivCloseLinkView"
+            android:layout_width="@dimen/size_40"
+            android:layout_height="@dimen/size_40"
+            android:src="@mipmap/cross"
+            android:layout_centerVertical="true"
+            android:padding="@dimen/margin_10"
+            />
+
+        <CustomView.CustomEditText
+            android:id="@+id/etSrchURL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin_16"
+            android:background="@drawable/rounded_corners_white_bg"
+            android:hint="@string/fullname"
+            android:textAlignment="viewStart"
+            android:textColor="#2C2D32"
+            android:textColorHint="#767676"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans"
+            android:layout_toEndOf="@+id/ivCloseLinkView"
+            android:layout_centerVertical="true"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:minHeight="@dimen/size_40"
+            android:layout_toStartOf="@+id/ivSearchLink"
+            android:inputType="textWebEmailAddress"
+            android:paddingStart="@dimen/margin_20"
+            android:text="hello"
+            android:singleLine="true"
+            />
+
+
+        <ImageView
+            android:id="@+id/ivSearchLink"
+            android:layout_width="@dimen/size_40"
+            android:layout_height="@dimen/size_40"
+            android:src="@mipmap/search"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:padding="@dimen/margin_10"
+            />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/relLinkDetailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relSrchayout"
+        android:padding="@dimen/margin_5"
+        android:background="@drawable/rounded_corners_white_bg"
+        android:layout_margin="@dimen/margin_5"
+        android:visibility="gone"
+        >
+
+        <RelativeLayout
+            android:id="@+id/linkDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:id="@+id/relURLicon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentStart="true"
+                android:layout_toStartOf="@+id/middleView"
+                android:layout_centerInParent="true"
+                >
+
+
+                <ImageView
+                    android:id="@+id/ivLinkLogo"
+                    android:layout_width="@dimen/size_150"
+                    android:layout_height="@dimen/size_150"
+                    android:layout_centerInParent="true"
+                    />
+
+            </RelativeLayout>
+
+
+            <View
+                android:id="@+id/middleView"
+                android:layout_width="0dp"
+                android:layout_height="1dp"
+                android:layout_centerInParent="true"
+                />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toEndOf="@+id/middleView"
+                android:layout_centerInParent="true"
+                >
+
+                <CustomView.CustomTextView
+                    android:id="@+id/tvLinkName"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/linkTitle"
+                    android:textColor="#2C2D32"
+                    android:textColorHint="#767676"
+                    android:textSize="@dimen/textsize_16"
+                    app:customFont="@string/DroidSans"
+                    android:minHeight="@dimen/size_40"
+                    android:gravity="center|start"
+                    android:layout_margin="@dimen/margin_5"
+                    android:layout_marginStart="@dimen/margin_10"
+                    />
+
+                <!--android:layout_toEndOf="@+id/middleView"-->
+
+                <CustomView.CustomTextView
+                    android:id="@+id/tvLinkDesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/linkDesc"
+                    android:textColor="#2C2D32"
+                    android:textColorHint="#767676"
+                    android:textSize="@dimen/textsize_14"
+                    app:customFont="@string/DroidSans"
+                    android:minHeight="@dimen/size_40"
+                    android:gravity="center|start"
+                    android:layout_margin="@dimen/margin_5"
+                    android:layout_below="@+id/tvLinkName"
+                    android:layout_marginStart="@dimen/margin_10"
+                    />
+
+                <!--android:layout_toEndOf="@+id/middleView"-->
+
+
+                <!--android:maxLines="10"-->
+
+            </RelativeLayout>
+
+
+
+        </RelativeLayout>
+
+
+
+        <CustomView.CustomTextView
+            android:id="@+id/btnAttachLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/attachLink"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans"
+            android:padding="@dimen/margin_5"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/linkDetail"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginTop="@dimen/margin_10"
+            android:background="@drawable/rounded_corner_blue_bg"
+            />
+
+
+        <!--android:background="@drawable/rounded_corner_blue_bg"-->
+
+    </RelativeLayout>
+
+
+
+    <!--<photoEditor.widget.TouchyWebView-->
+        <!--android:id="@+id/webview"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/relSrchayout"-->
+        <!--/>-->
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:background="@drawable/rounded_corners_white_bg"-->
+        <!--android:layout_below="@+id/relLinkDetailLayout"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--card_view:cardCornerRadius="5dp"-->
+        <!--android:layout_marginTop="1dp"-->
+        <!--card_view:cardElevation="2dp"-->
+        <!--android:layout_marginBottom="1dp"-->
+        <!--card_view:cardUseCompatPadding="true"-->
+        <!--android:id="@+id/cardViewPreview"-->
+        <!--android:layout_margin="@dimen/margin_5"-->
+        <!--&gt;-->
+
+        <!--&lt;!&ndash;android:visibility="gone"&ndash;&gt;-->
+
+        <!--<RelativeLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<com.freesoulapps.preview.android.Preview-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:id="@+id/preview"/>-->
+
+            <!--<CustomView.CustomTextView-->
+                <!--android:id="@+id/btnAttachLink"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="@string/attachLink"-->
+                <!--android:textColor="@color/white"-->
+                <!--android:textSize="@dimen/textsize_16"-->
+                <!--app:customFont="@string/DroidSans"-->
+                <!--android:padding="@dimen/margin_10"-->
+                <!--android:layout_centerHorizontal="true"-->
+                <!--android:layout_below="@+id/preview"-->
+                <!--android:layout_marginBottom="@dimen/margin_10"-->
+                <!--android:layout_marginTop="@dimen/margin_10"-->
+                <!--android:background="@drawable/rounded_corner_blue_bg"-->
+                <!--/>-->
+
+            <!--&lt;!&ndash;<CustomView.CustomButtonView&ndash;&gt;-->
+                <!--&lt;!&ndash;android:id="@+id/btnAllow"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_width="match_parent"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_height="wrap_content"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginBottom="@dimen/margin_20"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginStart="20dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginEnd="20dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_marginTop="10dp"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:background="@drawable/rounded_corner_blue_bg"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:text="@string/allowUsers"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textColor="@android:color/white"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:textSize="@dimen/textsize_16"&ndash;&gt;-->
+                <!--&lt;!&ndash;app:customFont="@string/DroidSans"&ndash;&gt;-->
+                <!--&lt;!&ndash;android:layout_alignParentBottom="true"&ndash;&gt;-->
+                <!--&lt;!&ndash;/>&ndash;&gt;-->
+
+        <!--</RelativeLayout>-->
+
+
+
+
+    <!--</android.support.v7.widget.CardView>-->
+
+    <WebView
+        android:id="@+id/webview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/relSrchayout"
+        />
+
+
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/relLinkDetailLayout"-->
+        <!--android:background="@color/black"-->
+        <!--/>-->
+
+
+
+
+</RelativeLayout>

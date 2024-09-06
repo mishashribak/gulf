@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <CustomView.CustomTextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_vertical"
+        android:minHeight="40dp"
+        android:text="usernmae"
+        android:textColor="#2C2D32"
+        android:textSize="@dimen/textsize_16"
+        app:customFont="@string/DroidSans"
+        android:layout_marginStart="@dimen/margin_5"
+        android:layout_toStartOf="@+id/cbSlctFrnd"
+        android:layout_marginEnd="@dimen/margin_10"
+        />
+
+    <CheckBox
+        android:id="@+id/cbSlctFrnd"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:button="@drawable/custom_checkbox_blue"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:padding="10dp"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorLightGray"
+        />
+
+    <!--android:background="@drawable/rounded_purple_corner_transparent_bg"-->
+
+
+</RelativeLayout>

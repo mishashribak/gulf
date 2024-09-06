@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    android:id="@+id/swipePop"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@android:color/transparent"
+    >
+
+    <!--    <Utility.CustomViewPager-->
+    <!--        android:id="@+id/dummyPager"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:elevation="@dimen/margin_5"-->
+    <!--        />-->
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/dummyPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:elevation="@dimen/margin_5"/>
+
+    <com.carlosmuvi.segmentedprogressbar.SegmentedProgressBar
+        android:id="@+id/segmented_progressbar"
+        android:visibility="gone"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/size_10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_10"
+        app:container_color="@color/gray"
+        app:fill_color="@color/colorLightGray"
+        app:gap_size="@dimen/margin_2"
+        />
+
+</RelativeLayout>
+
+
+

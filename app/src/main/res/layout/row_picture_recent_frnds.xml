@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+    <CustomView.CustomTextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_10"
+        android:gravity="start|center"
+        android:minHeight="@dimen/size_40"
+        android:text="@string/username"
+        android:textColor="#2C2D32"
+        android:textSize="@dimen/textsize_16"
+        android:layout_weight="9"
+        app:customFont="@string/DroidSans" />
+
+        <ImageView
+            android:id="@+id/recent_friend_img_check"
+            android:layout_weight="2"
+            android:visibility="invisible"
+            android:layout_gravity="center"
+            android:layout_marginEnd="20dp"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:src="@drawable/ic_check_box_purple_24dp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black_trans" />
+
+
+</LinearLayout>

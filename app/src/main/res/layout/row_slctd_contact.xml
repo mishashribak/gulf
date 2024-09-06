@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <CustomView.CustomTextView
+        android:id="@+id/tv_username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:text="usernmae"
+        android:textColor="@color/purple"
+        android:textSize="@dimen/textsize_14"
+        app:customFont="@string/DroidSans"
+        android:background="@drawable/rounded_purple_corner_transparent_bg"
+        android:layout_marginStart="@dimen/margin_5"
+        />
+
+</LinearLayout>

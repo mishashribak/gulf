@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="300dp"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:padding="@dimen/margin_20"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <CustomView.CustomTextView
+        android:id="@+id/tvTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_50"
+        android:gravity="center"
+        android:text="Report Dialog"
+        android:textColor="@color/black"
+        app:customFont="@string/DroidSans_Bold"
+        android:layout_marginStart="@dimen/margin_10"
+        android:textSize="@dimen/textsize_16"
+        android:layout_weight="1"
+        />
+
+    <CustomView.CustomEditText
+        android:id="@+id/etComnt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginEnd="@dimen/margin_16"
+        android:layout_marginTop="@dimen/margin_16"
+        android:gravity="center_vertical"
+        android:hint="@string/addComment"
+        android:textColor="@color/black"
+        android:textColorHint="@color/colorwhite"
+        android:textSize="@dimen/textsize_14"
+        app:customFont="@string/DroidSans"
+        android:maxLength="300"
+        android:inputType="text"
+        />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:weightSum="2"
+        android:layout_marginTop="@dimen/margin_10"
+        >
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_50"
+            android:gravity="center"
+            android:text="@string/cancel"
+            android:textColor="@color/black"
+            app:customFont="@string/DroidSans_Bold"
+            android:layout_marginStart="@dimen/margin_10"
+            android:textSize="@dimen/textsize_16"
+            android:layout_weight="1"
+            />
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvReport"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/size_50"
+            android:gravity="center"
+            android:text="@string/report"
+            android:textColor="@color/black"
+            app:customFont="@string/DroidSans_Bold"
+            android:layout_marginStart="@dimen/margin_10"
+            android:textSize="@dimen/textsize_16"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+</LinearLayout>

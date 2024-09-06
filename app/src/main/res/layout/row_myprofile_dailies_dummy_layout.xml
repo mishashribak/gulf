@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:padding="1dip">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:adjustViewBounds="true"
+        android:layout_gravity="center"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop" />
+
+    <CustomView.CustomTextView
+        android:id="@+id/tvUserName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="@dimen/margin_16"
+        android:layout_marginStart="@dimen/margin_16"
+        android:gravity="start"
+        android:paddingEnd="@dimen/margin_32"
+        android:paddingStart="@dimen/margin_16"
+        android:text="@string/username"
+        android:textAllCaps="false"
+        android:textColor="@color/colorwhite"
+        android:textSize="@dimen/textsize_14"
+        app:customFont="@string/DroidSans"
+        android:elevation="4dp"
+        />
+
+
+    <CustomView.CustomTextView
+        android:id="@+id/tvTimeStamp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="start"
+        android:layout_marginTop="@dimen/margin_30"
+        android:layout_marginStart="@dimen/margin_16"
+        android:gravity="start"
+        android:paddingEnd="@dimen/margin_32"
+        android:paddingStart="@dimen/margin_16"
+        android:text="@string/zeroHoursAgo"
+        android:textAllCaps="false"
+        android:textColor="@color/colorwhite"
+        android:textSize="@dimen/textsize_14"
+        app:customFont="@string/DroidSans"
+        android:elevation="4dp"
+        />
+
+
+    <ProgressBar
+        android:indeterminateTint="@color/colorBgOptionGray"
+        android:id="@+id/progress_bar"
+        android:layout_width="@dimen/size_40"
+        android:layout_height="@dimen/margin_40"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        />
+
+
+    <com.afollestad.easyvideoplayer.EasyVideoPlayer
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/player"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <CustomView.CustomTextView
+        android:id="@+id/tvCaption"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:text="@string/tag"
+        android:textAllCaps="false"
+        android:textColor="@color/colorwhite"
+        android:textSize="@dimen/textsize_14"
+        app:customFont="@string/DroidSans"
+        android:elevation="4dp"
+        android:background="@color/black"
+        android:alpha="0.1"
+        android:minHeight="@dimen/size_50"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        >
+
+        <View
+            android:id="@+id/leftView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+        <View
+            android:id="@+id/middleView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+
+        <View
+            android:id="@+id/rightView"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            />
+
+
+    </LinearLayout>
+
+
+</FrameLayout>

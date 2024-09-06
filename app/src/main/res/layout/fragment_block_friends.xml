@@ -1,0 +1,69 @@
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<fetchHotspotAndFrndsDetailData></fetchHotspotAndFrndsDetailData>-->
+    <data/>
+    <RelativeLayout
+        android:id="@+id/relParentLayout"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        >
+
+
+      <!--  <CustomView.CustomTextView
+            android:id="@+id/tvParticipants"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_16"
+            android:text="@string/participants"
+            android:textColor="#632B85"
+            app:customFont="@string/DroidSans_Bold"
+            android:layout_below="@+id/relGroupDetailLayout"
+            android:layout_marginTop="@dimen/margin_10"
+            />-->
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:scrollbars="vertical"
+            android:scrollbarThumbVertical="@color/darkPurple"
+            android:scrollbarSize="@dimen/size_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnAllow"
+            android:layout_alignParentStart="true" />
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvNoFriends"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="@string/no_friends"
+            android:textColor="@color/colorwhite"
+            android:gravity="center"
+            android:visibility="gone"
+            android:layout_centerInParent="true"
+            app:customFont="@string/DroidSans_Bold"
+            />
+
+        <CustomView.CustomButtonView
+            android:id="@+id/btnAllow"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/margin_20"
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/rounded_corner_blue_bg"
+            android:text="@string/allowUsers"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans"
+            android:layout_alignParentBottom="true"
+            />
+
+    </RelativeLayout>
+
+</layout>

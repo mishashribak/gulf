@@ -1,0 +1,206 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <string name="conversations">محادثات</string>
+    <string name="channel_create_title">مجموعة جديدة</string>
+    <string name="channel_members_title">إضافة مستخدمين</string>
+    <string name="select_at_least">يجب تحديد مستخدم واحد على الأقل</string>
+    <string name="group_name_hint">إسم المجموعة</string>
+    <string name="empty_conversations">لايوجد محادثات‫!‬</string>
+    <string name="enter_message_hint">اكتب رسالتك هنا‫..‬</string>
+    <string name="send_text">أرسل</string>
+    <string name="cancel_text">إلغاء</string>
+    <string name="ok_text">تم</string>
+    <string name="start_text">البدء</string>
+    <string name="no_conversation">لايوجد لديك محادثات</string>
+    <string name="search_not_found_for_messages">لم يتم العثور على مخادثات</string>
+    <string name="info_broadcast_message">سوف يتم إرسال هذه الرسالة بشكل منفصل لكل مستخدم</string>
+    <string name="shareOptions">مشاركة</string>
+
+    <string name="mobitexter_contact_sync_key">KEYMOBITEXTER_CONTACT_SYNC_</string>
+    <string name="call_history_display_within_messages_pref_key">CALL_HISTORY_DISPLAY_WITHIN_MESSAGES</string>
+    <string name="last_inbox_sync_time">LAST_INBOX_SYNC_TIME</string>
+    <string name="last_outbox_sync_time">LAST_OUTBOX_SYNC_TIME</string>
+    <string name="phone_number_key">phone_number_key</string>
+    <string name="group_sms_freq_key">GROUP_SMS_FREQ_KEY</string>
+    <string name="delivery_report_pref_key">DELIVERY_REPORT_ENABLE</string>
+    <string name="sent_sms_sync_pref_key">SENT_SMS_SYNC_FLAG</string>
+    <string name="received_sms_sync_pref_key">RECEIVED_SMS_SYNC_FLAG</string>
+    <string name="verify_contact_number">VERIFY_CONTACT_NUMBER</string>
+    <string name="device_key_string">DEVICE_KEY_STRING</string>
+    <string name="device_registration_id">DEVICE_REGISTRATION_ID</string>
+    <string name="last_sms_sync_time">LAST_SMS_SYNC_TIME</string>
+    <string name="last_message_stat_sync_time">LAST_MESSAGE_STAT_SYNC_TIME</string>
+    <string name="webhook_enable_key">WEBHOOK_ENABLE_KEY</string>
+    <string name="email_verified">EMAIL_VERIFIED</string>
+    <string name="user_key_string">SU_USER_KEY_STRING</string>
+    <string name="stop_service">STOPSERVICE</string>
+    <string name="patch_available">NEWPATCHAVAILABLE</string>
+    <string name="update_push_registration">UPDATE_PUSH_REGISTRATION</string>
+    <string name="info_sample_contact_list">Populate your app contacts here, showing device contacts as sample</string>
+    <string name="info_message_sync">يتم الآن تحديث الرسائل مع الشبكة، سوف ينتهي التهديث بعد عدة دقائق</string>
+    <string name="instruction_open_conversation_thread">إضغط على اي محادثة لمشاهدة المحادثة كاملة</string>
+    <string name="instruction_go_back_to_recent_conversation_list">To go back to previous screen, slide from left to right</string>
+    <string name="instruction_long_press_message">إضغط بشكل مطول على الرسالة لتتمكن من رؤية خيارات الحذف و غيرها</string>
+    <string name="title_activity_mobi_com">MobiComActivity</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="user_block">حظر</string>
+    <string name="user_un_block">إزالة الحظر</string>
+    <string name="applozic_my_profile_option_info">صفحة الحساب</string>
+
+    <string name="location_services_disabled_message">إرسال موقعك يتطلب السماح للتطبيق بالعثور على موقعك‫.‬ هل توافق على مشاركة الموقع؟.</string>
+    <string name="location_services_disabled_title">لم يتم السماح لخدمات الموقع</string>
+    <string name="location_service_settings">الإعدادات</string>
+    <string name="location_sending_cancelled">تم إلغاء إرسال الموقع</string>
+    <string name="unable_to_fetch_location">لا يمكن العثور على الموقعn</string>
+    <string name="waiting_for_current_location">بإنتظار موقعك الحالي</string>
+
+    <string name="select_file">إختر ملف</string>
+
+    <string name="applozic_select_photo">حدد صورة</string>
+    <string name="attachment_retry">إعادة المحاولة</string>
+    <string name="yes_alert">نعم</string>
+    <string name="subtitle_last_seen_at_time">أخر ظهور</string>
+    <string name="is_typing">يقوم بالكتابة</string>
+    <string name="user_online">متوفر</string>
+    <string name="removing_channel_user">يتم الآن الإزالة‫..‬</string>
+    <string name="adding_channel_user">تتم الإضافة‫..‬</string>
+    <string name="deleting_channel_user">إلغاء‫..‬</string>
+    <string name="channel_member_exit">يتم الآن الخروج</string>
+    <string name="channel_update">يتم الآن تحديث معلومات المجموعة‫..‬</string>
+    <string name="enter_mt_message_hint">إكتب النص هنا‫..‬</string>
+    <string name="messageOptions">خيارات الرسالة</string>
+    <string name="conversation">المحادثات</string>
+    <string name="conversation_options">الخيارات</string>
+
+    <string name="verification_success">تم توثيق رقم هاتفك بنجاح</string>
+    <string name="launch_mobitexter_app">LAUNCH_MOBITEXTER</string>
+    <string name="delete_conversation">حذف المحادثة</string>
+    <string name="sync_messages_from_server">جارى مزامنة البيانات</string>
+    <string name="incoming_call">المكالمات المستقبلة</string>
+    <string name="outgoing_call">المكالمات المرسلة</string>
+
+    <string name="welcome_message">Welcome,
+            \nMobiTexter is a Messenger &amp; SMS Texting app
+            \nText from your laptop, mobile and any Android device using your own phone number.
+            \nSend and receive text on the laptop/pc/computer browser from http://www.mobitexter.net/
+            \nFor any queries, get in touch with us at support@mobitexter.net</string>
+
+    <string name="info_app_not_found_to_open_file">لا يوجد تطبيق لفتح هذا الملف</string>
+    <string name="unable_to_play_requested_audio_file">لا يوجد تطبيق لفتح هذا الملف</string>
+    <string name="file_not_selected">هل نسيت اختيار الملف؟</string>
+    <string name="info_attachment_max_allowed_file_size">حجم الملف كبير</string>
+    <string name="info_file_attachment_error">فشل بالإرسال</string>
+    <string name="select_file_count_limit">لا تستطيع اختيار اكثر من ملف</string>
+    <string name="info_file_attachment_mime_type_not_supported">لا يمكنك إرسال هذه الملفات</string>
+    <string name="ScheduleText">جدولة</string>
+    <string name="enter_support_query_hint">اكتب المشكلة</string>
+
+
+    <string name="info_message_scheduled">تم جدولة الرسالة</string>
+    <string name="sync_older_messages">هل تريد مزامنة الرسائل؟</string>
+    <string name="dialog_delete_conversation_title">مسح المحادثة</string>
+    <string name="dialog_delete_conversation_confir">مسح كل الرسائل من  [name]?</string>
+    <string name="negetiveButtonText">مسح</string>
+    <string name="scheduleDialogHeader">رسالة مجدولة</string>
+    <string name="scheduledDateText">تاريخ الجدولة:</string>
+    <string name="scheduledTimeText">وقت الجدولة:</string>
+    <string name="defaultDate">dd-mm-yyyy</string>
+    <string name="defaultTime">HH:MM:SS</string>
+    <string name="selectionRequestText">اختر الوقت والتاريخ لجدولة الرسالة</string>
+    <string name="wearable_action_title">الرد</string>
+    <string name="wearable_action_label">الرد على</string>
+    <string name="verify_phone_number_notify_message">sending a text message to verify your number, we will automatically detect it when it arrives</string>
+    <string name="verification_send_sms_itself">We need to confirm that [phone_number] is your phone number. Your phone will be used to send itself a message.</string>
+    <string name="confirm_your_number">التأكد من رقم الجوال</string>
+    <string name="you_string">أنت</string>
+    <string name="view_option_string">عرض</string>
+    <string name="message_option_string">رسالة</string>
+    <string name="applozic_account_closed">Please contact Applozic to activate chat in your app</string>
+    <string name="applozic_free_version_not_allowed_on_release_build">Please contact Applozic to activate chat in your app</string>
+    <string name="quick_conversation_loading">جاري تحميل المحادثات</string>
+    <string name="alert_for_empty_message">هل تريد إرسال الرسالة بدون نص؟</string>
+    <string name="dialog_remove_group_user">حذف [name] من [group]?</string>
+    <string name="dialog_add_group_user">إضافة [name] إلى [group]?</string>
+    <string name="group_name_info">[group]</string>
+    <string name="groupType_info">[groupType]</string>
+    <string name="group_string">مجموعة</string>
+    <string name="broadcast_string">broadcast</string>
+    <string name="new_broadcast_name_info">رسالة جماعية</string>
+    <string name="mute_Group">كتم</string>
+    <string name="unmute_Group">إلغاء الكتم</string>
+    <string name="user_name_info">[name]</string>
+    <string name="channel_member_title">اختر الاعضاء</string>
+    <string name="channel_exit_button">الخروج من المجموعة</string>
+    <string name="channel_delete_group_button">حذف المجموعة</string>
+    <string name="broadcast_exit_button">الخروج من  الرسالة الجماعية</string>
+    <string name="broadcast_delete_button">حذف الرسالة الجماعية</string>
+    <string name="channel_created_by">أنشأها</string>
+    <string name="remove_member">حذف</string>
+    <string name="add">إضافة</string>
+    <string name="group_creating_info">الرجاء الانتظار يتم إنشاء المجموعة الآن</string>
+    <string name="broadcast_creating_info">الرجاء الانتظار يتم إنشاء الرسالة الجماعية</string>
+    <string name="channel_exit">خروج</string>
+    <string name="channel_deleting">حذف</string>
+    <string name="leave_channel">هل أنت متأكد من الخروج من  [groupType]?</string>
+    <string name="exit_channel_message_info">هل أنت متأكد من الخروج من  [group] [groupType]?</string>
+    <string name="delete_channel_messages_and_channel_info">هل تريد حذف [group] [groupType]?</string>
+    <string name="channel_name_empty">اسم المجموعة إجباري</string>
+    <string name="channel_add_alert">لا تستطيع إضافة عضو لأنك لست عضواً من المجموعة</string>
+    <string name="channel_edit_alert">لا يمكنك تغيير اسم المجموعة</string>
+    <string name="admin_text">مدير المجموعة</string>
+    <string name="user_not_in_this_group_text">أنت لم تعد عضواً بالمجموعة</string>
+    <string name="group_has_been_deleted_text">هذه المجموعة محذوفة</string>
+    <string name="you_have_disabled_chat">لقد أوقفت المحادثة</string>
+    <string name="user_has_disabled_his_chat">المستخدم ألغى المحادثة</string>
+    <string name="update_channel_title_name">ادخل اسم المجموعة</string>
+    <string name="new_channel_name_hint">اسم المجموعة</string>
+    <string name="user_block_info">حظر  [name]? لن يستطيع إرسال رسائل لك </string>
+    <string name="user_un_block_info">إلغاء الحظر عن  [name] لتستطيع إرسال الرسالة</string>
+    <string name="please_wait_info">الرجاء الانتظار</string>
+    <string name="applozic_userId_error_info_in_logs">UserId can not be null or empty and channel key should not be null</string>
+    <string name="applozic_channel_error_info_in_logs">الرجاء التأكد من اسم المجموعة</string>
+    <string name="applozic_add_user_to_multiple_channel_error_info_in_logs">UserId can not be null or empty and channel key list should not be null</string>
+    <string name="user_logout_info">تم الخروج بنجاح</string>
+    <string name="unable_share_message">فشلت المشاركة، أنت لست عضواً بالمجموعة</string>
+    <string name="when_on_wifi">بوجود الواي فاي</string>
+    <string name="when_on_cellular_network">بوجود الاتصال الخلوي</string>
+    <string name="media_auto_download">تحميل تلقائي للوسائط</string>
+    <string name="applozic_network_usage">استخدام الشبكة</string>
+    <string name="enable_vibration_notification">تفعيل الاهتزاز للاشعارات</string>
+    <string name="restricted_words_are_not_allowed">بعض الكلمات غير مسموحة</string>
+    <string name="release_log_warning_message">This is a release build and Applozic logging is enabled. Please disable Logging for Applozic before you upload your app on play store</string>
+    <string name="user_has_been_deleted_text">تم إلغاء المستخدم</string>
+    <string name="make_admin_text_info">رختر مشرف المجموعة</string>
+    <string name="user_is_blocked">لا يمكنك الإرسال إلى مستخدم محظور</string>
+    <string name="attachment_string">ارفق ملف</string>
+    <string name="photo_string">صورة</string>
+    <string name="contact_string">جهة إتثال</string>
+    <string name="video_string">فيديو</string>
+    <string name="audio_string">صوت</string>
+    <string name="al_location_string">موقع</string>
+    <string name="warning">تحذير‫!!!‬</string>
+    <string name="ok_alert">تم</string>
+
+    <string name="JUST_NOW">الآن</string>
+    <string name="YESTERDAY">البارحة</string>
+
+    <plurals name="HOURS">
+        <item quantity="one">%d ساعة</item>
+        <item quantity="other">%d ساعات</item>
+    </plurals>
+
+    <plurals name="MINUTES">
+        <item quantity="one">%d دقيقة</item>
+        <item quantity="other">%d دقائق</item>
+    </plurals>
+
+    <plurals name="MINUTES_AGO">
+        <item quantity="one">%d منذ دقيقة</item>
+        <item quantity="other">%d منذ دقائق</item>
+    </plurals>
+
+    <plurals name="HOURS_AGO">
+        <item quantity="one">%d منذ ساعة</item>
+        <item quantity="other">%d منذ ساعات</item>
+    </plurals>
+
+</resources>

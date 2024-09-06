@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/rectangle_box_white"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_16"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvtitletop"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_16"
+            android:gravity="center"
+            android:text="@string/send_friend_request"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_18"
+            app:customFont="@string/Amaranth_Regular" />
+
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_16"
+            android:gravity="center"
+            android:text="@string/enter_answer_of_this_n_question"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_18"
+            app:customFont="@string/Amaranth_Regular" />
+
+
+        <LinearLayout
+            android:id="@+id/ll_question_ans_first"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <CustomView.CustomTextView
+            android:id="@+id/tv_question"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+            android:text="@string/viaphone"
+            android:paddingLeft="20dp"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans" />
+
+
+        <CustomView.CustomEditText
+            android:id="@+id/et_answer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:paddingLeft="20dp"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/rect_edit_btg"
+            android:paddingTop="10dp"
+            android:hint="@string/enter_answer"
+            android:textAlignment="viewStart"
+            android:singleLine="true"
+            android:textColor="#713C93"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:layout_marginTop="20dp"
+            android:id="@+id/ll_question_ans_second"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+        <CustomView.CustomTextView
+            android:id="@+id/tv_questiontwo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:paddingBottom="10dp"
+            android:text="@string/viaphone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans" />
+
+
+        <CustomView.CustomEditText
+            android:id="@+id/et_answertwo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:padding="10dp"
+            android:paddingBottom="10dp"
+            android:background="@drawable/rect_edit_btg"
+            android:paddingTop="10dp"
+            android:hint="@string/enter_answer"
+            android:singleLine="true"
+            android:textColor="#713C93"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:visibility="gone"
+            android:id="@+id/ll_question_ans_third"
+            android:layout_width="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content">
+
+        <CustomView.CustomTextView
+            android:id="@+id/tv_questionthree"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:paddingBottom="10dp"
+
+            android:paddingLeft="20dp"
+            android:text="@string/viaphone"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans" />
+
+
+        <CustomView.CustomEditText
+            android:id="@+id/et_answerthree"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:paddingBottom="10dp"
+            android:padding="10dp"
+            android:background="@drawable/rect_edit_btg"
+            android:paddingTop="10dp"
+            android:hint="@string/enter_answer"
+            android:textAlignment="viewStart"
+            android:singleLine="true"
+            android:textColor="#713C93"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans" />
+        </LinearLayout>
+        <View
+            android:layout_marginTop="20dp"
+            android:background="@color/blue"
+            android:layout_width="wrap_content"
+            android:layout_height="1dp"/>
+
+        <RelativeLayout
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <CustomView.CustomTextView
+            android:id="@+id/tv_send"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:text="@string/send"
+            android:textAllCaps="true"
+            android:inputType="text"
+            android:textColor="@color/blue"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:textSize="@dimen/textsize_16"
+            android:textStyle="bold"
+            app:customFont="@string/DroidSans" />
+
+            <CustomView.CustomTextView
+                android:inputType="text"
+                android:layout_marginStart="@dimen/margin_16"
+                android:layout_marginEnd="@dimen/margin_16"
+                android:id="@+id/tv_cancel"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:text="@string/cancel"
+                android:textAllCaps="true"
+                android:textColor="@color/blue"
+                android:textSize="@dimen/textsize_18"
+                app:customFont="@string/DroidSans" />
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

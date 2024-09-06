@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/mainLayout"
+    android:clickable="true"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/videoplayer"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            app:show_buffering="always"
+            android:keepScreenOn="true"
+            app:use_controller="false"/>
+        <ImageView
+            android:id="@+id/image"
+            android:visibility="gone"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true"/>
+        <ProgressBar
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:indeterminateTint="@color/colorBgOptionGray"
+            android:id="@+id/progress_bar"
+            style="?android:attr/progressBarStyle"
+            android:visibility="gone"
+            android:layout_gravity="center" />
+    </RelativeLayout>
+    <com.carlosmuvi.segmentedprogressbar.SegmentedProgressBar
+        android:id="@+id/segProgressBar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/size_10"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/margin_5"
+        app:container_color="@color/gray"
+        app:fill_color="@color/white"
+        app:gap_size="@dimen/margin_2"
+        />
+
+    <RelativeLayout
+        android:id="@+id/topBar"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="@dimen/size_40"
+        android:paddingHorizontal="@dimen/size_20"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_50">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgProfile"
+                android:layout_width="@dimen/size_50"
+                android:layout_height="@dimen/size_50"
+                app:civ_border_width="@dimen/margin_2"
+                app:civ_border_color="@color/white"
+                android:src="@drawable/profile_placeholder"/>
+
+            <CustomView.CustomTextView
+                android:id="@+id/txtUserName"
+                android:singleLine="true"
+                android:layout_marginStart="@dimen/size_10"
+                android:layout_weight="1"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/textsize_15"
+                android:gravity="center_vertical"
+                app:customFont="@string/DroidSans"
+                android:textColor="@color/white"/>
+
+            <CustomView.CustomTextView
+                android:id="@+id/txtCreateTime"
+                android:singleLine="true"
+                android:layout_marginStart="@dimen/size_10"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:textSize="@dimen/textsize_12"
+                android:gravity="center_vertical"
+                app:customFont="@string/DroidSans"
+                android:textColor="@color/white"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:gravity="center_horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/size_30"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/llLink"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="@dimen/size_30"
+                android:layout_height="@dimen/size_30"
+                android:src="@drawable/up_mark"/>
+            <CustomView.CustomTextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_12"
+                android:text="@string/viewLink"/>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/llSendComment"
+            android:clickable="true"
+            android:layout_marginTop="@dimen/margin_10"
+            android:weightSum="1"
+            android:layout_marginHorizontal="@dimen/margin_20"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_40"
+            android:gravity="center"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:background="@drawable/rounded_box_send_chat"
+            android:orientation="horizontal">
+
+            <CustomView.CustomTextView
+                android:gravity="center_vertical"
+                android:paddingHorizontal="@dimen/margin_10"
+                android:layout_weight="0.9"
+                android:id="@+id/messageArea"
+                android:textColor="@color/white"
+                android:layout_width="0dp"
+                android:layout_marginHorizontal="@dimen/size_10"
+                android:layout_height="match_parent"
+                android:background="@null"
+                android:textSize="@dimen/textsize_12"
+                android:hint="@string/send_chat"
+                />
+
+            <ImageView
+                android:rotationY="@integer/locale_mirror_flip"
+                android:layout_weight="0.1"
+                android:id="@+id/sendButton"
+                android:layout_width="@dimen/size_30"
+                android:layout_height="@dimen/size_30"
+                android:layout_gravity="center"
+                android:padding="@dimen/margin_5"
+                android:src="@drawable/send_msg_white" />
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

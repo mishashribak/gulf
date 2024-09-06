@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data/>
+
+    <RelativeLayout
+        android:background="@color/black"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.google.android.exoplayer2.ui.PlayerView
+            android:id="@+id/videoplayer"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:focusable="true"
+            app:resize_mode="fit"
+            app:show_buffering="always"
+            android:keepScreenOn="true"
+            app:use_controller="false"/>
+        <ImageView
+            android:id="@+id/image"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:adjustViewBounds="true" />
+
+        <View
+            android:id="@+id/llView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+            <LinearLayout
+                android:id="@+id/llSendComment"
+                android:weightSum="1"
+                android:layout_alignParentBottom="true"
+                android:background="@drawable/rounded_box_send_chat"
+                android:layout_marginBottom="@dimen/margin_20"
+                android:layout_marginHorizontal="@dimen/margin_20"
+                android:gravity="center_vertical"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_40"
+                android:orientation="horizontal">
+
+                <ScrollView
+                    android:layout_weight="0.9"
+                    android:layout_width="0dp"
+                    android:scrollbarSize="@dimen/margin_1"
+                    android:layout_height="match_parent">
+                        <EditText
+                            android:paddingHorizontal="@dimen/margin_10"
+                            android:id="@+id/messageArea"
+                            android:textColor="@color/white"
+                            android:layout_width="match_parent"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginHorizontal="@dimen/size_10"
+                            android:layout_height="wrap_content"
+                            android:background="@null"
+                            android:textSize="@dimen/textsize_12"
+                            android:hint="@string/send_chat"
+                            />
+                </ScrollView>
+
+
+                <ImageView
+                    android:rotationY="@integer/locale_mirror_flip"
+                    android:layout_weight="0.1"
+                    android:id="@+id/sendButton"
+                    android:layout_width="@dimen/size_30"
+                    android:layout_height="@dimen/size_30"
+                    android:layout_gravity="center"
+                    android:padding="@dimen/margin_5"
+                    android:src="@drawable/send_msg_white" />
+            </LinearLayout>
+
+    </RelativeLayout>
+
+</layout>

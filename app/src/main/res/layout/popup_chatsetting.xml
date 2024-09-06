@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/popup_element"
+    android:layout_width="@dimen/size_110"
+    android:layout_height="wrap_content"
+    android:background="@color/colorFadeGray"
+    android:orientation="vertical">
+
+    <!--android:background="@drawable/rectangle_box_chatsetting"-->
+
+    <LinearLayout
+        android:layout_gravity="center_horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvblock"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:gravity="left|center_vertical"
+            android:minHeight="@dimen/size_40"
+            android:text="@string/block"
+            android:textColor="@color/colorwhite"
+
+            android:textSize="@dimen/textsize_14"
+            app:customFont="@string/DroidSans_Bold" />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBgGray"
+            />
+
+        <!--android:background="#D7B7C8"-->
+
+
+        <CustomView.CustomTextView
+            android:id="@+id/tv_report"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:gravity="left|center_vertical"
+            android:minHeight="@dimen/size_40"
+            android:text="@string/report"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textsize_14"
+
+            app:customFont="@string/DroidSans_Bold" />
+
+        <View
+            android:visibility="visible"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/colorBgGray"
+            />
+
+        <!--android:background="#D7B7C8"-->
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvunfriend"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:gravity="left|center_vertical"
+            android:minHeight="@dimen/size_40"
+            android:text="@string/unfriend"
+            android:visibility="gone"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textsize_14"
+            app:customFont="@string/DroidSans_Bold" />
+
+
+    </LinearLayout>
+</LinearLayout>

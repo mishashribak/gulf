@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/size_100"
+    xmlns:card_view="http://schemas.android.com/tools"
+    android:paddingHorizontal="@dimen/margin_5">
+
+    <androidx.cardview.widget.CardView
+        android:layout_margin="@dimen/margin_5"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        card_view:cardBackgroundColor="@color/white"
+        card_view:cardElevation="@dimen/margin_2"
+        card_view:cardUseCompatPadding="true"
+        >
+        <RelativeLayout
+            android:orientation="horizontal"
+            android:layout_gravity="center_vertical"
+            android:paddingHorizontal="@dimen/size_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <LinearLayout
+                android:id="@+id/front"
+                android:layout_alignParentStart="true"
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="@dimen/size_250"
+                android:layout_marginEnd="@dimen/size_50"
+                android:layout_height="wrap_content">
+                <com.mikhaellopez.circularimageview.CircularImageView
+                    android:id="@+id/imgProfile"
+                    android:layout_width="@dimen/size_50"
+                    android:layout_height="@dimen/size_50"
+                    android:layout_centerVertical="true"
+                    android:src="@drawable/profile_placeholder"
+                    app:civ_border_color="@color/black_trans"
+                    app:civ_border_width="1dp"
+                    app:civ_shadow="false"
+                    app:civ_shadow_color="#8BC34A"
+                    app:civ_shadow_radius="1" />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/margin_5"
+                    android:layout_toRightOf="@+id/profile_image"
+                    android:clickable="false"
+                    android:focusable="false"
+                    android:focusableInTouchMode="false"
+                    android:layout_centerVertical="true"
+                    android:orientation="vertical">
+
+                    <CustomView.CustomTextView
+                        android:id="@+id/txtFullName"
+                        android:layout_width="@dimen/size_150"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="15dp"
+                        android:layout_marginTop="4dp"
+                        android:textColor="@color/colorBlue"
+                        android:textSize="@dimen/textsize_16"
+                        app:customFont="@string/DroidSans"
+                        />
+
+                    <LinearLayout
+                        android:orientation="horizontal"
+                        android:gravity="center_vertical"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <CustomView.CustomTextView
+                            android:id="@+id/txtUserName"
+                            android:layout_width="@dimen/size_150"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="15dp"
+                            android:textColor="@color/black"
+                            android:textSize="@dimen/textsize_12"
+                            app:customFont="@string/DroidSans"
+                            />
+
+<!--                        <CustomView.CustomTextView-->
+<!--                            android:id="@+id/txtTime"-->
+<!--                            android:layout_width="wrap_content"-->
+<!--                            android:layout_height="16dp"-->
+<!--                            android:layout_alignParentEnd="true"-->
+<!--                            android:layout_centerInParent="true"-->
+<!--                            android:layout_marginStart="@dimen/size_20"-->
+<!--                            android:background="@drawable/rounded_corner_lgrey_bg"-->
+<!--                            android:gravity="center"-->
+<!--                            android:paddingHorizontal="10dp"-->
+<!--                            android:paddingVertical="2dp"-->
+<!--                            android:text="10 hours ago"-->
+<!--                            android:textColor="@color/yellow_dark"-->
+<!--                            android:textSize="8sp">-->
+
+<!--                        </CustomView.CustomTextView>-->
+                    </LinearLayout>
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <CustomView.CustomTextView
+                android:id="@+id/txtUnFriend"
+                android:textSize="@dimen/textsize_10"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/rounded_corners_yellow_bg"
+                android:paddingHorizontal="@dimen/margin_12"
+                android:text="@string/unfriend"
+                android:paddingVertical="@dimen/margin_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:customFont="@string/DroidSans"/>
+            <CustomView.CustomTextView
+                android:id="@+id/txtAddFriend"
+                android:textSize="@dimen/textsize_10"
+                android:gravity="center"
+                android:textColor="@color/white"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:background="@drawable/rounded_box_purple_20"
+                android:paddingHorizontal="@dimen/margin_12"
+                android:text="@string/add_friend_small"
+                android:paddingVertical="@dimen/margin_5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                app:customFont="@string/DroidSans"/>
+
+            <CustomView.CustomTextView
+                android:id="@+id/txtTime"
+                android:layout_width="wrap_content"
+                android:layout_height="16dp"
+                android:layout_alignParentEnd="true"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/size_20"
+                android:background="@drawable/rounded_corner_lgrey_bg"
+                android:gravity="center"
+                android:paddingHorizontal="10dp"
+                android:paddingVertical="2dp"
+                android:text="10 hours ago"
+                android:textColor="@color/yellow_dark"
+                android:textSize="8sp">
+
+            </CustomView.CustomTextView>
+
+        </RelativeLayout>
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

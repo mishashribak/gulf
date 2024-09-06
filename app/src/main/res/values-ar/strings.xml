@@ -1,0 +1,1180 @@
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!--Custom Font declaration -->
+    <string name="Amaranth_Bold">fonts/Amaranth_Bold.ttf</string>
+    <string name="Amaranth_Regular">fonts/Amaranth_Regular.ttf</string>
+    <string name="DroidSans">fonts/DroidSans.ttf</string>
+    <string name="DroidSans_Bold">fonts/DroidSans_Bold.ttf</string>
+    <string name="Pacifico_Regular">fonts/Pacifico_Regular.ttf</string>
+
+    <string name="app_name">خليجي</string>
+    <string name="action_settings">الإعدادات</string>
+    <string name="title_activity_intro_">Intro_Activity</string>
+    <string name="txt_Done">تم</string>
+    <string name="network_down">لا يوجد اتصال انترنت</string>
+    <string name="discard">تجاهل
+</string>
+    <string name="dob">تاريخ الميلاد
+</string>
+
+    <string name="seeanswer"><u> انظر للاجابة</u></string>
+    <string name="upload">تحميل الصور</string>
+    <string name="imageSaved">تم حفظ الصورة في</string>
+    <string name="recviedfriendrequest">تلقى طلب صديق</string>
+    <string name="send_friend_request"> ارسل طلب صداقة</string>
+    <!--Tutorial Screen  -->
+    <string name="intro1_title">G-Snaps</string>
+    <string name="intro1_description">شارك قصتك بلحظات مميزة</string>
+    <string name="intro2_title">Filters</string>
+    <string name="intro2_description">فلاتر للخليجيين فقط</string>
+    <string name="intro3_title">Live Videos</string>
+    <string name="intro3_description">شارك لحظاتك المميزة، مباشرة‫!</string>
+    <string name="intro4_title">اكتشف</string>
+    <string name="intro4_description">الأخبار والموضة وكل ما يهم المواطن الخليجي بين يديك</string>
+    <string name="intro5_title">Meetup Khaleeji</string>
+    <string name="intro5_description">تواصل الخليج</string>
+    <string name="intro6_title">Shakhseyyat</string>
+    <string name="intro6_description">إصنع افاتارك و خله يشبهك بالضبط !</string>
+    <string name="intro_button_title">إبدأ الآن‫!‬</string>
+
+    <!-- TODO: Login Fragment  -->
+    <string name="message_signin">الدخول</string>
+    <string name="password">كلمة المرور</string>
+    <string name="username">اسم المستخدم</string>
+    <string name="signup">تسجيل حساب جديد</string>
+    <string name="forgotpassword">هل نسيت كلمة المرور؟</string>
+    <string name="forgotusername">نسيت اسم المستخدم؟</string>
+
+    <!-- TODO: Singup Fragment  -->
+    <string name="message_signup">تسجيل حساب جديد</string>
+    <string name="fullname">الاسم الكامل</string>
+    <string name="emailaddress">البريد الإلكتروني</string>
+    <string name="mobileno">رقم الموبايل"</string>
+    <string name="verifypassword">تأكيد كلمة المرور </string>
+    <string name="alreadyhaveaccount1">لديك حساب بالفعل؟  </string>
+    <string name="alreadyhaveaccount2">سجل ادخول من هنا !</string>
+    <string name="enter_one_time">أدخل الكود الذي تم إرساله على رقم الجوال</string>
+    <string name = "mobile_phone_verify">تفعيل رقم الجوال</string>
+    <string name="verify">تأكيد</string>
+    <string name="no_code">لم يصلني أي كود </string>
+    <string name="resend">إعادة ارسال خلال </string>
+    <string name="sec">ثانية</string>
+    <string name="need_help">تحتاج مساعدة؟</string>
+
+    <!-- TODO: Singup Fragment  Validation-->
+    <string name="fullNameBlank">الاسم بالكامل مطلوب</string>
+    <string name="fullNamelength">يجب أن يكون الاسم الكامل أقل من 50 حرف</string>
+    <string name="Emaillength">يجب أن يكون عنوان البريد الإلكتروني أقل من 50 حرف</string>
+    <string name="usernamelength">يجب أن يكون اسم المستخدم أقل من 20 حرف</string>
+
+
+    <string name="EmailBlank">البريد الالكتروني مطلوب</string>
+    <string name="EmailValidation">البريد الالكتروني غير صحيح</string>
+    <string name="MobilenoBlank">رقم الجوال مطلوب</string>
+    <string name="MobileValidation">رقم الجوال يجب ألا يقل عن ٨ أرقام</string>
+    <string name="usernameBlank">اسم المستخدم مطلوب</string>
+    <string name="passwordBlank">كلمة المرور مطلوبة</string>
+    <string name="verifypasswordBlanck">التحقق من كلمة المرور مطلوب</string>
+    <string name="passwordnotlong">يجب ألا تقل كلمة المرور عن ٦ أحرف</string>
+    <string name="passwordnotmatch">كلمة المرور غير متطابقة</string>
+    <string name="state_blank">المنطقة مطلوبة</string>
+
+    <string name="already_checkedin">تم تسجيل دخولك</string>
+
+
+    <!-- TODO: Forgotpassword Fragment  -->
+    <string name="choose_forgetUsername">الرجاء اختيار كيفية إعادة تعيين اسم المستخدم</string>
+    <string name="choose_forgetpassword">حدد طريقة إعادة تعيين
+    كلمة المرور لحسابك</string>
+    <string name="cancel">إلغاء</string>
+    <string name="viaemail">عبر الإيميل</string>
+    <string name="viaphone">عبر الموبايل</string>
+    <string name="message_forgotpassword">هل نسيت كلمة المرور</string>
+    <string name="submit">إرسال</string>
+    <string name="resetpassword">إعادة تعيين كلمة المرور</string>
+    <string name="otp">Otp</string>
+    <string name="phone_number">رقم الهاتف</string>
+    <string name="email">البريد الإلكتروني</string>
+    <string name="chat">دردشة</string>
+
+    <string name="message_forgotusername">نسيت إسم المستخدم</string>
+
+    <!-- TODO: otp Fragment -->
+    <string name="otpheader"> تفعيل رقم الجوال </string>
+    <string name="otpdiscription">أدخل الكود الذي تم إرساله على رقم الجوال</string>
+    <string name="resendotp">إعادة ارسال خلال 60 ثانية</string>
+    <string name="otpnotmatched">كلمة المرور المؤقتة غير صحيحة</string>
+    <string name="otpblank">كلمة المرور المؤقتة مطلوبة</string>
+    <string name="otpMobilediscription">لإكمال، يرجى التحقق من رقم هاتفك. أرسلنا رابط التنشيط ل
+ </string>
+
+    <!-- TODO: MainActivity & Navigation View  -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="meetup">Meet Up</string>
+    <string name="meetup_title">Meetup</string>
+    <string name="nav_gsnap">تواصل خليجي</string>
+    <string name="nav_meetup">Meetup</string>
+    <string name="nav_discover">Discover</string>
+    <string name="nav_myfriends">أصدقائي</string>
+    <string name="nav_addfriends">أضف صديق جديد</string>
+    <string name="nav_settings">الإعدادات</string>
+    <string name="nav_logout">تسجيل الخروج</string>
+    <string name="search">بحث</string>
+    <string name="logout_text">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="txt_yes">نعم</string>
+    <string name="txt_no">لا</string>
+    <string name="nearby">قريب من موقعي</string>
+    <string name="stories">القصص</string>
+
+    <!-- TODO: story fragment-->
+    <string name="mystory">قصتي</string>
+    <string name="addstory">ضف محتوى</string>
+    <string name="recentstory">التحديثات الأخيرة</string>
+    <string name="whatsstory">فيديو مباشر</string>
+    <string name="discover">اكتشف</string>
+    <string name="minago">منذ 1 دقيقة</string>
+
+    <!-- TODO: Discover fragment-->
+    <string name="discover_live">فيديو مباشر</string>
+    <string name="discover_more">أخبار الخليج</string>
+    <string name="discover_jobs">وظائف</string>
+
+    <!-- TODO: Chatlist fragment-->
+    <string name="openedminago">نفذ 1 دقيقة</string>
+    <string name="bestfreinds">أصدقا‫ؤ‬ك المفضلين </string>
+    <string name="friendrecent">آخر من تواصلت معه</string>
+    <string name="writemessage">ادخل الرسالة‬</string>
+    <string name="chatdelete">هل تريد بالتأكيد حذف الدردشة؟</string>
+
+    <!-- TODO: FriendTab fragment-->
+    <string name="friend_tab1">طلبات مستقبلة</string>
+    <string name="friend_tab2">طلبات مرسلة</string>
+    <string name="friend_tab3">أصدقائي</string>
+    <string name="pending_friend">أضافني</string>
+    <string name="suggestlinker">إقتراحات</string>
+    <string name="remove">إزالة</string>
+    <string name="seeyouranswer">إجابتك للسؤال</string>
+    <string name="cancel_friend_request">إلغاء</string>
+
+    <!-- TODO: hotspotdetail Fragment -->
+    <string name="about">حول</string>
+    <string name="timelineandstory">الجدول الزمني&amp;قصة</string>
+    <string name="checkin"> تسجيل دحول</string>
+
+
+    <!-- TODO: UserDetail Fragment -->
+    <string name="info">معلومات</string>
+    <string name="story">القصة</string>
+    <string name="nationaltiy">الموطن</string>
+    <string name="bio">معلوماتي الخاصة</string>
+    <string name="Gender">‫الجنس‬</string>
+    <string name="height">‫سم(‬ ‫)بالـ‬ ‫الطول‬</string>
+    <string name="eductaion">التعليم</string>
+    <string name="hightschool">الثانوية</string>
+    <string name="university">الجامعة</string>
+    <string name="currentjob">العمل الحالي</string>
+    <string name="sendrequest">‫إرسال إضافة صداقة</string>
+    <string name="acceptrequest">قبول الطلب</string>
+
+
+    <!-- TODO: Myprofile Fragment -->
+    <string name="nationaltiy_profile">الموطن</string>
+    <string name="currentlocation">الموقع الحالي</string>
+    <string name="Gender_profile">الجنس</string>
+    <string name="height_profile">الطول</string>
+    <string name="eductaion_profile">التعليم</string>
+    <string name="hightschool_profile">الثانوية</string>
+    <string name="university_profile">الجامعة</string>
+    <string name="bio_profile">معلوماتي الخاصة</string>
+    <string name="edit">تعديل</string>
+
+    <!-- TODO: Editprofile Fragment -->
+    <string name="scope_private">خاص</string>
+    <string name="scope_public">عام</string>
+    <string name="profile_fillup">‫املئ صفحتك الخاصة للتواصل‬</string>
+    <string name="male">ذكر</string>
+    <string name="female">أنثى</string>
+    <string name="companyname">اسم الشركة</string>
+    <string name="bio_editprofile">بيو (اكتب عن نفسك)</string>
+    <string name="height_editprofile">‫‬بيو (اكتب عن نفسك)</string>
+    <string name="meetup_question">الملف الشخصي اقتراح اقتراح
+</string>
+    <string name="Everyone">كل مستخدمي التطبيق</string>
+    <string name="Everyone_ar">من يستطيع مشاهدة يومياتي</string>
+    <string name="enter_answer_of_this_n_question"> أدخل الإجابة عن هذا السؤال</string>
+
+    <string name="meetupques_hint">Meetup Question</string>
+    <string name="nationaltiy_blank">اسم البلد مطلوب</string>
+    <string name="currentlocation_blank">الموقع الحالي مطلوب</string>
+    <string name="height_blank">الارتفاع مطلوب</string>
+    <string name="highschool_blank">مطلوب هايشول</string>
+    <string name="university_blank">مطلوب الجامعة</string>
+
+    <string name="currentjob_blank">الوظيفة الحالية مطلوبة</string>
+    <string name="meetup_question_blank">السؤال مطلوب</string>
+    <string name="bio_blank">مطلوب بيو</string>
+    <string name="genderrequired">الجنس مطلوب</string>
+
+    <string name="dobrequired">مطلوب دوب</string>
+
+    <!-- TODO: Editprofile Fragment Validation-->
+    <string name="please_selectcountry">الدولة مطلوبة</string>
+    <string name="allow_othertoseeprofile">السماح للمستخدمين بمشاهدة صور ملفك الشخصي</string>
+    <string name="allow_othertosend">هل تريد السماح للمستخدمين بإرسال رسالة إليك؟</string>
+    <string name="donotshowmessage">ألا تظهر الرسالة مرة أخرى؟</string>
+    <string name="allow_othertoseepdob">السماح لباقي المستخدمين مشاهدة تاريح ميلادي</string>
+
+
+    <!-- TODO: Header titles -->
+    <string name="header_myprofile">صفحتي</string>
+    <string name="header_meetup">قابل خليجيين</string>
+    <string name="header_friends">الأصدقاء</string>
+    <string name="header_setting">‫اإلعدادات‬</string>
+    <!--<string name="header_viewmysotriy">Groups Settings</string>-->
+    <string name="header_grp_settings">إعدادات المجموعات</string>
+    <string name="header_contactme">تواصل معنا</string>
+    <string name="header_changepassword">‫تغيير كلمة المرور‬</string>
+    <string name="header_search">بحث</string>
+    <string name="header_message">مراسلة</string>
+    <string name="header_newchats">محادثة جديدة</string>
+    <string name="header_chat">G-Snaps</string>
+    <string name="header_stories">G-Snaps Stories</string>
+    <string name="header_discover">Discover</string>
+    <string name="header_addfriend">اضافة</string>
+    <string name="header_notification">إعدادات التنبيهات</string>
+    <string name="header_vision">رؤيتنا</string>
+    <string name="header_langauge">تبديل اللغة</string>
+
+
+    <!-- TODO: Search Fragment -->
+    <string name="searchresult1">نتائج البحث</string>
+    <string name="search_hint1">البحث</string>
+    <string name="tag">#تاغ</string>
+    <string name="names">الاسم</string>
+    <string name="locations">الموقع</string>
+    <string name="top">مختارات</string>
+    <string name="byhashtag">بالهاشتاغ</string>
+    <string name="bylocation">بالموقع</string>
+    <string name="byname">بالاسم</string>
+    <string name="suggestedgulflink">وصلات الخليج المقترحة</string>
+    <string name="sendfriendreq">هل أنت متأكد أنك تريد إرسال صديق؟</string>
+    <string name="removegulfsuggest">هل أنت متأكد انك تريد إزالة هذا المستخدم من القائمة؟
+</string>
+
+
+    <!-- TODO: chat fragment -->
+    <string name="blockconfirm">هل انت متأكد انك تريد حظر هذا المستخدم؟</string>
+    <string name="unblockconfirm">هل أنت متأكد من إلغاء الحظر!</string>
+    <string name="please_enter_the_reason_to_report">الرجاء إدخال سبب الإبلاغ</string>
+    <string name="reportalerts">هل تريد بالتأكيد الإبلاغ!</string>
+    <string name="whereare">أين انت الآن؟</string>
+    <string-array name="user_array">
+        <item>Alia Shekh</item>
+        <item>Rahat Ali</item>
+        <item>Amit Kumar</item>
+        <item>Fatima Khan</item>
+        <item>Ashmina</item>
+        <item>Arjun Singh</item>
+        <item>Rohit Yadav</item>
+        <item>Vinod Yadav</item>
+        <item>Kamal Kumar</item>
+        <item>Bilal</item>
+        <item>Sunil</item>
+        <item>Deepak</item>
+        <item>Abhishek</item>
+        <item>Suresh</item>
+    </string-array>
+
+    <!-- TODO: Setting notification fragment -->
+    <string name="notificationallow">‬السماح لباقي المستخدمين العثور علي من البريد الإلكتروني</string>
+    <string name="reci_gsnap">إشعارات G-Snaps‬‬</string>
+    <string name="know_whatlive">إشعارات Live Videos‬‫‬</string>
+    <string name="meetupfriendreq">‫‪تنبيهات طلبات الصداقة</string>
+    <string name="meetupmessage">رسالة على Meetup‬</string>
+
+    <!-- TODO: Setting fragment -->
+    <string name="setting_notif">التنبيهات</string>
+    <string name="setting_changepassword">تعديل كلمة المرور</string>
+    <string name="setting_whocan">‫تخصيص عرض قصتي‬</string>
+    <string name="setting_contactme">‫من بإمكانه التواصل معي</string>
+    <string name="setting_group">المجموعات التي يمكنها مشاهدة قصتي‬</string>
+    <string name="settingother">أخرى</string>
+    <string name="settng_feedback">الآراء والإقتراحات</string>
+    <string name="setting_contactus">للتواصل معنا‬</string>
+    <string name="settong_vision">رؤيتنا</string>
+    <string name="setting_legal">لوائح قانونية‬</string>
+    <string name="setting_terms">شروط الخدمة‬</string>
+    <string name="setiing_disclaimer">‫إخلاء مسؤولية‬</string>
+    <string name="setting_privacy">‫سياسة الخصوصية‬</string>
+    <string name="setting_changeemail">تعديل البريد الالكتروني </string>
+    <string name="setting_changeUsername">غير اسم المستخدم</string>
+    <string name="setting_changemobilenumber">تعديل رقم الموبايل</string>
+
+    <string name="currentemail">الايميل الحالي</string>
+    <string name="newemail">بريد إلكتروني جديد</string>
+    <string name="confirmemail">.تأكيد عنوان البريد الإلكتروني</string>
+    <string name="reset_youremail">إعادة تعيين البريد الإلكتروني الخاص بك</string>
+    <string name="currentEmailBlank">البريد الإلكتروني الحالي مطلوب</string>
+    <string name="newEmailBlank">مطلوب البريد الإلكتروني الجديد</string>
+    <string name="confirmEmailBlank">تأكيد البريد الإلكتروني مطلوب</string>
+    <string name="email_notmatched">تأكيد عدم مطابقة البريد الإلكتروني
+</string>
+
+
+    <string name="currentmobileno">رقم الجوال الحالي
+</string>
+    <string name="newmobileno">رقم الجوال الجديد
+</string>
+
+    <string name="confirmmobileno">تأكيد رقم الجوال
+</string>
+
+
+    <string name="currentMobilenoBlank">مطلوب رقم الجوال الحالي
+</string>
+    <string name="newMobilenoBlank">مطلوب رقم جوال جديد
+</string>
+    <string name="confirmMobilenoBlank">تأكيد رقم الجوال مطلوب
+</string>
+
+
+    <string name="country_codenotmatch">رمز البلد غير متطابق
+</string>
+
+
+    <string name="confirmmobilenotmatch">تأكيد رقم الجوال غير متطابق
+</string>
+
+
+    <!-- TODO: Countrylist fragment -->
+    <string name="header_countrylist">قائمة البلدان</string>
+    <string name="Done">فعله</string>
+    <string name="message">‫مراسلة‬</string>
+    <string name="unblock">رفع الحظر</string>
+    <string name="block">حظر المستخدم</string>
+    <string name="report"> ابلغ عن المستخدم</string>
+    <string name="unfriend">إزالة صداقة</string>
+    <string name="country_search">بحث ...</string>
+    <string name="header_editprofile">تعديل الملف الشخصي</string>
+
+    <!--TODO: gulflink edit profile -->
+    <string name="loading">جار التحميل</string>
+    <string name="changepassword">تغيير كلمة المرور</string>
+
+    <!-- TODO: Vision fragment -->
+    <string name="vision_description">منصة لدول الخليج والدول المجاورة للتواصل ونشر الثقافة وبناء علاقات إيجابية‫‬</string>
+    <string name="english">English</string>
+    <string name="arabic">عربي</string>
+
+
+    <!-- TODO: ForgetPassword fragment -->
+    <string name="reset_password">إعادة تعيين كلمة المرور</string>
+    <string name="Current_Password">‫كلمة المرور الحالية‬</string>
+    <string name="newpassword">كلمة المرور الجديدة‬</string>
+    <string name="confirmpassword">تأكيد كلمة المرور الجديدة</string>
+    <string name="password_submit">حفظ</string>
+
+    <!-- TODO: ForgetPassword Fragment  Validation-->
+    <string name="newpasswordBlanck">كلمة المرور الجديدة مطلوبة</string>
+    <string name="newpasswordnotlong">يجب أن تكون كلمة المرور الجديدة 6 أحرف على الأقل</string>
+    <string name="confirmpasswordBlanck">تأكيد كلمة المرور مطلوب</string>
+    <string name="confimpasswordnotmatch">كلمة المرور الجديدة وتأكيد كلمة المرور الجديد يجب أن يتطابقان</string>
+    <string name="sercahby">البحث بواسطة</string>
+    <string name="enter_answer">أدخل الإجابة</string>
+    <string name="answerrequired">الرجاء إدخال الإجابة</string>
+    <string name="removerequest"> هل تريد بالتأكيد إزالة طلب الصداقة؟</string>
+    <string name="no_new_request_receive">لا يتلقى أي طلب جديد</string>
+    <string name="no_new_request_sent">لم يتم إرسال طلب جديد</string>
+    <string name="no_messages">لا توجد رسائل</string>
+    <string name="no_friends">لا أصدقاء</string>
+    <string name="viewerlist">قائمة العارضين</string>
+
+    <!-- TODO: Notification fragment -->
+    <string name="notification_title">إعلام
+</string>
+    <string name="selectoption">الرجاء اختيار الفئة؟</string>
+
+    <string name="save_alert">هل تريد ان تحفظ التغييرات؟</string>
+    <string name="areyouaccept"> هل أنت متأكد أنك تريد قبول الطل.</string>
+    <string name="send">إرسال</string>
+
+    <string name="hotspot_cat">Hotspots</string>
+
+
+    <string name="already_checkingsomewhere">كنت بالفعل التحقق في مكان ما</string>
+
+    <string name="max_prox">لا يمكن التحقق. موقع أكثر من 5 كم المسافة منك
+.</string>
+
+
+    <string name="no_dailies">لا يوميات</string>
+    <string name="areUSureUWantToReportMedia">هل تريد الإبلاغ عن هذا المحتوى؟</string>
+    <string name="reasonForReport">سبب الإبلاغ</string>
+
+    <!-- TODO: Media Detail Fragment  -->
+    <string name="comntAdded">تم إضافة التعليق</string>
+    <string name="someErrorOccured">حدث خطأ</string>
+    <string name="crashreport">Oops!crash</string>
+    <string name="gender">الجنس</string>
+    <string name="unfirendtext">هل تريد إلغاء الصداقة؟</string>
+    <string name="whoIsHere">من هنا</string>
+    <string name="decline">رفض</string>
+    <string name="accept">قبول</string>
+    <string name="cannotsendmessage">لا يمكنك إرسال رسالة لهذا المستخدم</string>
+    <string name="zeroHoursAgo">0 Hours Ago</string>
+
+
+    <string name="allowUsers">المستخدمين المسموح لهم</string>
+    <string name="unfriendCapital">إلغاء الصداقة</string>
+    <string name="unfollowCapital">إلغاء المتابعة</string>
+    <string name="addText">إضافة نص</string>
+    <string name="txtEmoji">ايموجي</string>
+    <string name="txtSave">حفظ</string>
+    <string name="uploadLabel">رفع</string>
+    <string name="setBelowThings">SET BELOW THINGS</string>
+
+    <!-- TODO: GROUP SETTING fragment -->
+    <string name="groupList">مجموعات اليوميات</string>
+    <string name="areYouSureToDeleteGroup">Are you sure,you want to delete the group?</string>
+    <string name="noGroups">لا يوجد مجموعات</string>
+    <string name="noBlockedUser">لا يوجد مسخدمين محظورين</string>
+
+    <string name="header_changeEmail">تعديل البريد الالكتروني</string>
+    <string name="header_changeMobileNumber">تعديل رقم الجوال</string>
+    <string name="header_changeUsername">تغيير اسم المستخدم</string>
+    <string name="gulflinks">gulflinks_suggested</string>
+    <string name="timer">15</string>
+    <string name="header_groupList">قائمة المجموعات</string>
+    <string name="header_blockFriends">حظر الأصدقاء</string>
+    <string name="header_viewmytimeline">مشاهدة يومياتي</string>
+    <string name="header_createGroup">إنشاء مجموعة</string>
+    <string name="header_blockList">قائمة الحظر</string>
+    <string name="header_select_friends">اختار أصدقاء</string>
+    <string name="contactme">تواصل معنا</string>
+    <string name="viewMyStory">مشاهدة مشاركاتي</string>
+    <string name="viewMyDailies">مشاهدة يومياتي</string>
+    <string name="myDailies">يومياتي</string>
+    <string name="blockList">قائمة الحظر</string>
+    <string name="gulfTerms">قوانين واحكام تطبيق خليجي</string>
+
+
+
+    <string name="blockFriends">حظر الأصدقاء</string>
+    <string name="selectAleastOneFriend">اختر صديق واحد عالأقل</string>
+
+
+    <!--New UI strings-->
+    <string name="heightInFeet">Height (In Feet)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- TODO: Filters -->
+    <string name="none">None</string>
+    <string name="aqua">Aqua</string>
+    <string name="blackboard">Blackboard</string>
+    <string name="mono">Mono</string>
+    <string name="negative">Negative</string>
+    <string name="posterize">Posterize</string>
+    <string name="sepia">Sepia</string>
+    <string name="solarize">Solarize</string>
+    <string name="whiteboard">Whiteboard</string>
+    <string name="checkedin">CheckedIn</string>
+    <string name="chcekin">CheckIn</string>
+    <string name="qno1">Q.1/</string>
+    <string name="qtwo">Q.2/</string>
+    <string name="questionthree">Q.3/</string>
+
+    <string name="whoViewedMyProfile">من شاهد ملفي الشخصي</string>
+    <string name="areUSureUWantToUnFriendUser">هل أنت متأكد من إلغاء الصداقة؟</string>
+    <string name="comentLikeHeader">عرض التعليقات والاعجابات</string>
+    <string name="commentsView">عرض التعليقات</string>
+    <string name="likesView">عرض الاعجابات</string>
+    <string name="decline_caps">رفض</string>
+    <string name="accept_caps">موافقة</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="who_viewed_my_dailies">من يستطيع مشاهدة يومياتي</string>
+    <string name="your_stories">قصصك</string>
+    <string name="disclaimer_text">ممنوع سب الآخرين أو نشر محتوى غير مناسب</string>
+    <string name="report_media">هل أنت متأكد من الابلاغ عن هذا المحتوى؟</string>
+    <string name="skip">تخطي</string>
+    <string name="previous">السابق</string>
+    <string name="nationality">الجنسية</string>
+    <string name="follow">تابع</string>
+    <string name="unfollow">إلغاء المتابعة</string>
+    <string name="gulfUser">مستخدم خليجي</string>
+    <string name="nav_feedback_contact_us">تواصل معنا</string>
+    <string name="home">الرئيسية</string>
+    <string name="txt_ok">موافق</string>
+
+    <!-- TODO: hotspotdetail Fragment -->
+    <string name="aboutUs">معلومات عنا</string>
+    <string name="searchThisArea">البحث ضمن هذه المنطقة</string>
+    <string name="reviews">التعليقات</string>
+    <string name="rating">التقييم</string>
+
+    <!-- TODO: Meetup Hotspot Fragment -->
+    <string name="slctCategory">اختر فئة</string>
+    <!-- TODO: Create Group fragment -->
+    <string name="createGroup">إنشاء مجموعة</string>
+    <string name="groupSubject">عنوان المجموعة</string>
+    <string name="pleaseProvideGrpSbjct">الرجاء إدخال عنوان المجموعة</string>
+    <string name="participants">المشاركيين</string>
+    <string name="groupNameBlank">أدخل اسم المجموعة</string>
+    <string name="selectAtleastOneParticipant">اختر مشترك واحد عالأقل</string>
+    <string name="readTerms">لقد قرأت جميع شروط وأحكام تطبيق خليجي</string>
+    <string name="acceptTerms">آوافق على جميع شروط واحكام تطبيق خليجي</string>
+    <string name="plsReadTerms">الرجاء قراءة شروط الاستخدام</string>
+    <string name="plsAcceptTerms">الرجاء الموافقة على شروط الاستخدام</string>
+    <string name="timeline">Home</string>
+    <string name="intro_description">شارك لحظاتك الخاصة</string>
+    <string name="diwani">fonts/diwan.ttf</string>
+    <string name="areUSureUWantToExit">هل أنت متأكد من الخروج من التطبيق؟</string>
+    <string name="areUSureUWantToBlockUser">هل أنت متأكد من حظر المستخدم؟</string>
+    <string name="areUSureUWantToUnBlockUser">هل أنت متأكد من إلغاء الحظر؟</string>
+    <string name="resetMobileNumber">تغيير رقم الجوال الخاص بك</string>
+
+    <!-- TODO: Group Participant fragment -->
+    <string name="addMoreUsers">إضافة أصدقاء</string>
+    <string name="selectAtleastOneFriend">اختر صديق عالأقل</string>
+    <string name="allYourFriendsAreAlreadyInGroup">جميع الأصدقاء موجودين مسبقاً ضمن المجموعة</string>
+
+
+    <!-- TODO: New CHat test fragment -->
+    <string name="slctAtleast2Contacts">اختر ٢ من قائمة التواصل</string>
+    <string name="featured">مميز</string>
+    <string name="myTimeLine">My TimeLine</string>
+    <string name="addContent">اضف المحتوى</string>
+    <string name="searchForWords">البحث عن كلمات</string>
+    <string name="writemsg">اكتب رسالتك</string>
+
+    <!-- TODO TimeLine Tab Fragment-->
+    <string name="theWorld">عالمنا</string>
+    <string name="friends">الاصدقاء</string>
+    <string name="DOB">تاريخ الميلاد</string>
+
+    <string name="ic_text">"\ue945"</string>
+    <string name="ic_close">"\ue918"</string>
+    <string name="ic_draw">""\ue944</string>
+    <string name="ic_images">"\ue949"</string>
+    <string name="ic_save">"\ue946"</string>
+    <string name="ic_clear_all">"\ue947"</string>
+    <string name="ic_continue">"\ue948"</string>
+    <string name="ic_delete">"\ue92c"</string>
+    <string name="choose_from_gallery">اختر من الصور</string>
+    <string name="choose_from_camera">اختر من الكاميرا</string>
+    <string name="undo">تراجع</string>
+    <string name="erase">مسح</string>
+    <string name="hash">#</string>
+
+    <string name="clear_all">مسح الكل</string>
+    <string name="done">تم</string>
+    <string name="save">حفظ</string>
+    <string name="text">النص</string>
+    <string name="attachLink">إرفاق رابط</string>
+    <string name="linkTitle">عنوان الرابط</string>
+    <string name="linkDesc">وصف الرابط</string>
+    <string name="postGSnap">Post G-Snap</string>
+
+    <string name="to">إلى</string>
+    <string name="myMemories">ذكرياتي</string>
+    <string name="hostpotDailies">يوميات موقع خليجي</string>
+    <string name="hostpotMemories">ذكريات موقع خليجي</string>
+    <string name="recents">تم التواصل مؤخراً</string>
+    <string name="allFrnds">جميع الاصدقاء</string>
+    <string name="discardPicture">هل أنت متأكد من حذف الصورة؟</string>
+    <string name="discardVideo">هل أنت متأكد من حذف الفيديو؟</string>
+
+    <string name="enterValidUrl">أدخل رابط صحيح</string>
+
+    <string name="infinity">&#8734;</string>
+    <string name="viewLink">مشاهدة الرابط</string>
+    <string name="city">المدينة</string>
+    <string name="enterURL">أدخل رابط</string>
+    <string name="reason_for_report">سبب البلاغ</string>
+    <string name="abusive_or_harmful_to_others">Abusive or harmful to others</string>
+    <string name="abusive_or_harmful_to_me">Abusive or harmful to me</string>
+    <string name="posting_inappropriate_content">Posting inappropriate content</string>
+    <string name="other">أخرى</string>
+    <string name="type_other_reason_for_report">أدخل سبب آخر للبلاغ</string>
+    <string name="unsafe_behavior">Unsafe behavior (stalking, blackmailing,etc)</string>
+    <string name="please_enter_reason">please enter reason</string>
+    <string name="be_the_first_person_to_comment_on_its_memory">Be the first person to comment on this memory</string>
+    <string name="likes"> إعجاب</string>
+    <string name="hotspots_updates">تحديثات مواقع التجمع</string>
+    <string name="memories_updates">ذكريات</string>
+    <string name="no_friends_found">لم يتم العثور على أصدقاء</string>
+    <string name="best_friends">أفضل الاصدقاء</string>
+    <string name="directions">الاتجاهات</string>
+    <string name="dateOfBirth">تاريخ الميلاد</string>
+    <string name="first_qstn">السؤال الأول</string>
+    <string name="second_qstn">السؤال الثاني</string>
+    <string name="third_qstn">السؤال الثالث</string>
+    <string name="bioWriteAboutYourself">السيرة الذاتية(اكتب عن نفسك)</string>
+    <string name="profile_question">سؤال حسابك</string>
+    <string name="addComment">إضافة تعليق</string>
+    <string name="deleteCommentMessage">هل أنت متأكد من حذف التعليق؟</string>
+    <string name="removeMediaMessage">هل أنت متأكد من حذف المشاركة؟</string>
+
+    <!-- TODO: MyProfileTimeline fragment -->
+    <string name="nothingPosted">لم يتم نشر أي منشور</string>
+    <string name="memories">الذكريات</string>
+    <string name="allow_othertoseeMyprofile">السماح بمشاهدة صورة الملف الشخصي</string>
+    <string name="allow_othertoseeMydob">السماح بمشاهدة تاريخ الميلاد</string>
+    <string name="allow_othertoseeMyUsernaem">السماح بمشاهدة اسم المستخدم الخاص بي</string>
+    <string name="new_post">مشاركة جديدة</string>
+    <string name="share">مشاركة</string>
+    <string name="block_success">تم حظر المستخدم بنجاح</string>
+    <string name="report_success">تم ارسال شكواك على هذا المستخدم بنجاح، وسيتم التعامل معها بأسرع وقت ممكن.</string>
+    <string name="remove_friend_success">تم إزالة هذا المستخدم من قائمة أصدقائك بنجاح</string>
+    <string name="answer_success">تم إرسال إجابتك إلى المستخدم بنجاح!</string>
+    <string name="submit_success">تم إرسال تحديث حالتك بنجاح!</string>
+    <string name="write_a_caption_for_your_memory">اكتب تعليق</string>
+    <string name="are_you_sure_want_to_activate_your_account">هل أنت متأكد من تفعيل الحساب؟</string>
+    <string name="post_media_alert">يتم الآن رفع المحتوى الذي قمت بإرساله، و سوف يتم عرضه على حسابك عند إكتمال التحميل</string>
+    <string name="are_you_sure_want_to_deacitvate_account">إيقاف حسابك مؤقتاً سوف يخفي كل معلومات حسابك عن مستخدمي التطبيق. إن اردت استخدام التطبيق بإمكانك إعادة تسجيل الدخول مرة أخرى حتى تتمكن من تفعيل حسابك.
+
+هل أنت متأكد أنك تريد إيقاف حسابك مؤقتاً؟
+
+الرجاء إدخال كلمة مرور الحساب
+</string>
+    <string name="you_sent_a_photo">تم إرسال الصورة</string>
+    <string name="delete_message">حذف الرسالة؟</string>
+    <string name="clear_chat">حذف المحادثة</string>
+    <string name="leave_group">مغادرة المجموعة</string>
+    <string name="group_setting">إعدادات المجموعة</string>
+    <string name="remove_group_member">هل تريد حذف هذا العضو؟</string>
+    <string name="select_friend">اختر صديق</string>
+    <string name="please_select_group_icon">اختر صورة المجموعة</string>
+
+    <string name="next">التالي</string>
+    <string name="do_delete">حذف</string>
+
+    <string name="profile">الحساب الشخصي</string>
+    <string name="notification">التنبيهات</string>
+    <string name="dailies">اليوميات</string>
+    <string name="memory_updates">اخبار المذكرات</string>
+    <string name="gender_title">الجنس</string>
+    <string name="nationality_title">الموطن</string>
+    <string name="bio_title">معلومات عني</string>
+    <string name="status_title">الحالة</string>
+    <string name="add_friend">إضافة صديق</string>
+    <string name="message_bigletter">إرسال رسالة </string>
+    <string name="choose_gender">حدد معلومات حسابك</string>
+    <string name="question_gender">حدد المعلومات أدناه</string>
+    <string name="bt_continue">المتابعة</string>
+    <string name="step1">الخطوة ١ / ٤</string>
+    <string name="your_birthday">حدد معلومات حسابك</string>
+    <string name="when_birthday">ماهو موعد ميلادك؟</string>
+    <string name="choose_hometown">حدد عنوانك</string>
+    <string name="what_hometown">إختر مدينة مسكنك</string>
+    <string name="allow_public_dob">عرض تاريخ ميلادي على حسابي</string>
+    <string name="step2">الخطوة ٢ / ٤</string>
+    <string name="step3">الخطوة ٣ / ٤</string>
+    <string name="step4">الخطوة ٤ / ٤</string>
+    <string name="profile_question_exp">
+    سؤال حسابك هو سؤال تختاره حتى يكون شرط للإجابة
+    من قبل المستخدمين الذين يرغبون في إضافتك
+    كـ صديق،
+    حدد سؤال حسابك الآن واستمتع بالتجربة!
+    </string>
+    <string name="ask_friends">اكتب سؤالك هنا</string>
+    <string name="profile_picture">الصورة الشخصية</string>
+    <string name="select_profile_picture">أخيراً، اختر صورة الملف الشخصي</string>
+    <string name="what_mobile">ماهو رقم الموبايل المسجل لهذا الحساب؟</string>
+    <string name="what_email">ما هو البريد الالكتروني المسجل؟</string>
+    <string name="msg_verfication">تم إرسال كود التفععيل إلى بريدك الإلكتروني
+فم بإدخاله أدناه</string>
+    <string name="confirm">تأكيد</string>
+    <string name="privacy_setting">إعدادات الخصوصية</string>
+    <string name="notification_setting">إعدادات التنبيهات</string>
+    <string name="liked_comments_notification">تنبيهات الاعجابات لحالتي ، صوري و تعليقاتي</string>
+    <string name="message_notifications"> تنبيهات الرسائل</string>
+    <string name="grounp_chat_notifications">تنبيهات محادثات المجموعات</string>
+    <string name="update_pwd">تعديل كلمة المرور</string>
+    <string name="current_pwd_title">كلمة المرور الحالية</string>
+    <string name="new_pwd_title">كلمة مرور جديدة</string>
+    <string name="confirm_pwd_title">تآكيد كلمة المرور الجديدة:</string>
+    <string name="change_email">تعديل البريد الالكتروني</string>
+    <string name="new_email_address">البريد الإلكتروني الجديد</string>
+    <string name="change_email_exp">الرجاء إدخال البريد الإلكتروني المراد إعتماده\nوسوف نرسل لك رابط لتفعيل البريد و إعتماده</string>
+    <string name="allow_to_find_me">السماح لباقي المستخدمين العثور علي من البريد الإلكتروني</string>
+    <string name="change_email_exp2">تزويدنا ببريدك الإلكتروني يساعدنا في توثيق حسابك و يمكنك من
+    استعادة معلومات حسابك، و غير هذا و اكثر
+</string>
+    <string name="change_mobile_no">تعديل رقم الموبايل</string>
+    <string name="allow_find_mobile">السماح لباقي المستخدمين العثور علي من رقم الموبايل</string>
+    <string name="change_mobile_exp">تزويدنا برقم موبايل سوف يمكنك من إستخدام تطبيق خليجي
+بإمكانك أيضاً المحافظة على معلومات حسابك عبر رقم الموبايل
+بالإضافة ان أصدقائك من مستخدمي خليجي سوف يتمكنون من
+ العثور عليك عبر رقمك، كل هذا و اكثر!</string>
+    <string name="next_big">التالي</string>
+    <string name="mobile_number">رقم الجوال</string>
+    <string name="permissions">اذونات الخصوصية</string>
+    <string name="blocked_users">قائمة الحظر</string>
+    <string name="deactive_account">إيقاف حسابي مؤقتاً</string>
+    <string name="delete_all_account">مسح كل محتوى حسابي</string>
+    <string name="who_can_msg">من يستطيع ارسال الرسائل لي</string>
+    <string name="who_can_view">من يستطيع مشاهدة يومياتي</string>
+    <string name="who_can_msg_big">من يستطيع ارسال الرسائل لي</string>
+    <string name="who_can_view_big">من يستطيع <b>مشاهدة اليوميات</b> </string>
+    <string name="my_friends">أصدقائي</string>
+    <string name="customized_group">مجموعات مخصصة</string>
+    <string name="group_categorized">بإمكانك تحديد مجموعات مخصصة لمن تريد ان يرى يومياتك\nلن يعرفو انك حددتهم:)</string>
+    <string name="group_organize">بإمكانك تحديد مجموعات مخصصة لمن تريد ان يرى يومياتك\nلن يعرفو انك حددتهم:)</string>
+    <string name="family_group">مجموعة العائلة</string>
+    <string name="shabab_group">مجموعة الاستراحة</string>
+    <string name="create_new_group">إنشاء مجموعة جديدة</string>
+    <string name="edit_family_group">مجموعة العائلة</string>
+    <string name="select_who_remove">بإمكانك ازالة او اضافة مستخدمين لهذه المجموعة</string>
+    <string name="group_name_enter">حدد معلومات مجموعة يومياتك الجديدة</string>
+    <string name="group_name_title">اسم المجموعة</string>
+    <string name="users_selected_title">المستخدمون المحددون</string>
+    <string name="what_mind">مالذي يخطر على بالك</string>
+    <string name="write_memory">اكتب وصف صور ذكرياتك</string>
+    <string name="send_to">إرسال إلى</string>
+    <string name="my_dailies">يومياتي</string>
+    <string name="my_memories">ذكرياتي</string>
+    <string name="hotspot_dailies">يوميات موقع</string>
+    <string name="hotspot_memories">ذكريات موقع</string>
+    <string name="search_dot">..بحث</string>
+    <string name="send_to_exp"> يومياتي، ذكرياتي، يوميات موقع  </string>
+    <string name="best_friend_big">أفضل الاصدقاء</string>
+    <string name="recents_big">تم التواصل مؤخراً</string>
+    <string name="search_around">إبحث عن المواقع حولك في هذا القسم</string>
+    <string name="my_profile">الملف الشخصي</string>
+    <string name="my_status_updates">تحديثات حالاتي</string>
+    <string name="map">الخريطة</string>
+    <string name="find_khal">البحث عن مستخدمين</string>
+    <string name="fill_up">عبي حسابك لتلتقي بأصدقاء جدد</string>
+    <string name="allow_picture">اسم المستخدم وصورة حسابك ستظهر للآخرين</string>
+    <string name="allow_friend_list">السماح للمستخدمين بمشاهدة أصدقائي</string>
+    <string name="allow_username">اليوميات والذكريات لن تظهر للآخرين</string>
+    <string name="duna">دنا</string>
+    <string name="riyadh">الرياض</string>
+    <string name="submit_big">إرسال</string>
+    <string name="update_btn_edit_profile">تحديث</string>
+    <string name="received_requests_big">الطلبات المستقبلة</string>
+    <string name="sent_request">الطلبات المرسلة</string>
+    <string name="my_enter_friends">أصدقائي</string>
+    <string name="see_answer">عرض الإجابة</string>
+    <string name="see_answer_ar">جوابهم لسؤالك</string>
+    <string name="confirm_small">قبول</string>
+    <string name="do_delete_ar">رفض</string>
+    <string name="nudge">تنبيه</string>
+    <string name="remove_small">حذف</string>
+    <string name="look_for_users">اعثر على مستخدمي التطبيق في هاتفك</string>
+    <string name="you_may_know">أشخاص قد تعرفهم</string>
+    <string name="add_friend_small">إضافة صداقة</string>
+    <string name="find_my_friends">إعثر على اصدقائك</string>
+    <string name="your_answer">جوابك للسؤال</string>
+    <string name="reply_in_chat">رد عن طريق المحادثة</string>
+    <string name="reject">رفض</string>
+    <string name="amend_resend">تعديل وارسال</string>
+    <string name="your_question">أسئلتك</string>
+    <string name="their_answer">إجاباتهم</string>
+    <string name="my_posts">محتواي</string>
+    <string name="likes_title">الإعجابات</string>
+    <string name="no_data_location">لا يوجود معلومات متوفرة</string>
+    <string name="whoIsHere_small">من هنا</string>
+    <string name="submit_profile_picture">إبدأ إستخدام تطبيق خليجي الآن</string>
+    <string name="message_signin_ar">تسجيل الدخول</string>
+    <string name="message_signup_ar">إنشاء حساب جديد</string>
+    <string name="your_email">بريدك الإلكتروني الحالي هو:</string>
+    <string name="add_status_placeholder">أضف حالتك هنا</string>
+    <string name="add_desc_placeholder">اضف الوصف هنا</string>
+    <string name="add_mentiontag">إضافة #تاغ</string>
+    <string name="mention_someone">ذكر مستخدم</string>
+    <string name="likes_post">إعجاب</string>
+    <string name="comments_post">تعليقات</string>
+    <string name="view_comments">ردود</string>
+    <string name="view_all">مشاهدة </string>
+    <string name="who_can_view_big_ar">من يستطيع مشاهدة يومياتي</string>
+    <string name="days">أيام</string>
+    <string name="ago">منذ </string>
+    <string name="accept_your_request">قبل طلب صداقتك</string>
+    <string name="hours">ساعات</string>
+    <string name="iraq">العراق</string>
+    <string name="saudi">السعودية</string>
+    <string name="kuwait">الكويت </string>
+    <string name="bahrain">البحرين</string>
+    <string name="oman">عُمان</string>
+    <string name="yemen">اليمن</string>
+    <string name="qatar">قطر</string>
+    <string name="united_arab">الإمارات</string>
+    <string name="post">منشور</string>
+    <string name="reply">الرد</string>
+    <string name="status">الحالة</string>
+    <string name="notificationallow_ar">السماح لتطبيق خليجي بإرسال التنبيهات لي</string>
+    <string name="online">متصل الآن</string>
+    <string name="offline">غير متصل</string>
+    <string name="location_you_check">الموقع الذي سجلت دخولك إليه:</string>
+    <string name="is_now_hotspot"> أصبح الآن موقع تجمع خليجي</string>
+    <string name="checked_into">قد سجل دخول إلى</string>
+    <string name="near_by"> بالقرب منك</string>
+    <string name="your_friend">صديقك</string>
+    <string name="choose_country">اختر الدولة</string>
+    <string name="posts">المنشورات</string>
+    <string name="my_post">منشوري</string>
+    <string name="send_chat">ابدأ المحادثة</string>
+    <string name="camera">الكاميرا</string>
+    <string name="gallery">مكتبة الصور</string>
+
+    <string name="khm">الخريطة</string>
+    <string name="find_users"> البحث عن مستخدمين</string>
+    <string name="khm_map">تواصل خليجي</string>
+    <string name="view_account">مشاهدة الحساب</string>
+    <string name="faraway">الموقع بعيد ولا يمكنك تسجيل الدخول</string>
+    <string name="check_inbox">تفقد البريد الوارد</string>
+    <string name="sent_email">لقد أرسلنا بريد إلكتروني للتفعيل</string>
+    <string name="open_link"> الرجاء الضغط على الرابط لتغيير
+     كلمة المرور حتى تتمكن من تسجيل الدخول</string>
+
+    <string name="are_you_sure_want_to_delete_account">مسح كل محتوى حسابك سوف يزيل كل معلومات حسابك من خادم التطبيق. بإمكانك إنشاء حساب جديد إن اردت استخدام التطبيق مرةً أخرى.
+
+    هل أنت متأكد أنك تريد مسح كل محتوى حسابك؟
+
+    الرجاء إدخال كلمة مرور الحساب
+    </string>
+    <string name="report_reason">سبب التقرير</string>
+    <string name="reason_abuse_me">الاساءة أو الضرر لي</string>
+    <string name="reason_abuse_others">الاساءة أو الضرر للآخرين</string>
+    <string name="reason_post">نشر محتوى غير لائق</string>
+    <string name="reason_unsafe">السلوك غير الآمن (المطاردة والابتزاز او ما إلى ذلك)</string>
+    <string name="reason_other">سبب آخر</string>
+
+    <string name="add_participants">إضافة أعضاء للمجموعة</string>
+    <string name="country">الموطن</string>
+    <string name="upload_success">تم رفع الملف بنجاح</string>
+    <string name="no_data">لا يوجد بيانات متوفرة</string>
+    <string name="send_request">إرسال طلب صداقة</string>
+    <string name="their_question">سؤالهم</string>
+    <string name="find_location">إعثر على الموقع في الخريطة هنا</string>
+    <string name="your_checked">انت مسجل دخول هنا</string>
+    <string name="dailies_updates">يومياتي</string>
+    <string name="check_in">تسجيل دخول</string>
+    <string name="hotspot_memory">ذكريات</string>
+    <string name="no_name">الاسم إجباري</string>
+    <string name="no_tag">التاغ إجباري</string>
+    <string name="no_city">حقل المدينة إجباري</string>
+    <string name="post_media_download">يتم تحميل الملف لجهازك</string>
+    <string name="are_you_sure_want_to_remove">هل أنت متأكد من حذف المنشور؟</string>
+    <string name="are_you_sure_want_to_report">هل أنت متأكد من الإبلاغ عن المنشور؟</string>
+
+    <string name="no_message">لا توجد رسائل</string>
+    <string name="sent_video">ارسل فيديو</string>
+    <string name="sent_audio">ارسل رسالة صوتية</string>
+    <string name="sent_photo">ارسل صورة</string>
+    <string name="you_sent_photo">تم إرسال الصورة</string>
+    <string name="you_sent_video">تم إرسال الفيديو</string>
+    <string name="user_sent_photo">أرسل صورة %s</string>
+    <string name="user_sent_video">%s  أرسل فيديو</string>
+    <string name="typing">يكتب الآن</string>
+    <string name="sending_your_photo">جاري إرسال الصورة</string>
+    <string name="sending_your_voice">جاري إرسال الرسالة</string>
+    <string name="sending_your_video">جاري إرسال الرسالة</string>
+    <string name="new_group">مجموعة جديدة</string>
+    <string name="group_subject">اسم المجموعة</string>
+    <string name="provide_group">الرجاء إضافة اسم وصورة المجموعة</string>
+    <string name="no_group_subject">اسم المجموعة غير صحيح</string>
+    <string name="update_group">تعديل المجموعة</string>
+    <string name="invalid_group_name">اسم المجموعة غير صحيح</string>
+    <string name="invalid_username">الأحرف و الأرقام الإنجليزية، الأحرف العربية، و  _  و .  مسموحة</string>
+    <string name="are_you_sure_want_to_remove_msg">هل أنت متأكد من حذف المحادثة؟</string>
+    <string name="group_participant">الأعضاء</string>
+    <string name="out_of">من</string>
+    <string name="save_confirm_dlg">هل تريد حفظ الملف؟</string>
+    <string name="invalid_phone">الرقم الذي أدخلته خاطىء، الرجاء ادخال ارقام فقط بدون احرف او مسافات بين الأرقام</string>
+    <string name="no_hotspot">لا يوجد مواقع تجمع</string>
+    <string name="upload_fail">فشل التحميل</string>
+    <string name="groups">المجموعات</string>
+    <string name="group_remove_confirm">هل أنت متأكد من حذف المجموعة</string>
+    <string name="request_success">تم إرسال الطلب بنجاح!</string>
+    <string name="how_to_crop">حدد طريقة قص الصورة في ذكرياتك</string>
+    <string name="friend_request">طلب صداقة</string>
+    <string name="words">كلامنا</string>
+    <string name="trending">رائج</string>
+    <string name="nationalism">وطني</string>
+    <string name="sports">رياضة</string>
+    <string name="spiritual">أدعية</string>
+    <string name="email_change_success">تم تغيير البريد الالكتروني</string>
+    <string name="invalid_fullname">يسمح فقط بالاحرف الانجليزية او العربية</string>
+    <string name="invalid_username_title"> اسم المستخدم غير صحيح</string>
+    <string name="invalid_fullname_title"> الاسم غير صحيح</string>
+
+
+
+    <string name="internet_connection_not_available">لا يوجد اتصال بالشبكة</string>
+    <string name="you_need_network_access_for_delete">لا يوجد اتصال بالشبكة</string>
+    <string name="applozic_server_error">خطأ</string>
+    <string name="you_need_network_access_for_block_or_unblock">لا يوجد اتصال بالشبكة</string>
+    <string name="internet_connection_for_group_name_info">لا يوجد اتصال بالشبكة</string>
+    <string name="you_dont_have_any_network_access_info">لا يوجد اتصال بالشبكة</string>
+    <string name="failed_to_leave_group">فشل مغادرة المجموعة</string>
+    <string name="user_is_already_exists">المستخدم موجود مسبقاً داخل المجموعة</string>
+    <string name="delete_conversation_failed">فشل الحذف</string>
+    <string name="menu_search">بحث</string>
+    <string name="menu_add_contact">إنشاء جهة اتصال</string>
+    <string name="menu_edit_contact">تعديل جهة الاتصال</string>
+    <string name="no_contacts">لا يوجد جهات اتصال</string>
+    <string name="no_contact_selected">لم يتم اختيار جهات اتصال</string>
+    <string name="search_hint">بحث...</string>
+    <string name="activity_contacts_list">MobiTexter</string>
+    <string name="activity_contacts_title">اختر جهة الاتصال</string>
+    <string name="activity_contact_detail">تفاصيل جهة الاتصال</string>
+    <string name="contacts_list_search_results_title">Contact search for \"%s\"</string>
+    <string name="contactsListActivity">جهات الاتصال</string>
+    <string name="phone_number_not_present">لا يوجد رقم جوال</string>
+    <string name="mobiframework_title_device">جهاز</string>
+    <string name="mobiframework_title_group">مجموعة</string>
+    <string name="zero_friends_on_phone">No matching contact found on phone contacts but you can still send message by entering the email, userId or phone number</string>
+    <string name="contact_sync_in_progress">يتم الآن المزامنة</string>
+    <string name="zero_friends_on_app">لا يوجد جهات الاتصال</string>
+    <string name="zero_groups_on_app">لا يوجد مجموعات</string>
+    <string name="delete_thread_text">حذف...</string>
+    <string name="search_title">بحث</string>
+    <string name="applozic_user_already_in_a_group"> [groupType] تمت الاضافة مسبقاً </string>
+    <string name="applozic_contacts_loading_info">جاري التحميل</string>
+    <string name="applozic_contacts_loading_error">لا يوجد اتصال بالشبكة</string>
+    <string name="applozic_enter_group_name">الرجاء إدخال اسم المجموعة</string>
+    <string name="snap_text">Oh Snap!</string>
+    <string name="account_disconnection_message">نأسف لايمكنك استخدام المحادثة الآن، يجب التواصل مع الدعم الفني</string>
+    <string name="powered_by_applozic_message">We are powered by Khaleeji</string>
+    <string name="failed_to_load_contact">فشلت العملية </string>
+    <string name="rupee_symbol">\u20B9</string>
+    <string name="invite_message">Download this app from this link : apps.applozic.com</string>
+    <string name="cancel_transaction">هل تريد إلغاء العملية؟</string>
+    <string name="go_back">هل تريد الخروج من هذه الضفحة؟</string>
+    <string name="no_alert">لا</string>
+    <string name="mandatory_fields">"حقول إجبارية"</string>
+    <string name="form_action_success">تم الإسال بنجاح</string>
+
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+
+    <string name="search_match_other">Matches Other Field</string>
+    <string name="invite">دعوة صديق</string>
+    <array name="alphabet_color">
+        <item>#f16364</item>
+        <item>#f58559</item>
+        <item>#f9a43e</item>
+        <item>#e4c62e</item>
+        <item>#67bf74</item>
+        <item>#59a2be</item>
+        <item>#2093cd</item>
+        <item>#ad62a7</item>
+    </array>
+    <dimen name="tile_letter_font_size">250dp</dimen>
+    <!-- The deafult tile size -->
+    <dimen name="letter_tile_size">64dp</dimen>
+
+    <string name="contact_permission">Contact permission are needed to access</string>
+    <string name="storage_permission">Storage permission are needed to access</string>
+    <string name="read_sms_permission">Read sms permission are needed to access</string>
+    <string name="location_permission">Location permission are needed to access</string>
+    <string name="phone_state_permisssion">Phone state permission are needed to access</string>
+    <string name="phone_call_permission">Phone call permission are needed to access</string>
+    <string name="phone_camera_permission">Camera permission are needed to access</string>
+    <string name="record_audio">Audio recording permission needed</string>
+    <string name="camera_audio_permission">Camera and record audio permission are needed to access</string>
+
+    <string name="contact_permission_not_granted">Permission were not granted for Contact</string>
+    <string name="storage_permission_not_granted">Permissions were not granted for Storage</string>
+    <string name="read_sms_permission_not_granted">Permissions were not granted for Read</string>
+    <string name="location_permission_not_granted">Permissions were not granted for Location</string>
+    <string name="phone_state_permission_not_granted">Permissions were not granted for Phone state</string>
+    <string name="phone_call_permission_not_granted">Permission were not granted for Phone call</string>
+    <string name="phone_camera_permission_not_granted">Permission were not granted for Camera</string>
+    <string name="record_audio_permission_not_granted">Permissions were not granted for Audio recording</string>
+    <string name="audio_or_camera_permission_not_granted">Permission were not granted for Camera or Audio recording</string>
+
+    <string name="contact_permission_granted">Contacts Permission have been granted</string>
+    <string name="storage_permission_granted">Storage Permissions have been granted</string>
+    <string name="read_sms_permission_granted">Read sms Permissions have been granted</string>
+    <string name="location_permission_granted">Location Permissions has been granted</string>
+    <string name="phone_state_permission_granted">Phone state Permissions has been granted</string>
+    <string name="phone_call_permission_granted">Phone call Permission has been granted</string>
+    <string name="phone_camera_permission_granted">Camera permission has been granted</string>
+    <string name="record_audio_permission_granted">Audio Record permissions has been granted</string>
+    <string name="phone_camera_and_audio_permission_granted">Camera and audio permissions has been granted</string>
+    <string name="mobicom_max_attachment_warning">تجاوزت الحدد المسموح</string>
+    <string name="mobicom_select_attachment_text">اختر مرفق</string>
+    <string name="audio_recording_send_text">اضغط على بدء للتسجيل</string>
+    <string name="applozic_audio_permission_missing">Unable to launch audio recorder.</string>
+    <string name="applozic_message_info">معلومات الرسالة</string>
+    <string name="applozic_message_info_no_network">لا يمكنك قراءة الرسائل</string>
+    <string name="applozic_user_profile_heading">الملف الشخصي</string>
+    <string name="send_message_to">إرسال إلى..</string>
+    <string name="info_attachment_max_allowed_file_size_exceeded">الملف كبير جداً</string>
+    <string name="group_members_limit_exceeds">تجاوزت الحد المسموح، احذف مشترك من  المجموعة</string>
+    <string name="please_wait_creating_group_of_two">الرجاء الانتظار</string>
+    <string name="sort_contacts_by_lastSeenAt">ترتيب حسب آخر مشاهدة</string>
+    <string name="sort_contacts_by_recent_chats">ترتيب حسب المحادثات الأخيرة</string>
+    <string name="chats">المحادثات</string>
+    <string name="refresh">تحديث</string>
+    <string name="start_New">إنشاء</string>
+    <string name="dial">Dial</string>
+    <string name="camera_option">الكاميرا</string>
+    <string name="logout">خروج</string>
+    <string name="send_logs">Send Logs</string>
+    <string name="log_email_subject">- Applozic android SDK text logs</string>
+    <string name="select_email_app_chooser_title">Select app to send logs</string>
+    <string name="copy">نسخ</string>
+    <string name="forward">إعادة توجيه</string>
+    <string name="delete">حذف</string>
+    <string name="self_destruct">Self Destruct</string>
+    <string name="off">غير متصل</string>
+    <string name="one_min">1 دقيقة</string>
+    <string name="two_min">2 دقيقة</string>
+    <string name="five_min">5 دقائق</string>
+    <string name="ten_min">10 دقائق</string>
+    <string name="sms">SMS</string>
+    <string name="mt">MT</string>
+    <string name="Delete_conversation">حذف المحادثة</string>
+    <string name="delete_group">حذف المجموعة</string>
+    <string name="exit_group">الخروج من المجموعة</string>
+    <string name="make_group_admin">تعيين كمدير</string>
+    <string name="take_photo">التقط صورة</string>
+    <string name="attach_file">ارفق ملف</string>
+    <string name="audio_message">رسالة صوتية</string>
+    <string name="video_message">فيديو</string>
+    <string name="share_contact">شارك جهة اتصال</string>
+    <string name="attach_price">سعر المرفق</string>
+    <string name="al_location">:الموقع</string>
+    <string name="al_file">:الملف</string>
+    <string name="al_audio">:الملف الصوتي</string>
+    <string name="al_camera">:الكاميرا</string>
+    <string name="al_video">:الفيديو</string>
+    <string name="al_contact">:جهة الاتصال</string>
+    <string name="al_price">:السعر</string>
+    <string name="current_location">الموقع الحالي</string>
+    <string name="price">السعر</string>
+    <string name="name">الاسم</string>
+    <string name="phone">الجوال</string>
+    <string name="Group">مجموعة</string>
+    <string name="Contact">تواصل</string>
+    <string name="Add_caption">أضف نص</string>
+    <string name="New_Attachment">مرفق جديد</string>
+    <string name="send_location">إرسال الموقع</string>
+    <string name="send_your_current_location">إرسال الموقع الحالي</string>
+    <string name="Add_Contacts">إضافة مشتركين</string>
+    <string name="stop">إيقاف</string>
+    <string name="profile_status">الحالة</string>
+    <string name="no_status">لا يوجد حالة</string>
+    <string name="notifications">الاشعارات</string>
+    <string name="push_notifications">الاشعارات</string>
+    <string name="sales_manager">Sales Manager</string>
+    <string name="display_name">الاسم</string>
+    <string name="today">اليوم</string>
+    <string name="kb45">45kb</string>
+    <string name="message_text">رسالة نصية</string>
+    <string name="read">تمت القراءة</string>
+    <string name="delivered">وصلت</string>
+    <string name="file_name_will_come_here_for_attachment">file name will come here for attachment</string>
+    <string name="mb_10">10 MB</string>
+    <string name="schedule">جدولة</string>
+    <string name="delivery_status">delivery status</string>
+    <string name="testTime">وقت الاختبار</string>
+    <string name="created_at_time">تاريخ الإنشاء</string>
+    <string name="edit_group_name">تعديل اسم المجموعة</string>
+    <string name="add_member">إضافة مشترك</string>
+    <string name="group_not_exist">المجموعة غير موجودة</string>
+    <string name="no_groups">لا يوجد مجموعات</string>
+    <string name="contacts_not_found">لا يوجد جهات اتصال</string>
+    <string name="remove_image">حذف الصورة</string>
+    <string name="applozic_failed_to_load_contact">فشل تحميل جهات الاتصال</string>
+    <string name="applozic_Cropping_failed">فشلت عملية القص</string>
+    <string name="applozic_resending_attachment">إعادة الرسال</string>
+    <string name="Location">الموقع</string>
+    <string name="processing_please_wait">الرجاء الانتظار</string>
+    <string name="success">نجحت</string>
+    <string name="error">خطأ</string>
+    <string name="mute_group_for">كتم المجموعة ...</string>
+    <string name="mute_user_for">كتم المستخدم..</string>
+    <string name="eight_Hours">8 ساعات</string>
+    <string name="one_week">1 أسبوع </string>
+    <string name="one_year"> 1 سنة </string>
+    <string name="file_does_not_exist">الملف غير موجود</string>
+    <string name="copied_message">تم نسخ الرسالة</string>
+    <string name="data_usage">استخدام البيانات</string>
+    <string name="missed">Missed</string>
+    <string name="hold_to_record_release_to_send">أضغط للتسجيل</string>
+    <string name="slide_to_cancel">اسحب للإلغاء</string>
+    <string name="tap_on_mic_button_to_record_audio">اضغط على زر المايك لبدء التسجيل</string>
+    <string name="profile_contact">لا يوجد رقم تواصل</string>
+    <string name="profile_contact_number">رقم التواصل</string>
+    <string name="user_name">اسم المستخدم</string>
+    <string name="powered_by_applozic">Powered By Applozic</string>
+    <string name="invalid_message_matching_pattern">The Regex to match message is invalid</string>
+    <string name="message_reported_successfully">This message has been reported successfully</string>
+    <string name="failed_to_report_message">Failed to report message</string>
+    <string name="long_video">لا يمكن تحميل فيديو اطول من ٦٠ ثانية</string>
+
+    <string name="disagree">غير موافق</string>
+    <string name="resend_label"> إعادة إسال</string>
+    <string name="forgot_username_title">نسيت إسم المستخدم</string>
+    <string name="your_account_username">إسم المستخدم الخاص بحسابك هو:</string>
+    <string name="you_can_sign_in">إستخدام اسم المستخدم و كلمة المرور بإمكانك تسجيل الدخول أدناه</string>
+    <string name="upload_failed">فشل رفع الملف. إضغط هنا لإعادة المحاولة</string>
+    <string name="media_uploads">رفع الملفات</string>
+    <string name="memory_daily_uploading_ago">Your Memories Daily posted %s min ago is uploading…</string>
+    <string name="memory_daily_uploading_ago_sec">Your Memories Daily posted %s sec ago is uploading…</string>
+    <string name="upload_info">يوجد عدد %s ملفات تنتظر التحميل</string>
+    <string name="daily_uploading_ago">يومياتك منذ %s دقيقة يتم الآن رفعها… </string>
+    <string name="memory_uploading_ago">ذكرياتك منذ %s دقيقة يتم الآن رفعها… </string>
+    <string name="daily_uploading_ago_sec">يومياتك منذ %s ثانية يتم الآن رفعها… </string>
+    <string name="memory_uploading_ago_sec">ذكرياتك منذ %s ثانية يتم الآن رفعها…</string>
+    <string name="now">الآن</string>
+    <string name="choose_cancel_upload">لقد اخترت الغاء تحميل ملفاتك</string>
+    <string name="uploading">جاري التحميل....</string>
+    <string name="received_friend_requests">طلبات الصداقة</string>
+    <string name="this_user_currently">هذا المستخدم يبعد</string>
+    <string name="away_from_you">عنك</string>
+    <string name="users_on_map">المستخدمين على الخريطة</string>
+    <string name="all_contacts">جميع جهات الاتصال</string>
+    <string name="friend_on_khaleeji">الأصدقاء الموجودون على تطبيق خليجي</string>
+    <string name="invite_khaleeji">دعوة لاستخدام خليجي</string>
+    <string name="invite_bt">دعوة</string>
+    <string name="account_code">كود حسابي</string>
+    <string name="qr_image">الكود المرئي</string>
+    <string name="no_question">لا يوجد اسئلة</string>
+    <string name="you_replied">لقد قم بالتعليق على اليوميات</string>
+    <string name="user_replied">%s قام بالرد على اليوميات</string>
+    <string name="tap_button_below">Tab button below</string>
+    <string name="privacy">Privacy</string>
+    <string name="allow_contact">And allow contacts access</string>
+    <string name="contacts">جهات الاتصال</string>
+    <string name="go_to_settings">اذهب الى الاعدادات</string>
+    <string name="in_memory">%s بالذكريات</string>
+    <string name="profile_link">رابط الملف الشخصي</string>
+    <string name="hold_camera">وجه الكاميرا إلى هذه الشاشة أو احفظ الصورة لمشاركتها </string>
+    <string name="scan">مسح</string>
+    <string name="scan_account_code">امسح كود حسابي حتى تتمكن من إضافتي</string>
+    <string name="living_in">المسكن:</string>
+    <string name="here_is_how">من هنا يمكنك الوصول إلى جهات الإتصال لديك
+لمعرفة من لديه  <b>تطبيق خليجي</b>
+نحن لا نقوم بتخزين جهات الاتصال الخاصة
+بك في خ،ادم التطبيق بالاضافة
+انه بإمكانك اختيار عدم وجودك على هذ القائمة عبر:
+    <b>الإعدادات > تعديل رقم الموبايل</b></string>
+    <string name="not_scan_own_code">لا تستطيع مسح الكود الخاص بك</string>
+    <string name="dailies_comment">تعليق يوميات</string>
+    <string name="add_on_me">اضفني على تطبيق خليجي عبر الرابط هذا:</string>
+    <string name="password_changed">تم تغيير كلمة المرور بنجاح</string>
+    <string name="start_conversation">من المحتمل ان هذا المستخدم ينظر حاليا إلى ملفك الشخصي ..</string>
+    <string name="visited_locations">Visited Locations</string>
+    <string name="visited_hotspots">Visited Hotspots</string>
+    <string name="dislike_answer">Dislike\nAnswer</string>
+    <string name="are_you_sure_want_to_remove_status">Are you sure you want to remove this status?</string>
+    <string name="are_you_sure_want_to_remove_status_comment">Are you sure you want to remove this status comment?</string>
+    <string name="are_you_sure_want_to_remove_status_reply">Are you sure you want to remove this status reply?</string>
+    <string name="are_you_sure_want_to_report_status">Are you sure you want to report this status?</string>
+    <string name="view_reply">View (%s) Replies</string>
+    <string name="status_like">Status Like</string>
+    <string name="status_viewer">Status Viewers</string>
+    <string name="addStatusReply">Add Status Reply...</string>
+    <string name="users">Users</string>
+    <string name="statuses">Statuses</string>
+</resources>

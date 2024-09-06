@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorSearch1"
+
+    android:orientation="vertical"
+
+    >
+
+    <!--android:background="@drawable/adapter"-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginTop="10dp"
+        >
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/profile_image"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:civ_border_color="@color/colorwhite"
+            app:civ_border_width="2dp"
+            app:civ_shadow="false"
+            app:civ_shadow_radius="1"
+            app:civ_shadow_color="#8BC34A"
+            />
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/profile_image"
+            android:layout_toLeftOf="@+id/rldone"
+            android:orientation="vertical"
+            >
+
+
+            <CustomView.CustomTextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="4dp"
+                android:inputType="textNoSuggestions"
+                android:text="Sarah Shekh"
+                android:textColor="@color/colorBlue"
+                android:textSize="@dimen/textsize_16"
+                app:customFont="@string/DroidSans_Bold" />
+
+            <!--android:textColor="#ffffff"-->
+
+            <CustomView.CustomTextView
+                android:id="@+id/tvdescription"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:inputType="textNoSuggestions|textMultiLine"
+                android:text="Dunn Loring"
+                android:maxLines="2"
+                android:textStyle="bold"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_14"
+                app:customFont="@string/DroidSans" />
+
+            <!--android:textColor="#ffffff"-->
+
+        </LinearLayout>
+
+
+
+        <RelativeLayout
+            android:id="@+id/rldone"
+            android:layout_width="95dp"
+            android:layout_height="35dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="5dp"
+            android:background="@drawable/button_shape_black_outline"
+            >
+
+            <!--android:background="@drawable/button_shape"-->
+
+            <CustomView.CustomTextView
+                android:id="@+id/tv_done"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:text="@string/remove"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_14"
+                app:customFont="@string/DroidSans_Bold"
+                />
+
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/colorWhite"
+        />
+
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:gravity="center"
+    android:minHeight="@dimen/nav_header_height"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
+
+    <!--android:background="@drawable/side_nav_bar"-->
+
+    <RelativeLayout
+        android:background="@drawable/bg_profile"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/imgMenuProfile"
+            android:scaleType="centerInside"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#1A707070"/>
+
+        <LinearLayout
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/imgMenuCircleProfile"
+                android:layout_width="@dimen/size_90"
+                android:layout_height="@dimen/size_90"
+                app:civ_border_width="@dimen/margin_2"
+                app:civ_border_color="@color/white"
+                android:src="@drawable/profile_placeholder"/>
+            <ImageView
+                android:id="@+id/iv_navedit"
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="-16dp"
+                android:src="@mipmap/edit" />
+
+
+            <CustomView.CustomTextView
+                android:id="@+id/txtMenuFullName"
+                android:lines="2"
+                android:layout_gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/size_20"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="center"
+                android:textColor="@color/colorwhite"
+                android:textSize="20sp"
+                app:customFont="@string/Amaranth_Bold" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+
+
+
+</RelativeLayout>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <color name="colorPrimary">@color/yellow_dark</color>
+    <color name="colorPrimaryDark">@color/yellow_dark</color>
+    <color name="navigationBarColor">@color/yellow_dark</color>
+    <color name="statusBarColor">@color/yellow_dark</color>
+    <color name="primaryDarkColor">#332C5F</color>
+    <color name="textColorPrimary">@color/primaryDarkColor</color>
+    <color name="reset_confirm">#9688E6</color>
+    <color name="backgroundColor">#E8E8E0</color>
+    <color name="backgroundColorPress">#DBDBD3</color>
+    <color name="darkPurple">#382C70</color>
+    <color name="lightPurple">#33219D</color>
+    <color name="dob_placeholder">#807D8D</color>
+    <color name="backgroundDefaultColor">#39306F</color>
+    <color name="gender_bt_color">#777295</color>
+    <color name="lightGrey">#ecebf1</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorwhite">#FFFFFF</color>
+    <color name="colorVDarkOrange">#CE9C64</color>
+    <color name="send_chat_bg">#60F0F3F9</color>
+    <color name="searchtab_color">#dfdfdf</color>
+    <color name="grey_dlg_border">#d4d2dc</color>
+    <color name="colorLightPurple">#574f84</color>
+    <color name="group_line">#9B9696</color>
+    <color name="phone_line">#7D77A0</color>
+    <color name="little_grey">#FCFCFE</color>
+    <color name="yellow">#FFD300</color>
+    <color name="yellow_dark">#D6892D</color>
+    <color name="datepicker_bg_color">#A7A3A0</color>
+    <color name="hotspot_letter">#5F558F</color>
+    <color name="yellow_disable">#895d4c</color>
+    <color name="drink_color">#FF74B8</color>
+    <color name="setting_edit_text">#322D47</color>
+    <color name="location_time_color">#FFAE00</color>
+    <color name="blue">#0446A6</color>
+    <color name="discover_color">#CA2C2B</color>
+    <color name="myfriend_color">#E17723</color>
+    <color name="addfriend_color">#E1A922</color>
+    <color name="setting_color">#1C9659</color>
+    <color name="logout_color">#007B69</color>
+    <color name="distance_color">#60FFFFFF</color>
+    <color name="light_blue">#0A9BD4</color>
+    <color name="userdetail_tabactive">#9B622E</color>
+    <color name="userdetail_tabinactive">@android:color/transparent</color>
+    <color name="brown">#562824</color>
+    <color name="dark">#85562B</color>
+    <color name="lblack">#2F3034</color>
+    <color name="group_text_color">#B3B3B5</color>
+    <color name="colorMog">#FCF1FF</color>
+    <color name="colorEmmience">#602A86</color>
+    <color name="colorCamelot">#93264A</color>
+    <color name="index_color">#2C2D32</color>
+    <color name="story">#68287C</color>
+    <color name="setting_bkg">#f0f0f6</color>
+
+    <color name="gray">#808080</color>
+    <color name="black_trans">#99000000</color>
+    <color name="black_light_trans">#B3000000</color>
+
+    <color name="red">#F44336</color>
+    <color name="amber">#FFC107</color>
+    <color name="dark_orange">#DD5700</color>
+    <color name="purple">#882DC9</color>
+    <color name="chat_time">#C6C4C5</color>
+    <color name="merron">#c6c4c5</color>
+    <color name="chat">#E9E9E9</color>
+    <color name="meharoon">#B80048</color>
+    <color name="tint_chat">#EAEAEA</color>
+    <color name="userdetail_statusbar">#8D6127</color>
+    <color name="profile_statusbar">#8D6127</color>
+    <color name="editprofile_statusbar">#9F5443</color>
+    <color name="meetup_statusbar">#892359</color>
+    <color name="black">#000000</color>
+    <color name="blackTrans">#33000000</color>
+    <color name="colorPeach">#D46D6F</color>
+    <color name="daily_text_color">#707070</color>
+    <color name="story_color1">#A5F879</color>
+    <color name="story_color2">#81009A</color>
+    <color name="story_color3">#369766</color>
+    <color name="story_color4">#DC5653</color>
+    <color name="story_color5">#D3BE23</color>
+    <color name="post_line_color">#E8E8E8</color>
+    <color name="sign_setting_bk">#F5F5F9</color>
+
+    <color name="meetup_color1">#F9F59A</color>
+    <color name="meetup_color2">#F7C798</color>
+    <color name="meetup_color3">#F49FA5</color>
+    <color name="meetup_color4">#D1C0FC</color>
+    <color name="meetup_color5">#B4E8FE</color>
+    <color name="transparents">#00000000</color>
+
+    <color name="checkin_color">#406035</color>
+    <color name="checking_discard">#69000000</color>
+    <color name="checkin_blue">#0446A6</color>
+
+
+    <!--New UI color codes-->
+    <color name="colorBgGray">#5b5a5a</color>
+    <color name="colorBgOptionGray">#494848</color>
+    <color name="colorLightGray">#7c7b7b</color>
+    <color name="colorFadeGray">#e2e0e0</color>
+    <color name="colorOrange">#fd8c01</color>
+    <color name="colorBlue">#4b34ae</color>
+    <color name="colorLightPink">#b82d88</color>
+    <color name="colorLightOrange">#ca2c2c</color>
+    <color name="colorDarkBlue">#41347c</color>
+    <color name="colorActiveTab">#1f193d</color>
+    <color name="colorLightBlue">#2d2457</color>
+    <color name="colorWhite">#ffffff</color>
+    <color name="colorPurple">#632B85</color>
+
+    <color name="colorSearch1">#f7f7f7</color>
+    <color name="colorSearch2">#efeeee</color>
+    <color name="colorSearch3">#e9e8e8</color>
+    <color name="colorSearch4">#e3e2e2</color>
+    <color name="colorSearch5">#dcdcdc</color>
+    <color name="colorSearch6">#d6d5d5</color>
+    <color name="colorSearch7">#cfcfcf</color>
+    <color name="colorAccountCodeTxt">#7B7979</color>
+    <color name="colorAccountCodeBt">#847E7E</color>
+    
+    <color name="frndsListBg">#cbcaca</color>
+    <color name="locationStickerBackground">#8a8a8c</color>
+
+    <color name="bt_disable_continue">#998BEB</color>
+    <color name="white_dlg">#e6e6e9</color>
+    <color name="white">#FFFFFF</color>
+    <color name="country_dlg">#F6F6F5</color>
+    <color name="mind_dlg_purple">#7E77AD</color>
+    <color name="blue_color_picker">#0066FF</color>
+    <color name="brown_color_picker">#AF593E</color>
+    <color name="green_color_picker">#01A368</color>
+    <color name="orange_color_picker">#FF861F</color>
+    <color name="red_color_picker">#ED0A3F</color>
+    <color name="red_orange_color_picker">#FF3F34</color>
+    <color name="sky_blue_color_picker">#76D7EA</color>
+    <color name="violet_color_picker">#8359A3</color>
+    <color name="yellow_color_picker">#FBE870</color>
+    <color name="yellow_green_color_picker">#C5E17A</color>
+    <color name="confirm_pwd_color">#615a8c</color>
+    <color name="confirm_pwd_line_color">#817ba3</color>
+    <color name="search_tag_bk">#89898A</color>
+    <color name="bright_pink">#FF007F</color>
+    <color name="orange">#FF7F00</color>
+    <color name="chartreuse">#7FFF00</color>
+    <color name="green">#00FF00</color>
+    <color name="spring_green">#00FF7F</color>
+    <color name="cyan">#00FFFF</color>
+    <color name="azure">#007FFF</color>
+    <color name="violet">#7F00FF</color>
+    <color name="magenta">#FF00FF</color>
+
+    <array name="rainbow">
+        <item>@color/black</item>
+        <item>@color/white</item>
+        <item>@color/bright_pink</item>
+        <item>@color/red</item>
+        <item>@color/orange</item>
+        <item>@color/yellow</item>
+        <item>@color/chartreuse</item>
+        <item>@color/green</item>
+        <item>@color/spring_green</item>
+        <item>@color/cyan</item>
+        <item>@color/azure</item>
+        <item>@color/blue</item>
+        <item>@color/violet</item>
+        <item>@color/magenta</item>
+    </array>
+
+    <color name="profile_photo_line_color">#ffd9d9d9</color>
+    <color name="profile_photo_text_color">#ff333333</color>
+    <color name="app_background">@color/primaryDarkColor</color>
+
+    <color name="applozic_theme_color_primary" tools:override="true">@color/colorPrimary</color>
+    <color name="applozic_theme_color_primary_dark" tools:override="true">@color/colorPrimaryDark</color>
+    <color name="applozic_theme_color_accent" tools:override="true">@color/primaryDarkColor</color>
+    <color name="upload_notify_bk">#e7bc8b</color>
+    <color name="upload_fail">#D01313</color>
+
+
+    <color name="colorReceivedRequests">#4E59D6</color>
+    <color name="colorAccountCodeBk">#E4E4E6</color>
+    <color name="colorFriend">#484747</color>
+
+</resources>

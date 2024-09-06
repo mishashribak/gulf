@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<fetchHotspotAndFrndsDetailData></fetchHotspotAndFrndsDetailData>-->
+    <data/>
+
+    <RelativeLayout
+        android:background="@color/sign_setting_bk"
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_100"
+            android:background="@color/white"/>
+        <!--    toolbar-->
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:paddingHorizontal="@dimen/size_10"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height_big"
+            android:background="@drawable/toolbar_style1_dark_purple">
+            <ImageView
+                android:id="@+id/imgBack"
+                android:rotationY="@integer/locale_mirror_flip"
+                android:layout_centerInParent="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/margin_10"
+                android:layout_width="@dimen/toolbar_icon_size"
+                android:layout_height="@dimen/toolbar_icon_size"
+                android:src="@mipmap/back"/>
+            <CustomView.CustomTextView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/toolbar_title_size"
+                android:textColor="@color/white"
+                app:customFont="@string/DroidSans"
+                android:text="@string/your_birthday"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+            android:background="@color/sign_setting_bk"
+            android:layout_below="@+id/toolbar"
+            android:orientation="vertical"
+            android:layout_marginStart="@dimen/margin_5"
+            android:layout_marginTop="0dp"
+            android:layout_marginBottom="@dimen/margin_5"
+            android:layout_marginEnd="@dimen/margin_5"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <CustomView.CustomTextView
+                android:layout_marginTop="@dimen/size_50"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/size_40"
+                android:gravity="center"
+                android:textColor="@color/darkPurple"
+                android:textSize="@dimen/textsize_20"
+                android:text="@string/when_birthday"
+                app:customFont="@string/DroidSans_Bold"/>
+
+            <RelativeLayout
+                android:id="@+id/rlDatePicker"
+                android:background="@drawable/rounded_box_white_dlg"
+                android:layout_marginHorizontal="@dimen/size_20"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/size_20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+<!--                <CustomView.CustomTextView-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:id = "@+id/txtDate"-->
+<!--                    android:layout_width="wrap_content"-->
+<!--                    android:layout_marginStart="@dimen/size_10"-->
+<!--                    android:layout_alignParentStart="true"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:textColor="@color/setting_edit_text"-->
+<!--                    android:textSize="@dimen/textsize_15"-->
+<!--                    android:text="28-Feburary-1985"/>-->
+<!--                <ImageView-->
+<!--                    android:layout_marginEnd="@dimen/size_10"-->
+<!--                    android:layout_centerInParent="true"-->
+<!--                    android:layout_width="@dimen/size_20"-->
+<!--                    android:layout_height="@dimen/size_20"-->
+<!--                    android:src="@drawable/arrow_down_purple"-->
+<!--                    android:layout_alignParentEnd="true"-->
+<!--                    />-->
+                <DatePicker
+                    android:id="@+id/datePicker"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:datePickerMode="spinner"
+                    android:calendarViewShown="false"/>
+            </RelativeLayout>
+
+            <CheckBox
+                android:id="@+id/checkb"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="50dp"
+                android:textSize="@dimen/textsize_15"
+                android:text="@string/allow_public_dob"
+                android:paddingStart="@dimen/margin_15"
+                android:button="@drawable/custom_checkbox"
+              />
+
+            <CustomView.CustomTextView
+                android:id="@+id/txtContinue"
+                android:layout_marginHorizontal="@dimen/size_20"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_40"
+                android:gravity="center"
+                android:layout_marginTop="@dimen/size_50"
+                android:textColor="@color/white"
+                android:textSize="@dimen/textsize_15"
+                android:background="@drawable/rounded_box_yellow_20"
+                android:text="@string/bt_continue"
+                app:customFont="@string/DroidSans"/>
+
+            <CustomView.CustomTextView
+                android:layout_marginTop="@dimen/size_30"
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/backgroundDefaultColor"
+                android:textSize="@dimen/textsize_15"
+                android:text="@string/step2"
+                app:customFont="@string/DroidSans"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</layout>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<fetchHotspotAndFrndsDetailData></fetchHotspotAndFrndsDetailData>-->
+    <data/>
+    <RelativeLayout
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/iv_background"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@mipmap/meetup_new_intro" />
+
+        <ImageView
+            android:id="@+id/iv_icon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_16"
+            android:src="@mipmap/meetup" />
+
+        <CustomView.CustomTextView
+            android:id="@+id/tv_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/iv_icon"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="@dimen/margin_16"
+            android:text="@string/intro1_title"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textsize_24"
+            app:customFont="@string/Pacifico_Regular" />
+
+        <CustomView.CustomTextView
+            android:id="@+id/tv_discription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="@dimen/margin_16"
+            android:layout_marginTop="@dimen/margin_16"
+            android:gravity="center"
+            android:text="@string/intro4_description"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textsize_14"
+            app:customFont="@string/DroidSans" />
+
+        <CustomView.CustomButtonView
+            android:id="@+id/btStarted"
+            android:layout_below="@id/tv_discription"
+            android:layout_marginTop="@dimen/margin_10"
+            android:visibility="gone"
+            android:layout_width="@dimen/size_230"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/rectangle_box_transparent"
+            android:text="@string/intro_button_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_15"
+            app:customFont="@string/DroidSans_Bold" />
+
+        <CustomView.CustomButtonView
+            android:id="@+id/btn_getstarted"
+            android:layout_width="@dimen/size_230"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_alignParentBottom="true"
+            android:background="@drawable/rectangle_box_red"
+            android:text="@string/intro_button_title"
+            android:textColor="@color/white"
+            android:textSize="@dimen/textsize_15"
+            android:layout_marginBottom="@dimen/margin_32"
+            app:customFont="@string/DroidSans_Bold" />
+
+    </RelativeLayout>
+</layout>

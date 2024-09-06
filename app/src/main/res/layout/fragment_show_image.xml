@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<fetchHotspotAndFrndsDetailData></fetchHotspotAndFrndsDetailData>-->
+    <data/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:clickable="true"
+        android:fitsSystemWindows="true">
+
+
+        <ImageView
+            android:id="@+id/iv_showimage"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            />
+
+
+        <!--<ImageView-->
+        <!--android:id="@+id/iv_save"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_centerInParent="true"-->
+        <!--android:layout_margin="@dimen/margin_16"-->
+        <!--android:src="@drawable/save_share"-->
+        <!--android:layout_alignParentTop="true"-->
+        <!--android:layout_alignParentLeft="true"-->
+        <!--/>-->
+
+        <ImageView
+            android:id="@+id/iv_cross"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_16"
+            android:src="@mipmap/cross_camera"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentRight="true"/>
+
+
+        <!--<CustomView.CustomEditText-->
+            <!--android:id="@+id/et_message"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="50dp"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:background="@android:color/transparent"-->
+            <!--android:hint="@string/writemsg"-->
+            <!--android:imeOptions="actionSearch"-->
+            <!--android:textColor="@android:color/white"-->
+            <!--android:textColorHint="@android:color/white"-->
+            <!--app:customFont="@string/DroidSans"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--/>-->
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvCaption"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:inputType="textMultiLine"
+            android:text="@string/profile_fillup"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textsize_18"
+            app:customFont="@string/Amaranth_Bold"
+            android:layout_alignParentBottom="true"
+            android:elevation="2dp"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/margin_10"
+            />
+
+        <!--android:maxWidth="270dp"-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_send"-->
+            <!--android:layout_width="@dimen/size_40"-->
+            <!--android:layout_height="@dimen/size_40"-->
+            <!--android:layout_gravity="center"-->
+            <!--android:layout_alignParentEnd="true"-->
+            <!--android:padding="@dimen/margin_5"-->
+            <!--android:src="@mipmap/send_chat_icon"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_alignParentBottom="true"-->
+            <!--/>-->
+
+    </RelativeLayout>
+</layout>

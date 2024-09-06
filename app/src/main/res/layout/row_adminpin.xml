@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/custom_marker_view"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+
+  <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/ivmarker"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:civ_border_color="@color/transparents"
+            app:civ_border_width="1dp"
+            app:civ_shadow="false"
+            app:civ_shadow_radius="1"
+            app:civ_shadow_color="#8BC34A"
+            android:src="@drawable/profile_placeholder"/>
+
+
+
+</FrameLayout>

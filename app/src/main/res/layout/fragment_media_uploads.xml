@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<fetchHotspotAndFrndsDetailData></fetchHotspotAndFrndsDetailData>-->
+    <data/>
+
+    <RelativeLayout
+        android:clickable="true"
+        android:background="@color/white"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <View
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_100"
+            android:background="@color/white"/>
+        <!--    toolbar-->
+        <RelativeLayout
+            android:id="@+id/toolbar"
+            android:paddingHorizontal="@dimen/size_10"
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/toolbar_height_big"
+            android:background="@drawable/toolbar_style1_yellow">
+            <ImageView
+                android:id="@+id/imgBack"
+                android:rotationY="@integer/locale_mirror_flip"
+                android:layout_centerInParent="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginStart="@dimen/margin_10"
+                android:layout_width="@dimen/toolbar_icon_size"
+                android:layout_height="@dimen/toolbar_icon_size"
+                android:src="@mipmap/back"/>
+            <CustomView.CustomTextView
+                android:layout_centerInParent="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/toolbar_title_size"
+                android:textColor="@color/white"
+                android:text="@string/media_uploads"
+                app:customFont="@string/DroidSans"/>
+
+        </RelativeLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rvUpload"
+            android:layout_below="@+id/toolbar"
+            android:scrollbars="vertical"
+            android:scrollbarThumbVertical="@color/darkPurple"
+            android:scrollbarSize="@dimen/size_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+        />
+    </RelativeLayout>
+</layout>

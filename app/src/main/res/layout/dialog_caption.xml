@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:clickable="true"
+    android:id="@+id/rlRow"
+    android:layout_marginHorizontal="@dimen/margin_10"
+    android:background="@color/transparents"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:id="@+id/dlg"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_370"
+        android:background="@color/transparents">
+        <RelativeLayout
+            android:layout_margin="4dp"
+            android:layout_alignParentTop="true"
+            android:background="@drawable/rounded_box_white"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_350">
+            <CustomView.CustomTextView
+                android:id="@+id/bar"
+                android:layout_alignParentTop="true"
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:textSize="@dimen/textsize_20"
+                android:layout_height="@dimen/size_60"
+                android:textColor="@color/white"
+                android:text="@string/comments_post"
+                app:customFont="@string/DroidSans"
+                android:background="@drawable/rounded_box_yellow_dlg"/>
+
+            <CustomView.CustomEditText
+                android:id="@+id/etCaption"
+                android:layout_below="@+id/bar"
+                android:paddingVertical="@dimen/margin_10"
+                android:paddingHorizontal="@dimen/size_20"
+                android:lines="10"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/white"
+                android:hint="@string/addComment"
+                android:textColor="@color/mind_dlg_purple"
+                android:textColorHint="@color/mind_dlg_purple"
+                android:textAlignment="viewStart"
+                app:customFont="@string/DroidSans"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/imgClose"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:src="@drawable/close_purple"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true" />
+
+        <CustomView.CustomButtonView
+            android:id="@+id/btNext"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_width="@dimen/size_80"
+            android:layout_height="@dimen/size_40"
+            android:textColor="@color/white"
+            android:text="@string/next"
+            android:textSize="@dimen/textsize_15"
+            android:background="@drawable/rounded_box_yellow_10"
+            app:customFont="@string/DroidSans"/>
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_below="@id/dlg"
+        android:layout_marginTop="@dimen/size_80"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/imgMemoryDesc"
+        android:src="@drawable/camera"
+        android:layout_width="@dimen/mind_dlg_icon"
+        android:layout_height="@dimen/mind_dlg_icon"/>
+</RelativeLayout>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/margin_10"
+    android:background="@color/white"
+    android:layout_height="@dimen/size_100">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_50"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <CustomView.CustomTextView
+                android:layout_width="@dimen/size_50"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_12"
+                android:textAlignment="textEnd"
+                android:text="@string/their_question"
+                android:textStyle="bold"/>
+            <CustomView.CustomTextView
+                android:id="@+id/txtQuestion"
+                android:layout_marginStart="@dimen/margin_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="@color/backgroundDefaultColor"
+                android:textSize="@dimen/textsize_12"
+                android:hint="@string/their_question"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/size_50"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+            <CustomView.CustomTextView
+                android:textStyle="bold"
+                android:layout_width="@dimen/size_50"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_12"
+                android:textAlignment="textEnd"
+                android:text="@string/your_answer"/>
+            <CustomView.CustomEditText
+                android:id="@+id/etAnswer"
+                android:textStyle="italic"
+                android:background="@color/transparents"
+                android:layout_marginStart="@dimen/margin_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical"
+                android:textColor="@color/backgroundDefaultColor"
+                android:textSize="@dimen/textsize_12"
+                android:hint="@string/your_answer"/>
+
+        </LinearLayout>
+    </LinearLayout>
+    <View
+        android:layout_marginVertical="@dimen/size_1"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/size_1"
+        android:layout_marginHorizontal="@dimen/margin_2"
+        android:background="@color/gray"/>
+</LinearLayout>

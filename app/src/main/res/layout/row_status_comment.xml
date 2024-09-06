@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="@dimen/margin_10"
+    android:layout_marginHorizontal="@dimen/size_10"
+    android:id="@+id/rowItem"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/imgProfile"
+            android:layout_width="@dimen/size_30"
+            android:layout_height="@dimen/size_30"
+            android:src="@drawable/profile_placeholder"/>
+
+        <LinearLayout
+            android:layout_weight="1"
+            android:layout_marginStart="@dimen/margin_10"
+            android:layout_marginEnd="@dimen/size_10"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_vertical">
+                <CustomView.CustomTextView
+                    android:id="@+id/txtFullName"
+                    app:customFont="@string/DroidSans_Bold"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:singleLine="true"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_12" />
+                <CustomView.CustomTextView
+                    android:id="@+id/txtReply"
+                    android:text="@string/reply"
+                    android:layout_marginHorizontal="@dimen/margin_5"
+                    app:customFont="@string/DroidSans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:padding="@dimen/margin_5"
+                    android:textSize="@dimen/textsize_12" />
+            </LinearLayout>
+
+            <CustomView.CustomTextView
+                android:id="@+id/tvViewComment"
+                android:layout_marginTop="@dimen/margin_5"
+                app:customFont="@string/DroidSans"
+                android:layout_width="match_parent"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/textsize_12" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center_vertical"
+                android:layout_marginTop="@dimen/margin_5"
+                android:orientation="horizontal">
+                <CustomView.CustomTextView
+                    android:id="@+id/tvReplyTime"
+                    android:text="1h"
+                    app:customFont="@string/DroidSans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_12" />
+
+                <CustomView.CustomTextView
+                    android:text="@string/reply"
+                    android:layout_marginHorizontal="@dimen/size_20"
+                    app:customFont="@string/DroidSans"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="@dimen/textsize_12" />
+
+                <ImageView
+                    android:id="@+id/imgHeart"
+                    android:layout_width="@dimen/margin_15"
+                    android:layout_height="@dimen/margin_15"
+                    android:src="@drawable/heart"/>
+                <ImageView
+                    android:visibility="gone"
+                    android:id="@+id/imgRedHeart"
+                    android:layout_width="@dimen/margin_15"
+                    android:layout_height="@dimen/margin_15"
+                    android:src="@drawable/like_red"/>
+
+                <CustomView.CustomTextView
+                    android:id="@+id/txtLikes"
+                    android:layout_marginStart="@dimen/size_10"
+                    android:textColor="@color/daily_text_color"
+                    android:textSize="@dimen/textsize_12"
+                    android:layout_width="wrap_content"
+                    android:text="1"
+                    android:layout_height="wrap_content"
+                    app:customFont="@string/DroidSans"/>
+
+                <CustomView.CustomTextView
+                    android:layout_marginStart="@dimen/margin_5"
+                    android:textColor="@color/daily_text_color"
+                    android:textSize="@dimen/textsize_12"
+                    android:layout_width="wrap_content"
+                    android:text="@string/likes"
+                    android:layout_height="wrap_content"
+                    app:customFont="@string/DroidSans"/>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/moreHoriz"
+            android:layout_marginEnd="@dimen/margin_10"
+            android:layout_width="@dimen/size_30"
+            android:layout_height="@dimen/size_30"
+            android:src="@drawable/ic_more_horiz"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/llReplyCount"
+        android:layout_marginTop="@dimen/size_10"
+        android:layout_marginStart="@dimen/size_40"
+        android:layout_marginEnd="@dimen/size_10"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+        <View
+            android:layout_width="@dimen/size_80"
+            android:layout_height="1dp"
+            android:layout_marginEnd="@dimen/size_10"
+            android:background="#9E9EA2"/>
+
+        <CustomView.CustomTextView
+            android:id="@+id/txtViewReplyCount"
+            android:text="@string/view_reply"
+            app:customFont="@string/DroidSans"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/textsize_12" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/rvReply"
+        android:visibility="gone"
+        android:scrollbars="vertical"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        android:layout_width="match_parent"
+        android:layout_marginStart="@dimen/size_20"
+        android:layout_height="wrap_content"
+    />
+</LinearLayout>

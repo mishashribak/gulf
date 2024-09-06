@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/black"
+    android:clickable="true"
+    tools:context="com.app.khaleeji.Fragments.CropFragment">
+
+    <com.theartofdev.edmodo.cropper.CropImageView
+        android:id="@+id/CropImageView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="@dimen/margin_30"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:background="@android:color/transparent"
+            android:id="@+id/ivRotate"
+            android:layout_width="@dimen/size_70"
+            android:layout_height="@dimen/size_70"
+            android:layout_alignParentStart="true"
+            android:layout_margin="@dimen/margin_10"
+            android:padding="@dimen/margin_10"
+            android:src="@drawable/rotate_camera" />
+
+        <ImageView
+            android:background="@android:color/transparent"
+            android:id="@+id/ivReset"
+            android:visibility="gone"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_margin="@dimen/margin_10"
+            android:layout_toRightOf="@+id/ivRotate"
+            android:padding="@dimen/margin_5"
+            android:src="@drawable/ic_reset" />
+
+        <ImageView
+            android:id="@+id/ivSend"
+            android:layout_width="@dimen/size_70"
+            android:layout_height="@dimen/size_70"
+            android:layout_alignParentEnd="true"
+            android:layout_margin="@dimen/margin_10"
+            android:padding="@dimen/margin_10"
+            android:src="@drawable/apply_camera" />
+    </RelativeLayout>
+
+    <ImageView
+        android:layout_margin="@dimen/margin_20"
+        android:src="@mipmap/back"
+        android:id="@+id/img"
+        android:layout_width="@dimen/toolbar_icon_size"
+        android:layout_height="@dimen/toolbar_icon_size" />
+    <CustomView.CustomTextView
+        android:layout_below="@id/img"
+        android:layout_marginTop="@dimen/size_10"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:customFont="@string/DroidSans"
+        android:text="@string/how_to_crop"
+        android:textColor="@color/white"/>
+
+
+
+</RelativeLayout>

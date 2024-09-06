@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<fetchHotspotAndFrndsDetailData></fetchHotspotAndFrndsDetailData>-->
+    <data />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorLightGray"
+        android:focusable="true"
+        android:focusableInTouchMode="true"
+        android:orientation="vertical">
+
+        <!--android:background="@mipmap/user_detail_bg"-->
+
+        <LinearLayout
+            android:id="@+id/vtablayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal">
+
+            <CustomView.CustomTextView
+                android:id="@+id/tv_headerinfo"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/size_45"
+                android:layout_centerHorizontal="true"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@color/colorBgOptionGray"
+                android:gravity="center"
+                android:text="@string/info"
+                android:textAllCaps="true"
+                android:textColor="@color/colorwhite"
+                android:textSize="@dimen/textsize_16"
+                app:customFont="@string/DroidSans_Bold" />
+
+            <CustomView.CustomTextView
+                android:id="@+id/tv_headerstory"
+                android:layout_width="0dp"
+                android:layout_height="@dimen/size_45"
+                android:layout_centerHorizontal="true"
+                android:layout_weight="1"
+                android:background="@color/colorBgGray"
+                android:gravity="center"
+                android:text="@string/timeline"
+                android:textAllCaps="true"
+                android:textColor="@color/colorwhite"
+                android:textSize="@dimen/textsize_16"
+                app:customFont="@string/DroidSans_Bold" />
+
+        </LinearLayout>
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/tab_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/toolbar"
+            android:background="@drawable/allnrequesttextselector"
+            android:elevation="6dp"
+            android:minHeight="?attr/actionBarSize"
+            android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+            android:visibility="gone" />
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/pager"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/vtablayout" />
+
+    </RelativeLayout>
+</layout>

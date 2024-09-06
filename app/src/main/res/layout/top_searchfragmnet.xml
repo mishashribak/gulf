@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<fetchHotspotAndFrndsDetailData></fetchHotspotAndFrndsDetailData>-->
+    <data/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorFadeGray"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layoutDirection="locale"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:id="@+id/ll_top"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <CustomView.CustomTextView
+                    android:id="@+id/tv_top"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/top"
+                    android:textColor="@color/colorwhite"
+                    app:customFont="@string/DroidSans_Bold" />
+
+                <View
+                    android:id="@+id/view_top"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/tag"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@color/brown"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/ll_hashtags"
+                android:background="@color/colorDarkBlue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <CustomView.CustomTextView
+                    android:id="@+id/tv_hashtag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/tag"
+                    android:textColor="@color/colorwhite"
+                    app:customFont="@string/DroidSans_Bold" />
+
+                <View
+                    android:id="@+id/view_hashtags"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/tag"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@color/brown"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_names"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <CustomView.CustomTextView
+                    android:id="@+id/tv_names"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/names"
+                    android:textColor="@color/colorwhite"
+                    app:customFont="@string/DroidSans_Bold" />
+
+                <View
+                    android:id="@+id/view_names"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/tag"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@color/brown"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/ll_locations"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+
+                <CustomView.CustomTextView
+                    android:id="@+id/tv_locations"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:padding="10dp"
+                    android:text="@string/locations"
+                    android:textColor="@color/colorwhite"
+                    app:customFont="@string/DroidSans_Bold" />
+
+                <View
+                    android:id="@+id/view_locations"
+                    android:layout_width="match_parent"
+                    android:layout_height="2dp"
+                    android:layout_below="@+id/tag"
+                    android:layout_marginStart="15dp"
+                    android:layout_marginEnd="15dp"
+                    android:background="@color/brown"
+                    android:visibility="invisible" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/colorDarkBlue">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorDarkBlue"
+                android:orientation="vertical">
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:layoutDirection="locale"
+                    android:minHeight="60dp">
+
+                    <!--android:background="@color/colorLightBlue"-->
+
+                    <CustomView.CustomEditText
+                        android:id="@+id/search_edit"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:alpha="0.9"
+                        android:background="@drawable/editbg"
+                        android:imeOptions="actionDone"
+                        android:maxLength="20"
+                        android:paddingBottom="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="45dp"
+                        android:paddingStart="16dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textColor="#ffffff"
+                        android:textColorHint="@color/colorwhite"
+                        android:textDirection="locale"
+                        android:textSize="@dimen/textsize_14"
+                        android:visibility="visible"
+                        app:customFont="@string/DroidSans" />
+
+                    <!--android:visibility="visible"-->
+
+                    <AutoCompleteTextView
+                        android:id="@+id/et_currentlocation"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginEnd="20dp"
+                        android:layout_marginStart="20dp"
+                        android:layout_marginTop="10dp"
+                        android:alpha="0.9"
+                        android:textAlignment="viewStart"
+                        android:background="@drawable/editbg"
+                        android:hint="@string/search_hint1"
+                        android:maxLength="20"
+                        android:paddingBottom="10dp"
+                        android:paddingEnd="10dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="45dp"
+                        android:paddingStart="16dp"
+                        android:paddingTop="10dp"
+                        android:singleLine="true"
+                        android:textColor="#ffffff"
+                        android:textColorHint="@color/colorwhite"
+                        android:textDirection="locale"
+                        android:textSize="@dimen/textsize_14"
+                        android:visibility="gone"
+                        app:customFont="@string/DroidSans" />
+
+
+                    <ImageView
+                        android:id="@+id/search_btn"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentEnd="true"
+                        android:layout_marginEnd="40dp"
+                        android:layout_marginTop="18dp"
+                        android:clickable="true"
+                        android:src="@mipmap/search" />
+
+
+                    <!--Added by rohit-->
+
+                    <!--<CustomView.CustomTextView-->
+                    <!--android:id="@+id/tv_search_title"-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:layout_marginStart="20dp"-->
+                    <!--android:layout_marginStart="20dp"-->
+                    <!--android:layout_marginTop="15dp"-->
+                    <!--android:layoutDirection="locale"-->
+                    <!--android:text="@string/searchresult1"-->
+                    <!--android:textColor="@color/colorwhite"-->
+                    <!--app:customFont="@string/DroidSans_Bold"-->
+                    <!--android:layout_below="@+id/et_currentlocation"-->
+                    <!--/>-->
+
+
+                    <!--android:background="@color/colorBlue"-->
+
+                </RelativeLayout>
+
+                <!--Commented by rohit-->
+
+                <CustomView.CustomTextView
+                    android:id="@+id/tv_search_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:layoutDirection="locale"
+                    android:text="@string/searchresult1"
+                    android:textColor="@color/colorwhite"
+                    app:customFont="@string/DroidSans_Bold" />
+
+
+                <!--android:background="@color/colorBlue"-->
+
+            </LinearLayout>
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recycleview_searchss"
+                android:scrollbars="vertical"
+                android:scrollbarThumbVertical="@color/darkPurple"
+                android:scrollbarSize="@dimen/size_1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:background="@android:color/transparent"
+                android:cacheColorHint="@android:color/transparent"
+                 />
+
+        </LinearLayout>
+
+        <!--android:layout_marginTop="15dp"-->
+
+
+        <CustomView.CustomTextView
+            android:id="@+id/tv_recordfound"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="No record found"
+            android:textColor="@color/colorwhite"
+            android:visibility="gone"
+            app:customFont="@string/DroidSans_Bold" />
+    </LinearLayout>
+</layout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relParentLayout"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+
+    >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_15"
+        >
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvLocation"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="@string/locations"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_14"
+            android:textStyle="bold"
+            app:customFont="@string/DroidSans"
+            android:layout_marginEnd="@dimen/margin_5"
+            />
+
+
+        <!--app:customFont="@string/DroidSans_Bold"-->
+
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvCityName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="3dp"
+            android:text="@string/city"
+            android:textColor="@color/checking_discard"
+            android:textSize="@dimen/textsize_12"
+            android:textStyle="bold"
+            app:customFont="@string/DroidSans"
+            android:layout_marginEnd="@dimen/margin_5"
+            android:layout_marginTop="@dimen/margin_5"
+            android:layout_below="@+id/tvLocation"
+            android:singleLine="true"
+            />
+
+
+        <!--app:customFont="@string/DroidSans"-->
+
+
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:colorpicker="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#B3000000"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/ivAddTextDone"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:padding="@dimen/margin_8"
+        app:srcCompat="@drawable/ic_done" />
+
+
+    <com.rtugeek.android.colorseekbar.ColorSeekBar
+        android:id="@+id/colorSeekBar"
+        android:layout_width="wrap_content"
+        app:colorSeeds="@array/rainbow"
+        android:layout_height="200dp"
+        app:isVertical="true"
+        app:barHeight="15dp"
+        app:thumbHeight="5dp"
+        android:layout_alignParentEnd="true"
+        android:layout_margin="20dp"
+        android:layout_below="@+id/ivAddTextDone"
+        />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/ivAddTextDone">
+
+
+        <EditText
+            android:id="@+id/add_text_edit_text"
+            style="@style/EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:alpha="0.4"
+            android:background="@color/black"
+            android:gravity="center"
+            android:textSize="24sp"
+            android:text="@string/app_name"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:textColor="@color/white"
+            android:padding="@dimen/margin_5"
+            />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:scrollbars="horizontal"
+            android:scrollbarThumbHorizontal="@color/darkPurple"
+            android:scrollbarSize="@dimen/size_1"
+            android:id="@+id/add_text_font_picker_recycler_view"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_below="@+id/add_text_edit_text"
+            android:layout_marginBottom="@dimen/margin_10"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

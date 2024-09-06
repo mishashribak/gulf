@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.app.khaleeji">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+
+
+    <application
+        android:name=".Activity.GulflinkApplication"
+        android:allowBackup="false"
+        tools:replace="android:allowBackup"
+        android:icon="@mipmap/app_icon"
+        android:hardwareAccelerated="true"
+        android:requestLegacyExternalStorage="true"
+        android:usesCleartextTraffic="true"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/app_icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Activity.SplashActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+            <intent-filter android:autoVerify="true">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data
+                    android:host="khaleejiapp.com"
+                    android:scheme="http" />
+                <data
+                    android:host="khaleejiapp.com"
+                    android:scheme="https" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name="com.yalantis.ucrop.UCropActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+
+        <activity
+            android:name=".Activity.IntroActivity"
+            android:exported="false"
+            android:label="@string/title_activity_intro_"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Activity.DailyCommentActivity"
+            android:windowSoftInputMode="adjustPan"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Activity.SimpleScannerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Activity.LoginActivity"
+            android:exported="false"
+            android:label="Login"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Activity.SettingActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Activity.FriendDailiesViewActivity"
+            android:exported="false"
+            android:theme="@style/AppFullScreenTheme"/>
+
+        <activity android:name=".Activity.VideoPlayerActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_intro_"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".Activity.MyDailiesViewActivity"
+            android:exported="false"
+            android:theme="@style/AppFullScreenTheme"/>
+
+        <activity android:name=".Activity.ChatActivity"
+            android:screenOrientation="portrait"
+            android:exported="false"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity android:name=".Activity.CameraActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <activity
+            android:name=".Activity.MainActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_main"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan"/>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyClWeh0XZPhlu_yDi8duTxCaM6kvzt2-Rw" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+
+<!--        <meta-data android:name="com.applozic.application.key"-->
+<!--            android:value="34e87c3444d8f67c98befe5f187e2b17d" />-->
+
+<!--        <meta-data android:name="com.applozic.mobicomkit.notification.smallIcon"-->
+<!--            android:resource="@drawable/ic_notification" /> &lt;!&ndash; Replace this with a valid resource name for Launcher white Icon &ndash;&gt;-->
+
+<!--        <meta-data android:name="main_folder_name"-->
+<!--            android:value="khaleeji"-->
+<!--            tools:node="replace"/> &lt;!&ndash; If you do not set this tag then by default the attachment folder name would be Applozic. Thats why we are using replace node&ndash;&gt;-->
+
+<!--        <meta-data android:name="activity.open.on.notification"-->
+<!--            android:value="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity" /> &lt;!&ndash; NOTE : Do NOT change this value &ndash;&gt;-->
+
+<!--        <meta-data android:name="com.package.name"-->
+<!--            android:value="${applicationId}" /> &lt;!&ndash; NOTE: Do NOT change this, it should remain same i.e 'com.package.name' &ndash;&gt;-->
+
+<!--        <activity android:name="com.applozic.mobicomkit.uiwidgets.conversation.activity.ConversationActivity"-->
+<!--            android:configChanges="keyboardHidden|screenSize|smallestScreenSize|screenLayout|orientation"-->
+<!--            android:label="@string/app_name"-->
+<!--            android:parentActivityName=".Activity.MainActivity"-->
+<!--            android:theme="@style/ApplozicTheme"-->
+<!--            android:launchMode="singleTask"-->
+<!--            tools:node="replace">-->
+<!--            &lt;!&ndash; Parent activity meta-data to support API level 7+ &ndash;&gt;-->
+<!--            <meta-data-->
+<!--                android:name="android.support.PARENT_ACTIVITY"-->
+<!--                android:value=".Activity.MainActivity" />-->
+<!--        </activity>-->
+
+        <service
+            android:exported="false"
+            android:name="com.amazonaws.mobileconnectors.s3.transferutility.TransferService"
+            android:enabled="true" />
+
+        <service
+            android:exported="false"
+            android:name=".services.VideoUploadService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <service
+            android:exported="false"
+            android:name=".services.UploadService"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+
+        <provider
+            android:name=".services.GenericFileProvider"
+            android:authorities="${applicationId}.services.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/provider_paths" />
+        </provider>
+
+        <activity
+            android:name=".Activity.FullScreenImageActivity"
+            android:exported="false"
+            android:screenOrientation="portrait"
+            />
+
+        <service android:name=".FirebaseService.MyFirebaseMessagingService"
+            android:exported="false"
+            android:stopWithTask="false">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_channel_id"
+            android:value="khaleejiId" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/ic_notification" />
+
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorPrimary" />
+
+    </application>
+</manifest>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:paddingTop="26dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:orientation="vertical">
+
+    <!--<TextView-->
+        <!--android:id="@+id/section"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="16sp"-->
+        <!--android:textSize="16sp"-->
+        <!--android:textStyle="bold"/>-->
+
+    <CustomView.CustomTextView
+        android:id="@+id/sectionHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/textsize_16"
+        android:text="@string/bestfreinds"
+        android:textColor="#632B85"
+        app:customFont="@string/DroidSans_Bold"
+        />
+
+    <!--android:layout_marginStart="@dimen/margin_16"-->
+
+    <!--<View-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="1dp"-->
+        <!--android:layout_marginTop="5dp"-->
+        <!--android:background="#88424242"/>-->
+
+
+</LinearLayout>

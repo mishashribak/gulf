@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:id="@+id/llparent"
+    >
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/textsize_16">
+
+
+        <!--<com.makeramen.roundedimageview.RoundedImageView-->
+            <!--android:id="@+id/ivUserDp"-->
+            <!--android:layout_width="60dp"-->
+            <!--android:layout_height="60dp"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:layout_marginTop="8dp"-->
+            <!--android:src="@drawable/user" />-->
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/ivUserDp"
+            android:layout_width="@dimen/size_60"
+            android:layout_height="@dimen/size_60"
+            android:src="@drawable/profile_placeholder"
+            app:civ_border_width="1dp"
+            android:scaleType="centerCrop"
+            app:civ_border_color="@color/colorwhite"
+            android:layout_marginBottom="8dp"
+            android:layout_marginTop="8dp"
+            />
+
+        <LinearLayout
+            android:id="@+id/linDailyDetail"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/ivUserDp"
+            android:orientation="vertical">
+
+            <CustomView.CustomTextView
+                android:id="@+id/tvFriendName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/textsize_18"
+                android:text="Sarah Shekh"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_16"
+                app:customFont="@string/DroidSans" />
+
+            <CustomView.CustomTextView
+                android:id="@+id/tvLastUpdatedDaily"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/textsize_18"
+                android:layout_marginTop="5dp"
+                android:text="@string/minago"
+                android:textSize="@dimen/textsize_12"
+                app:customFont="@string/DroidSans" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:id="@+id/vline"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#B12888" />
+</LinearLayout>

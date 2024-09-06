@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/hotspotItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <ImageView
+                android:id="@+id/imgYellowCircle"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/circle_dot" />
+
+            <ImageView
+                android:id="@+id/imgPurpleCircle"
+                android:layout_width="13dp"
+                android:layout_height="13dp"
+                android:layout_gravity="center_horizontal"
+                android:src="@drawable/circle_dot_purple" />
+
+            <View
+                android:id="@+id/endLineView"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/yellow_dark" />
+            <View
+                android:id="@+id/endLinePurpleView"
+                android:layout_width="2dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:background="@color/darkPurple" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:paddingVertical="@dimen/margin_10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/margin_10"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <CustomView.CustomTextView
+                    android:text="@string/your_friend"
+                    android:id="@+id/txtMark"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/textsize_10"
+                    android:textColor="@color/black"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginEnd="@dimen/margin_10"
+                    app:customFont="@string/DroidSans_Bold"
+                    android:layout_marginBottom="@dimen/margin_2" />
+                <CustomView.CustomTextView
+                    android:id="@+id/txtUserName"
+                    android:gravity="center_vertical"
+                    android:textSize="@dimen/textsize_10"
+                    android:textColor="@color/hotspot_letter"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    app:customFont="@string/DroidSans"
+                    android:layout_marginBottom="@dimen/margin_2" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:gravity="center_vertical"
+                android:layout_height="wrap_content">
+                <CustomView.CustomTextView
+                    android:id="@+id/txtExp"
+                    android:textSize="@dimen/textsize_10"
+                    android:textAlignment="viewStart"
+                    android:layout_weight="1"
+                    android:textColor="@color/black"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    app:customFont="@string/DroidSans"
+                 />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:layout_marginStart="@dimen/margin_20"
+                    android:paddingVertical="@dimen/margin_2"
+                    android:paddingHorizontal="@dimen/size_10"
+                    android:background="@drawable/rounded_hotspot"
+                    android:orientation="vertical">
+                    <CustomView.CustomTextView
+                        android:id="@+id/txtTime"
+                        android:textSize="@dimen/textsize_10"
+                        android:textColor="@color/yellow_dark"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        app:customFont="@string/DroidSans"
+                        android:gravity="center_vertical" />
+                </LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

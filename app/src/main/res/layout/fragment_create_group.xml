@@ -1,0 +1,130 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!--<fetchHotspotAndFrndsDetailData></fetchHotspotAndFrndsDetailData>-->
+    <data />
+
+    <RelativeLayout
+        android:clickable="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorWhite"
+        android:padding="@dimen/margin_16">
+
+
+        <RelativeLayout
+            android:id="@+id/relGroupDetailLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView xmlns:app="http://schemas.android.com/apk/res-auto"
+                android:id="@+id/ivGroupIcon"
+                android:layout_width="@dimen/size_100"
+                android:layout_height="@dimen/size_100"
+                android:layout_marginTop="@dimen/margin_10"
+                android:scaleType="fitXY"
+                android:src="@drawable/profile_placeholder" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="@dimen/margin_16"
+                android:layout_toEndOf="@+id/ivGroupIcon"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <CustomView.CustomEditText
+                    android:id="@+id/etGroupSubject"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:hint="@string/groupSubject"
+                    android:singleLine="true"
+                    android:textAlignment="viewStart"
+                    android:textColor="#2C2D32"
+                    android:textColorHint="#767676"
+                    android:textSize="@dimen/textsize_16"
+                    app:customFont="@string/DroidSans" />
+
+                <!--android:background="@color/colorwhite"-->
+
+                <CustomView.CustomTextView
+                    android:id="@+id/tvProvideGrpSbjct"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/margin_5"
+                    android:text="@string/pleaseProvideGrpSbjct"
+                    android:textColor="#2C2D32"
+                    android:textSize="@dimen/textsize_16"
+                    app:customFont="@string/DroidSans" />
+
+            </LinearLayout>
+
+
+            <!--<CustomView.CustomTextView-->
+            <!--android:id="@+id/tvLabel"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toEndOf="@+id/ivGroupIcon"-->
+            <!--android:layout_below="@+id/etGroupSubject"-->
+            <!--android:layout_marginStart="@dimen/margin_16"-->
+            <!--/>-->
+
+
+        </RelativeLayout>
+
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvParticipants"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relGroupDetailLayout"
+            android:layout_marginTop="@dimen/margin_10"
+            android:text="@string/participants"
+            android:textColor="#632B85"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans_Bold" />
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycler_view"
+            android:scrollbars="vertical"
+            android:scrollbarThumbVertical="@color/darkPurple"
+            android:scrollbarSize="@dimen/size_1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@+id/btnCreateGroup"
+            android:layout_below="@+id/tvParticipants"
+            android:layout_marginTop="10dp" />
+
+        <CustomView.CustomTextView
+            android:id="@+id/tv_nofirends"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:text="@string/no_friends"
+            android:textColor="@color/black"
+            android:visibility="gone"
+            app:customFont="@string/DroidSans_Bold" />
+
+
+        <CustomView.CustomButtonView
+            android:id="@+id/btnCreateGroup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="@dimen/margin_10"
+            android:background="@drawable/rounded_corner_blue_bg"
+            android:text="@string/save"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans" />
+
+    </RelativeLayout>
+
+</layout>

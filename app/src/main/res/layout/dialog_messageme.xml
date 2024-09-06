@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clickable="true"
+    android:background="@android:color/transparent"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="@dimen/margin_16"
+        android:background="@drawable/rounded_corner"
+        android:gravity="center"
+
+        android:orientation="vertical">
+
+        <CustomView.CustomTextView
+            android:id="@+id/tvtitle"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_16"
+            android:gravity="center"
+            android:text="@string/allow_othertosend"
+            android:textColor="@color/black"
+            android:textSize="@dimen/textsize_18"
+            app:customFont="@string/Amaranth_Regular" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layoutDirection="locale"
+            android:orientation="horizontal"
+            android:textDirection="locale"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="@dimen/margin_16"
+
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            >
+            <CheckBox android:id="@+id/cb_dontshow"
+                android:layout_width="wrap_content"
+                android:layout_marginStart="8dp"
+                android:layout_height="wrap_content"
+                android:button="@drawable/custom_checkbox_rect" />
+            <CustomView.CustomTextView
+                android:layout_width="0dip"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="@string/donotshowmessage"
+                android:layout_marginStart="8dp"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_14"
+                app:customFont="@string/DroidSans" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical"
+            android:layoutDirection="locale"
+            android:orientation="horizontal"
+            android:textDirection="locale"
+            android:layout_gravity="left|center_vertical"
+            android:layout_marginTop="@dimen/margin_16"
+
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            >
+        <CustomView.CustomTextView
+            android:id="@+id/tv_everyone"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/margin_16"
+            android:background="@drawable/rounded_viaemail"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/Everyone"
+            android:textColor="#713C93"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans" />
+
+
+        <CustomView.CustomTextView
+            android:id="@+id/tv_myfriend"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:background="@drawable/rounded_viaemail"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="@string/nav_myfriends"
+            android:textColor="#713C93"
+            android:textSize="@dimen/textsize_16"
+            app:customFont="@string/DroidSans" />
+</LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

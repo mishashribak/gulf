@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:orientation="vertical"
+    >
+
+    <LinearLayout
+        android:id="@+id/llparent"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/blue"
+        android:gravity="center">
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:id="@+id/userImage"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            app:civ_border_color="@color/black_trans"
+            app:civ_border_width="1dp"
+            android:layout_centerVertical="true"
+            app:civ_shadow="false"
+            app:civ_shadow_radius="1"
+            android:layout_marginStart="10dp"
+            app:civ_shadow_color="#8BC34A"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <CustomView.CustomTextView
+                android:id="@+id/tv_username"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="@dimen/margin_10"
+                android:gravity="left|center_vertical"
+                android:text="@string/intro1_title"
+                android:textColor="@color/black"
+                android:textSize="@dimen/textsize_16"
+                android:clickable="false"
+                app:customFont="@string/DroidSans" />
+
+            <CustomView.CustomTextView
+                android:id="@+id/tv_discription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="@dimen/margin_10"
+                android:layout_marginTop="@dimen/margin_5"
+                android:gravity="left|center_vertical"
+                android:inputType="textMultiLine"
+                android:maxLines="2"
+                android:text="@string/intro4_description"
+                android:textColor="#686868"
+                android:textSize="@dimen/textsize_12"
+                android:clickable="false"
+                app:customFont="@string/DroidSans" />
+        </LinearLayout>
+
+        <CustomView.CustomTextView
+            android:id="@+id/tv_distance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_gravity="center"
+            android:layout_marginStart="@dimen/margin_16"
+            android:layout_marginEnd="@dimen/margin_16"
+            android:background="@drawable/rectangle_box_gray"
+            android:gravity="left|center_vertical"
+            android:paddingBottom="@dimen/margin_5"
+            android:paddingLeft="@dimen/margin_10"
+            android:paddingRight="@dimen/margin_10"
+            android:paddingTop="@dimen/margin_5"
+            android:text=""
+            android:minWidth="50dp"
+            android:textColor="@color/colorwhite"
+            android:textSize="@dimen/textsize_12"
+            app:customFont="@string/DroidSans" />
+    </LinearLayout>
+
+</LinearLayout>

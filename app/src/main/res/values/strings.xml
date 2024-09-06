@@ -1,0 +1,1245 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="MissingTranslation">
+    <!--Custom Font declaration -->
+    <string name="Amaranth_Bold">fonts/Amaranth_Bold.ttf</string>
+    <string name="Amaranth_Regular">fonts/Amaranth_Regular.ttf</string>
+    <string name="DroidSans">fonts/DroidSans.ttf</string>
+    <string name="DroidSans_Bold">fonts/DroidSans_Bold.ttf</string>
+    <string name="Pacifico_Regular">fonts/Pacifico_Regular.ttf</string>
+
+    <string name="app_name">Khaleeji</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_intro_">Intro_Activity</string>
+    <string name="txt_Done">Done</string>
+    <string name="network_down">Please check internet connetion</string>
+    <string name="imageSaved">Image Saved in</string>
+
+    <!--Tutorial Screen  -->
+    <string name="intro1_title">G-Snaps</string>
+    <string name="intro1_description">Share your stories in special moments</string>
+    <string name="intro2_description">Filters for Khaleejis only!</string>
+    <string name="intro3_title">Live Videos</string>
+    <string name="intro3_description">Share your moments, live!</string>
+    <string name="intro4_title">Discover</string>
+    <string name="intro4_description">Khaleeji trends, news, media, and everything \n you want, at the tip of your fingers</string>
+    <string name="intro5_title">Meetup Khaleeji</string>
+    <string name="intro5_description">Bringing gulf nationals  together</string>
+    <string name="intro6_title">Shakhseyyat</string>
+    <string name="intro6_description">Create your own avatar that TRULY looks like you</string>
+    <string name="intro_button_title">GET STARTED</string>
+    <string name="intro2_title">Filters</string>
+
+    <!-- TODO: Login Fragment  -->
+    <string name="message_signin">Sign In</string>
+    <string name="message_signin_ar">Sign In</string>
+    <string name="password">Password</string>
+    <string name="username">Username</string>
+    <string name="signup">Sign Up</string>
+    <string name="forgotpassword">Forgot Password?</string>
+    <string name="forgotusername">Forgot Username?</string>
+
+    <!-- TODO: Singup Fragment  -->
+    <string name="message_signup">Sign Up</string>
+    <string name="message_signup_ar">Sign Up</string>
+    <string name="fullname">Full Name</string>
+    <string name="emailaddress">Email Address</string>
+    <string name="mobileno">Mobile Number</string>
+    <string name="verifypassword">Verify Password</string>
+    <string name="alreadyhaveaccount1">Already have an account?</string>
+    <string name="alreadyhaveaccount2">Sign In</string>
+
+    <!-- TODO: Singup Fragment  Validation-->
+    <string name="fullNameBlank">Full Name is required</string>
+    <string name="fullNamelength">Full Name must be less than 50 characters</string>
+    <string name="Emaillength">Email address must be less than 50 characters</string>
+    <string name="usernamelength">Username  must be less than 20 characters</string>
+    <string name="EmailBlank">Email is required</string>
+    <string name="EmailValidation">Email is not vaild</string>
+    <string name="MobilenoBlank">Mobile number is required</string>
+    <string name="MobileValidation">Mobile number should be at least 8 digits</string>
+    <string name="usernameBlank">Username is required</string>
+    <string name="passwordBlank">Password is required</string>
+    <string name="verifypasswordBlanck">Verify password is required</string>
+    <string name="passwordnotlong">Password shout be atleast 6 characters</string>
+    <string name="passwordnotmatch">Password not matched</string>
+    <string name="state_blank">State is required</string>
+
+    <string name="currentMobilenoBlank">Current Mobile number is required</string>
+    <string name="newMobilenoBlank">New Mobile number is required</string>
+    <string name="confirmMobilenoBlank">Confirm  Mobile number is required</string>
+
+    <string name="country_codenotmatch">Country code not match</string>
+    <string name="confirmmobilenotmatch">Confirm Mobile Number not matched</string>
+
+    <string name = "mobile_phone_verify">Mobile Phone Verification</string>
+    <string name="enter_one_time">Enter your one-time password</string>
+    <string name="verify">VERIFY</string>
+    <string name="no_code">I didn\'t get a code</string>
+    <string name="resend">Resend in</string>
+    <string name="sec">sec</string>
+
+    <!-- TODO: Forgotpassword Fragment  -->
+    <string name="choose_forgetUsername">Please choose how you want to reset your UserName</string>
+    <string name="choose_forgetpassword">Please choose how you want to reset your password</string>
+    <string name="cancel">Cancel</string>
+    <string name="viaemail">via Email</string>
+    <string name="viaphone">via Phone</string>
+    <string name="message_forgotpassword">Forgot Password</string>
+    <string name="submit">Submit</string>
+    <string name="resetpassword">Reset Password</string>
+    <string name="message_forgotusername">Forgot Username</string>
+
+    <!-- TODO: ForgetPassword fragment -->
+    <string name="reset_password">Reset Password</string>
+    <string name="Current_Password">Current Password</string>
+    <string name="newpassword">New Password</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="password_submit">SUBMIT</string>
+    <string name="chat">Chat</string>
+    <string name="otp">Otp</string>
+    <string name="phone_number">Phone number</string>
+    <string name="email">Email</string>
+
+    <!-- TODO: ForgetPassword Fragment  Validation-->
+    <string name="newpasswordBlanck">New password is required</string>
+    <string name="newpasswordnotlong">New Password should be atleast 6 characters</string>
+    <string name="confirmpasswordBlanck">Confirm password is required</string>
+    <string name="confimpasswordnotmatch">Password not valid</string>
+
+
+    <!-- TODO: otp Fragment -->
+    <string name="otpheader">Mobile Verify</string>
+    <string name="otpdiscription">To complete signup ,please verify your phone number.\n We sent activation code to </string>
+    <string name="resendotp">Resend Code</string>
+    <string name="otpnotmatched">OTP not valid</string>
+    <string name="otpblank">OTP is required</string>
+    <string name="otpMobilediscription">To complete ,please verify your phone number.\n We sent activation link to </string>
+
+
+    <!-- TODO: MainActivity & Navigation View  -->
+    <string name="title_activity_main">MainActivity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="meetup">Meet Up</string>
+    <string name="meetup_title">Meetup</string>
+    <string name="nav_gsnap">Khaleeji-Snaps</string>
+    <string name="nav_meetup">Meetup</string>
+    <string name="nav_discover">Discover</string>
+    <string name="nav_myfriends">My Friends</string>
+    <string name="nav_addfriends">Add Friends</string>
+    <string name="nav_settings">Settings</string>
+    <string name="nav_logout">Logout</string>
+    <string name="search">Search</string>
+    <string name="logout_text">Are you sure you want to logout?</string>
+    <string name="txt_yes">Yes</string>
+    <string name="txt_no">No</string>
+    <string name="stories">Stories</string>
+    <string name="about">ABOUT</string>
+    <!-- TODO: UserDetail Fragment -->
+    <string name="info">Info</string>
+    <string name="story">Story</string>
+    <string name="nationaltiy">Country</string>
+    <string name="bio">Bio</string>
+    <string name="Gender">Gender</string>
+    <string name="height">Height</string>
+    <string name="eductaion">Education</string>
+    <string name="hightschool">High School</string>
+    <string name="university">University</string>
+    <string name="currentjob">Current Job</string>
+    <string name="sendrequest">Send friend request</string>
+    <string name="acceptrequest">Accept Request</string>
+
+
+    <!-- TODO: story fragment-->
+    <string name="mystory">My Story</string>
+    <string name="addstory">ADD YOUR STORY</string>
+    <string name="recentstory">RECENT UPDATES</string>
+    <string name="whatsstory">What\'s Live</string>
+    <string name="discover">DISCOVER</string>
+    <string name="minago">1 min ago</string>
+
+    <!-- TODO: Discover fragment-->
+    <string name="discover_live">WHAT\'S LIVE</string>
+    <string name="discover_more">MORE</string>
+    <string name="discover_jobs">JOBS</string>
+
+    <!-- TODO: Chatlist fragment-->
+    <string name="openedminago">opened 1 min ago</string>
+    <string name="bestfreinds">BEST FRIENDS</string>
+    <string name="friendrecent">RECENTS</string>
+    <string name="writemessage">Enter message</string>
+
+
+    <!-- TODO: FriendTab fragment-->
+    <string name="friend_tab1">RECEIVED REQUESTS</string>
+    <string name="friend_tab2">SENT\nREQUESTS</string>
+    <string name="friend_tab3">MY\nFRIENDS</string>
+    <string name="pending_friend">PENDING</string>
+    <string name="suggestlinker">SUGGESTED GULF LINKERS</string>
+    <string name="remove">REMOVE</string>
+    <string name="seeyouranswer"> <u>See your answer</u></string>
+    <string name="seeanswer"><u>See answer</u></string>
+    <string name="see_answer_ar">See Answer</string>
+    <string name="recviedfriendrequest">Received friend request</string>
+    <string name="send_friend_request">Send friend request</string>
+    <string name="cancel_friend_request">Cancel request</string>
+
+
+    <!-- TODO: Myprofile Fragment -->
+    <string name="nationaltiy_profile">Country</string>
+    <string name="currentlocation">Current Location</string>
+    <string name="Gender_profile">Gender</string>
+    <string name="height_profile">Height</string>
+    <string name="eductaion_profile">Education</string>
+    <string name="hightschool_profile">High School</string>
+    <string name="university_profile">University</string>
+    <string name="bio_profile">Bio</string>
+    <string name="edit">Edit</string>
+    <string name="dob">DOB</string>
+    <string name="profile">Profile</string>
+    <string name="enter_answer_of_this_n_question">Enter answer of this question</string>
+
+    <!-- TODO: Editprofile Fragment -->
+    <string name="scope_private">Private</string>
+    <string name="scope_public">Public</string>
+    <string name="profile_fillup">Fill up your profile to meetup with new friends</string>
+    <string name="male">Male</string>
+    <string name="female">Female</string>
+    <string name="companyname">Company Name</string>
+    <string name="bio_editprofile">Bio (write about yourself)</string>
+    <string name="height_editprofile">Height (in CM)</string>
+    <string name="meetup_question">Profile Suggestion Question</string>
+    <string name="meetupques_hint">Meetup Question</string>
+    <string name="nationaltiy_blank">Country Name is required</string>
+    <string name="currentlocation_blank">Current Location is required</string>
+    <string name="height_blank">Height  is required</string>
+    <string name="highschool_blank">HighSchool is required</string>
+    <string name="university_blank">University is required</string>
+    <string name="currentjob_blank">Current job is required</string>
+    <string name="meetup_question_blank">Question is required</string>
+    <string name="bio_blank">Bio is required</string>
+    <string name="genderrequired">Gender is Required</string>
+    <string name="dobrequired">DOB is Required</string>
+
+
+    <!-- TODO: Editprofile Fragment Validation-->
+    <string name="please_selectcountry">Country is required</string>
+    <string name="allow_othertoseeprofile">Allow users to see your Profile Picture</string>
+    <string name="allow_othertoseepdob">Allow users to see your DOB</string>
+    <string name="allow_othertosend">Allow users to send you Message ?</string>
+    <string name="donotshowmessage">do not show message again?</string>
+
+    <!-- TODO: Search Fragment -->
+    <string name="searchresult1">SEARCH RESULTS</string>
+    <string name="search_hint1">Search by location</string>
+    <string name="tag">#Tag</string>
+    <string name="names">Name</string>
+    <string name="locations">Location</string>
+    <string name="byhashtag">byhastag</string>
+    <string name="bylocation">bylocation</string>
+    <string name="byname">byname</string>
+    <string name="top">Top</string>
+    <string name="suggestedgulflink">SUGGESTED GULF LINKERS</string>
+    <string name="send">Send</string>
+    <string name="send_chat">Send a chat</string>
+
+    <string name="answerrequired">Please enter the  answer</string>
+
+    <!-- TODO: Header titles -->
+    <string name="header_myprofile">My Profile</string>
+    <string name="header_meetup">Meetup</string>
+    <string name="header_friends">Friends</string>
+    <string name="header_setting">SETTINGS</string>
+    <!--<string name="header_viewmysotriy">Groups Settings</string>-->
+    <string name="header_grp_settings">GROUP SETTINGS</string>
+    <string name="header_contactme">CONTACT ME</string>
+    <string name="header_changepassword">CHANGE PASSWORD</string>
+    <string name="header_search">Search</string>
+    <string name="header_message">Messages</string>
+    <string name="header_newchats">New Chats</string>
+    <string name="header_chat">G-Snaps</string>
+    <string name="header_stories">G-Snaps Stories</string>
+    <string name="header_discover">Discover</string>
+    <string name="header_addfriend">Add Friends</string>
+    <string name="header_notification">NOTIFICATIONS</string>
+    <string name="header_vision">Vision statement</string>
+    <string name="header_langauge">Switch Language</string>
+    <string name="header_editprofile">Edit Profile</string>
+
+    <string-array name="user_array">
+        <item>Alia Shekh</item>
+        <item>Rahat Ali</item>
+        <item>Amit Kumar</item>
+        <item>Fatima Khan</item>
+        <item>Ashmina</item>
+        <item>Arjun Singh</item>
+        <item>Rohit Yadav</item>
+        <item>Vinod Yadav</item>
+        <item>Kamal Kumar</item>
+        <item>Bilal</item>
+        <item>Sunil</item>
+        <item>Deepak</item>
+        <item>Abhishek</item>
+        <item>Suresh</item>
+    </string-array>
+
+    <!-- TODO: Setting notification fragment -->
+    <string name="notificationallow">Allow <b>Khaleeji</b> to send me notifications</string>
+    <string name="notificationallow_ar">Allow <b>Gulflink</b> to send me notifications</string>
+    <string name="reci_gsnap">Received G-snaps</string>
+    <string name="know_whatlive">Know what\'s live</string>
+    <string name="meetupfriendreq">Friend requests</string>
+    <string name="meetupmessage">Messages</string>
+
+    <!-- TODO: Setting fragment -->
+    <string name="setting_notif">Notifications</string>
+    <string name="setting_changepassword">Change Password</string>
+    <string name="setting_whocan">Who Can?</string>
+    <string name="setting_contactme">Message Me</string>
+    <string name="setting_group">Groups Settings</string>
+    <string name="settingother">OTHERS</string>
+    <string name="settng_feedback">Feedback</string>
+    <string name="setting_contactus">Contact Us</string>
+    <string name="settong_vision">Vision Statement</string>
+    <string name="setting_legal">Legal</string>
+    <string name="setting_terms">Terms &amp; Conditions</string>
+    <string name="setiing_disclaimer">Disclaimer</string>
+    <string name="setting_privacy">Privacy Policy</string>
+    <string name="setting_changeemail">Change Email</string>
+    <string name="setting_changeUsername">Change Username</string>
+    <string name="setting_changemobilenumber">Change Mobile Number</string>
+
+
+    <string name="currentemail">Current Email</string>
+    <string name="newemail">New Email</string>
+    <string name="confirmemail">Confirm Email</string>
+    <string name="reset_youremail">RESET YOUR EMAIL</string>
+    <string name="currentEmailBlank">Current Email is required</string>
+    <string name="newEmailBlank">New Email is required</string>
+    <string name="confirmEmailBlank">Confirm Email is required</string>
+    <string name="email_notmatched">Confirm Email is not Matched</string>
+
+    <string name="currentmobileno">Current Mobile Number</string>
+    <string name="newmobileno">New Mobile Number</string>
+    <string name="confirmmobileno">Confirm Mobile Number</string>
+
+
+    <!-- TODO: Countrylist fragment -->
+    <string name="header_countrylist">Country List</string>
+    <string name="Done">Done</string>
+    <string name="message">Message</string>
+    <string name="block">Block</string>
+    <string name="unblock">Unblock</string>
+    <string name="report">Report</string>
+    <string name="unfriend">Unfriend</string>
+    <string name="country_search">Search...</string>
+    <string name="nearby">Near By</string>
+
+    <!--TODO: gulflink edit profile -->
+    <string name="loading">loading</string>
+    <string name="changepassword">Change Password</string>
+
+    <!-- TODO: Vision fragment -->
+    <string name="vision_description">A gathering of neighboring countries
+    reflecting similarities and culture, and
+    building positive relationships</string>
+    <string name="english">English</string>
+    <string name="arabic">عربي</string>
+    <string name="upload">UPLOAD IMAGE</string>
+
+
+    <!-- TODO: chat fragment -->
+    <string name="blockconfirm">Are you sure you want to block this user?</string>
+    <string name="unblockconfirm">Are You sure to Unblock!</string>
+    <string name="please_enter_the_reason_to_report">Please enter the reason to report</string>
+    <string name="reportalerts">Are you sure you want to report!</string>
+
+
+    <!-- TODO: Notification fragment -->
+    <string name="notification_title">Notification</string>
+
+
+    <string-array name="CountryCodes">
+        <item>+973</item>
+        <item>+964</item>
+        <item>+965</item>
+        <item>+968</item>
+        <item>+974</item>
+        <item>+966</item>
+        <item>+971</item>
+        <item>+967</item>
+        <item>+91</item>
+
+    </string-array>
+
+
+    <string-array name="Education">
+        <item>Not specified</item>
+        <item>High school</item>
+        <item>University</item>
+        <item>Masters Phd</item>
+    </string-array>
+
+
+    <string-array name="CountryNames">
+        <item>Bahrain</item>
+        <item>Iraq</item>
+        <item>Kuwait</item>
+        <item>Oman</item>
+        <item>Qatar</item>
+        <item>Saudi</item>
+        <item>United Arab Emirates</item>
+        <item>Yemen</item>
+        <item>India</item>
+
+    </string-array>
+
+    <string-array name="CountryNamesCode">
+        <item>BH</item>
+        <item>IQ</item>
+        <item>KW</item>
+        <item>OM</item>
+        <item>QA</item>
+        <item>SA</item>
+        <item>UAE</item>
+        <item>YE</item>
+        <item>IN</item>
+    </string-array>
+
+    <string name="sercahby">Search by</string>
+    <string name="chatdelete">Are you sure you want to delete chat?</string>
+    <string name="sendfriendreq">Are you sure, you want to send friend Request?</string>
+    <string name="removegulfsuggest">Are you sure you want to remove this user from the list?</string>
+    <string name="enter_answer">enter answer</string>
+    <string name="removerequest">Are your sure you want to remove friend request?</string>
+    <string name="no_new_request_receive">No new request receive</string>
+    <string name="no_new_request_sent">No new request sent</string>
+    <string name="no_messages">No messages</string>
+    <string name="no_friends">No friends</string>
+    <string name="viewerlist">Viewer List</string>
+    <string name="whereare">Where are you ?</string>
+    <string name="selectoption">Please select Category?</string>
+    <string name="discard">Discard</string>
+    <string name="areyouaccept">Are you sure, you want to accept request.</string>
+    <string name="hotspot_cat">Hotspots</string>
+    <string name="already_checkedin">checked in</string>
+    <!-- TODO: Freinds Fragment  Validation-->
+    <string name="already_checkingsomewhere">You are already checked in somewhere</string>
+    <string name="max_prox">can\'t checkin. location more than 5 km distance from you.</string>
+
+    <integer-array name="snap_aprnc_array">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </integer-array>
+
+    <string-array name="font_english_array">
+        <item>fonts/Adidas_Unity.ttf</item>
+        <item>fonts/Amaranth_Bold.ttf</item>
+        <item>fonts/Amaranth_Regular.ttf</item>
+        <item>fonts/balu_regular.ttf</item>
+        <item>fonts/barbie.ttf</item>
+        <item>fonts/Bellerose.ttf</item>
+        <item>fonts/diwan.ttf</item>
+        <item>fonts/DroidSans.ttf</item>
+        <item>fonts/DroidSans_Bold.ttf</item>
+        <item>fonts/ledboard.ttf</item>
+        <item>fonts/Pacifico_Regular.ttf</item>
+        <item>fonts/Parisienne-Regular.ttf</item>
+        <item>fonts/Sacramento-Regular.ttf</item>
+        <item>fonts/SweetHandwrite.ttf</item>
+        <item>fonts/ae-almanzomah.ttf</item>
+        <item>fonts/aref-ruqrq-bold.ttf</item>
+        <item>fonts/barada-reqa.ttf</item>
+        <item>fonts/Champagne_Limousines.ttf</item>
+        <item>fonts/digistyle-unicode.ttf</item>
+        <item>fonts/Bellerose.ttf</item>
+        <item>fonts/diwan.ttf</item>
+        <item>fonts/ge-mb-najm-medium.ttf</item>
+        <item>fonts/ge-meem-medium.ttf</item>
+        <item>fonts/saeed-extra-bold-extra-bold.ttf</item>
+        <item>fonts/vip-talin.ttf</item>
+    </string-array>
+
+    <string-array name="font_arabic_array">
+        <item>fonts/ae-almanzomah.ttf</item>
+        <item>fonts/aref-ruqrq-bold.ttf</item>
+        <item>fonts/barada-reqa.ttf</item>
+        <item>fonts/Champagne_Limousines.ttf</item>
+        <item>fonts/digistyle-unicode.ttf</item>
+        <item>fonts/Bellerose.ttf</item>
+        <item>fonts/diwan.ttf</item>
+        <item>fonts/ge-mb-najm-medium.ttf</item>
+        <item>fonts/ge-meem-medium.ttf</item>
+        <item>fonts/saeed-extra-bold-extra-bold.ttf</item>
+        <item>fonts/vip-talin.ttf</item>
+    </string-array>
+
+    <!-- TODO: TimelineFriends fragment -->
+    <string name="no_dailies">No Dailies</string>
+    <string name="areUSureUWantToReportMedia">Are you sure, you want to report this media?</string>
+    <string name="reasonForReport">Reason for report :</string>
+
+    <!-- TODO: Media Detail Fragment  -->
+    <string name="comntAdded">Comment added</string>
+    <string name="someErrorOccured">Some error occured</string>
+    <string name="crashreport">Oops!crash</string>
+
+    <string name="gender">Gender</string>
+    <string name="unfirendtext">Are you sure you want unfriend?</string>
+    <string name="whoIsHere">WHO\'S HERE</string>
+    <string name="decline">Decline</string>
+    <string name="accept">Accept</string>
+    <string name="cannotsendmessage">You can not send message this user</string>
+    <string name="zeroHoursAgo">0 Hours Ago</string>
+
+
+    <string name="allowUsers">Allow Users</string>
+    <string name="unfriendCapital">UNFRIEND</string>
+    <string name="unfollowCapital">UNFOLLOW</string>
+    <string name="addText">Add Text</string>
+    <string name="txtEmoji">Emoji</string>
+    <string name="txtSave">Save</string>
+    <string name="uploadLabel">UPLOAD</string>
+    <string name="setBelowThings">SET BELOW THINGS</string>
+
+    <!-- TODO: GROUP SETTING fragment -->
+    <string name="groupList">Dailies Groups</string>
+    <string name="areYouSureToDeleteGroup">Are you sure,you want to delete the group?</string>
+    <string name="noGroups">No Groups</string>
+    <string name="noBlockedUser">No Blocked User</string>
+
+    <string name="header_changeEmail">CHANGE EMAIL</string>
+    <string name="header_changeMobileNumber">CHANGE MOBILE NUMBER</string>
+    <string name="header_changeUsername">CHANGE USERNAME</string>
+    <string name="gulflinks">gulflinks_suggested</string>
+    <string name="timer">15</string>
+    <string name="header_groupList">GROUP LIST</string>
+    <string name="header_blockFriends">Block Friends</string>
+    <string name="header_viewmytimeline">View My TimeLine</string>
+    <string name="header_createGroup">CREATE GROUP</string>
+    <string name="header_blockList">BLOCK LIST</string>
+    <string name="header_select_friends">SELECT FRIENDS</string>
+    <string name="contactme">Contact Me</string>
+    <string name="viewMyStory">View My Story</string>
+    <string name="viewMyDailies">View My Dailies</string>
+    <string name="myDailies">My Dailies</string>
+    <string name="blockList">Block List</string>
+    <string name="gulfTerms">khaleeji Terms</string>
+
+
+    <string name="blockFriends">Block Friends</string>
+    <string name="selectAleastOneFriend">Select atleast one friend</string>
+
+
+    <!--New UI strings-->
+    <string name="heightInFeet">Height (In Feet)</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <!-- TODO: Filters -->
+    <string name="none">None</string>
+    <string name="aqua">Aqua</string>
+    <string name="blackboard">Blackboard</string>
+    <string name="mono">Mono</string>
+    <string name="negative">Negative</string>
+    <string name="posterize">Posterize</string>
+    <string name="sepia">Sepia</string>
+    <string name="solarize">Solarize</string>
+    <string name="whiteboard">Whiteboard</string>
+    <string name="checkedin">Checked In</string>
+    <string name="chcekin">CheckIn</string>
+
+    <string name="qno1">Q.1/</string>
+    <string name="qtwo">Q.2/</string>
+    <string name="questionthree">Q.3/</string>
+
+    <string name="whoViewedMyProfile">Who Viewed my Profile</string>
+
+    <string name="comentLikeHeader">Comments/Likes View</string>
+    <string name="commentsView">Comments View</string>
+    <string name="likesView">Likes View</string>
+    <string name="decline_caps">DECLINE</string>
+    <string name="accept_caps">ACCEPT</string>
+    <string name="default_notification_channel_id" translatable="false">fcm_default_channel</string>
+    <string name="who_viewed_my_dailies">Who viewed my dailies</string>
+    <string name="your_stories">Your Stories</string>
+    <string name="disclaimer_text">It is prohibited to insult other and to post picture and/or video clip that are in appropriate.</string>
+    <string name="report_media">Are you sure want to report this media</string>
+    <string name="save_confirm_dlg">Are you sure want to save this media ?</string>
+    <string name="skip">Skip</string>
+    <string name="previous">Previous</string>
+    <string name="nationality">Nationality</string>
+    <string name="follow">Follow</string>
+    <string name="unfollow">Unfollow</string>
+    <string name="gulfUser">Gulf User</string>
+    <string name="nav_feedback_contact_us">Contact us</string>
+    <string name="home">Home</string>
+    <string name="txt_ok">Ok</string>
+
+    <!-- TODO: hotspotdetail Fragment -->
+    <string name="aboutUs">About us</string>
+
+    <string name="searchThisArea">Search this area</string>
+    <string name="reviews">Reviews</string>
+    <string name="rating">Rating</string>
+
+    <!-- TODO: Meetup Hotspot Fragment -->
+    <string name="slctCategory">Select Category</string>
+    <!-- TODO: Create Group fragment -->
+    <string name="createGroup">Create Group</string>
+    <string name="groupSubject">Group Subject</string>
+    <string name="pleaseProvideGrpSbjct">Please provide Group Subject</string>
+    <string name="participants">Participants</string>
+    <string name="groupNameBlank">Enter Group Name</string>
+    <string name="selectAtleastOneParticipant">Select Atleast One Participant</string>
+    <string name="readTerms">I have read all terms and conditions</string>
+    <string name="acceptTerms">I accept all terms and conditions</string>
+    <string name="plsReadTerms">Please read terms and conditions</string>
+    <string name="plsAcceptTerms">Please accept terms and conditions</string>
+    <string name="timeline">Home</string>
+    <string name="intro_description">Share your timeline in special moments</string>
+    <string name="diwani">fonts/diwan.ttf</string>
+    <string name="areUSureUWantToExit">Are You sure! You want to exit the app?</string>
+    <string name="areUSureUWantToBlockUser">Are You sure! You want to block this user?</string>
+    <string name="areUSureUWantToUnBlockUser">Are You sure! You want to Unblock this user?</string>
+    <string name="areUSureUWantToUnFriendUser">Are You sure! You want to UnFriend this user?</string>
+    <string name="resetMobileNumber">RESET YOUR MOBILE NUMBER</string>
+
+    <!-- TODO: Group Participant fragment -->
+    <string name="addMoreUsers">Add more users</string>
+    <string name="selectAtleastOneFriend">Select atleast one Friend</string>
+    <string name="allYourFriendsAreAlreadyInGroup">All your friends are already added in group</string>
+
+
+    <!-- TODO: New CHat test fragment -->
+    <string name="slctAtleast2Contacts">Select atleast 2 contacts</string>
+    <string name="featured">Featured</string>
+    <string name="myTimeLine">My TimeLine</string>
+    <string name="addContent">ADD YOUR CONTENT</string>
+    <string name="searchForWords">Search for words...</string>
+    <string name="writemsg">Write message....</string>
+
+    <!-- TODO TimeLine Tab Fragment-->
+    <string name="theWorld">OUR WORLD</string>
+    <string name="friends">FRIENDS</string>
+    <string name="DOB">D.O.B.</string>
+
+    <string name="ic_text">"\ue945"</string>
+    <string name="ic_close">"\ue918"</string>
+    <string name="ic_draw">""\ue944</string>
+    <string name="ic_images">"\ue949"</string>
+    <string name="ic_save">"\ue946"</string>
+    <string name="ic_clear_all">"\ue947"</string>
+    <string name="ic_continue">"\ue948"</string>
+    <string name="ic_delete">"\ue92c"</string>
+    <string name="choose_from_gallery">Choose From Gallery</string>
+    <string name="choose_from_camera">Choose From Camera</string>
+    <string name="undo">Undo</string>
+    <string name="erase">Erase</string>
+    <string name="hash">#</string>
+
+    <string name="clear_all">Clear All</string>
+    <string name="done">Done</string>
+    <string name="save">Save</string>
+    <string name="text">Text</string>
+    <string name="attachLink">Attach Link</string>
+    <string name="linkTitle">Link Title</string>
+    <string name="linkDesc">Link Description</string>
+    <string name="postGSnap">Post G-Snap</string>
+
+    <string name="to">To..</string>
+    <string name="myMemories">My Memories</string>
+    <string name="hostpotDailies">Hotspot Dailies</string>
+    <string name="hostpotMemories">Hotspot Memories</string>
+    <string name="recents">Recents</string>
+    <string name="allFrnds">All Friends</string>
+    <string name="discardPicture">Are you sure! You want to discard the picture.</string>
+    <string name="discardVideo">Are you sure! You want to discard the video.</string>
+    <string name="enterValidUrl">Enter Valid URL</string>
+
+    <string name="infinity">&#8734;</string>
+    <string name="viewLink">View Link</string>
+    <string name="city">City</string>
+    <string name="enterURL">Enter URL</string>
+    <string name="reason_for_report">Reason for report :</string>
+    <string name="abusive_or_harmful_to_others">Abusive or harmful to others</string>
+    <string name="abusive_or_harmful_to_me">Abusive or harmful to me</string>
+    <string name="posting_inappropriate_content">Posting inappropriate content</string>
+    <string name="other">Other</string>
+    <string name="type_other_reason_for_report">Type other reason for report:</string>
+    <string name="unsafe_behavior">Unsafe behavior (stalking, blackmailing,etc)</string>
+    <string name="please_enter_reason">please enter reason</string>
+    <string name="be_the_first_person_to_comment_on_its_memory">Be the first person to comment on this memory</string>
+    <string name="likes"> Likes</string>
+    <string name="hotspots_updates">Hotspots Updates</string>
+    <string name="memories_updates">Memories Updates</string>
+    <string name="no_friends_found">no friends found</string>
+    <string name="best_friends">Best Friends</string>
+    <string name="directions">Directions</string>
+    <string name="dateOfBirth">Date of Birth</string>
+    <string name="first_qstn">First Question</string>
+    <string name="second_qstn">Second Question</string>
+    <string name="third_qstn">Third Question</string>
+    <string name="bioWriteAboutYourself">Bio (write about yourself)</string>
+    <string name="profile_question">Profile Question</string>
+    <string name="addComment">Add Comment...</string>
+    <string name="addStatusReply">Add Status Reply...</string>
+    <string name="deleteCommentMessage">Are you sure! You want to delete this comment?</string>
+    <string name="removeMediaMessage">Are you sure! You want to Delete this media?</string>
+
+    <!-- TODO: MyProfileTimeline fragment -->
+    <string name="nothingPosted">Nothing is posted yet!</string>
+    <string name="memories">Memories</string>
+    <string name="allow_othertoseeMyprofile">Allow users to see my Profile Picture</string>
+    <string name="allow_othertoseeMydob">Allow users to see my Date of birth</string>
+    <string name="allow_othertoseeMyUsernaem">Allow users to see my Username</string>
+
+    <string name="timelineandstory">TIMELINE &amp; STORY</string>
+    <string name="Everyone">Everyone</string>
+    <string name="Everyone_ar">Everyone</string>
+    <string name="checkin">CHECKIN</string>
+    <string name="save_alert">Do you want to save changes?</string>
+    <string name="new_post">New Post</string>
+    <string name="share">Share</string>
+    <string name="block_success">The user is blocked successfully</string>
+    <string name="report_success">Your report is sent successfully and we will deal with it shortly</string>
+    <string name="remove_friend_success">This user is removed from your friend list successfully</string>
+    <string name="answer_success">Your response to the user’s questions is sent successfully!</string>
+    <string name="submit_success">Your status is submitted successfully</string>
+    <string name="upload_success">Uploaded successfully</string>
+    <string name="post_media_alert">Your media is currently uploading. It will appear on your profile once completed. </string>
+    <string name="post_media_download">Your media is currently downloading</string>
+    <string name="write_a_caption_for_your_memory">Write a caption</string>
+    <string name="are_you_sure_want_to_activate_your_account">Are you sure you want to activate your account ?</string>
+    <string name="are_you_sure_want_to_deacitvate_account">Deactivating your account will temporarily hide your profile data from our live app users.\n If you want to use the app again you can sign in again to re-activate your account.
+\n
+Are you sure you want to deactivate your account?
+</string>
+    <string name="are_you_sure_want_to_delete_account">Deleting your account will erase all your profile data from our application servers.\n If you want to use the app again you will have to create a new account.\n
+    Are you sure you want to delete all your account data?
+    </string>
+    <string name="you_sent_a_photo">You sent a photo</string>
+    <string name="delete_message">Delete message?</string>
+    <string name="clear_chat">Clear chat</string>
+    <string name="leave_group">Leave group</string>
+    <string name="group_setting">Group setting</string>
+    <string name="remove_group_member">Are you sure want to remove group member?</string>
+    <string name="select_friend">Select friend</string>
+    <string name="please_select_group_icon">please select group icon</string>
+
+    <string name="next">Next</string>
+    <string name="do_delete">Delete</string>
+    <string name="do_delete_ar">Delete</string>
+    <string name="notification">Notification</string>
+    <string name="dailies">Dailies</string>
+    <string name="memory_updates">Memory Updates</string>
+    <string name="gender_title">Gender:</string>
+    <string name="nationality_title">Nationality:</string>
+    <string name="bio_title">Bio:</string>
+    <string name="status_title">Status:</string>
+    <string name="add_friend">ADD FRIEND</string>
+    <string name="message_bigletter">MESSAGE</string>
+    <string name="choose_gender">Choose your Gender</string>
+    <string name="question_gender">What\' your Gender?</string>
+    <string name="bt_continue">Continue</string>
+    <string name="step1">Step 1 of 4</string>
+    <string name="your_birthday">Your Birthday</string>
+    <string name="when_birthday">When\'s your Birthday?</string>
+    <string name="choose_hometown">Choose your hometown</string>
+    <string name="what_hometown">Where\'s your Hometown?</string>
+    <string name="allow_public_dob">Allow users to see your DOB</string>
+    <string name="step2">Step 2 of 4</string>
+    <string name="step3">Step 3 of 4</string>
+    <string name="step4">Step 4 of 4</string>
+    <string name="profile_question_exp">
+        Your profile question is a question
+        that other Khaleeji users have to
+        answer in order to be your friends.
+        Set up your profile questions and have fun!
+    </string>
+    <string name="ask_friends">Type your question here</string>
+    <string name="profile_picture">Profile Picture</string>
+    <string name="select_profile_picture">Lastly, select your profile picture</string>
+    <string name="what_mobile">What\'s your mobile number?</string>
+    <string name="what_email">What\'s your registered email?</string>
+    <string name="msg_verfication">Verification code is sent to your email, please enter it below</string>
+    <string name="confirm">CONFIRM</string>
+    <string name="privacy_setting">Privacy Settings</string>
+    <string name="notification_setting">Notification Settings</string>
+    <string name="liked_comments_notification">Liked Comments, Status or Memories</string>
+    <string name="message_notifications">Message notificatons</string>
+    <string name="grounp_chat_notifications">Group Chat Notifications</string>
+    <string name="update_pwd">Update Password</string>
+    <string name="current_pwd_title">Current Password:</string>
+    <string name="new_pwd_title">New Password:</string>
+    <string name="confirm_pwd_title">Confirm Password:</string>
+    <string name="change_email">Change Email</string>
+    <string name="new_email_address">New Email Address:</string>
+    <string name="change_email_exp">Please type new email below and we will send you a confirmation email</string>
+    <string name="allow_to_find_me">Allow others to find me using my email address</string>
+    <string name="change_email_exp2">Your email makes it easier to recover your account, and for you and your friends to find each other on <b> Khaleeji </b>, and more!</string>
+    <string name="change_mobile_no">Change Mobile Number</string>
+    <string name="allow_find_mobile">Allow others to find me using my mobile number</string>
+    <string name="change_mobile_exp">Providing your mobile number will verify you are a
+    <b>Khaleeji</b> user!
+    It also makes it easier to recover your account,
+    and for you and your friends to find each other on
+    <b>Khaleeji</b>, and more!</string>
+    <string name="next_big">NEXT</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="permissions">Permissions</string>
+    <string name="blocked_users">Blocked Users</string>
+    <string name="deactive_account">Deactive Account</string>
+    <string name="delete_all_account">Delete all account data</string>
+    <string name="who_can_msg">Who can <b>message me</b></string>
+    <string name="who_can_view">Who can <b>view my Dailies</b></string>
+    <string name="who_can_msg_big">Who Can <b>Message Me</b></string>
+    <string name="who_can_view_big">Who Can <b>View My Dailies</b></string>
+    <string name="who_can_view_big_ar">Who Can <b>View My Dailies</b></string>
+    <string name="my_friends">My Friends</string>
+    <string name="customized_group">Customized Groups</string>
+    <string name="group_categorized">Categorize your friends into groups!\nThey won’t know :)</string>
+    <string name="group_organize">Organize your friends into groups!\nThey won’t know :)</string>
+    <string name="family_group">Family Group</string>
+    <string name="shabab_group">Shabab Isteraha Group</string>
+    <string name="create_new_group">Create new group</string>
+    <string name="select_who_remove">Select who to remove/add from this group</string>
+    <string name="edit_family_group">Your Family Group</string>
+    <string name="group_name_enter">Enter details of your new Dailies Group!</string>
+    <string name="group_name_title">Group Name:</string>
+    <string name="users_selected_title">Users Selected:</string>
+    <string name="what_mind">What\'s On Your Mind ?</string>
+    <string name="write_memory">Write your Memory Description</string>
+    <string name="send_to">Send To..</string>
+    <string name="my_dailies">My Dailies</string>
+    <string name="my_memories">My Memories</string>
+    <string name="hotspot_dailies">Hotspot Dailies</string>
+    <string name="hotspot_memories">Hotspot Memories</string>
+    <string name="send_to_exp">My Dailies, My Memories, Hotspot Dailies, Hotspot Memories, Lauren </string>
+    <string name="search_dot">Search...</string>
+    <string name="best_friend_big">BEST FRIENDS</string>
+    <string name="recents_big">RECENTS</string>
+    <string name="search_around">Search locations around you</string>
+    <string name="my_profile">My Profile</string>
+    <string name="my_status_updates">My Status Updates</string>
+    <string name="map">Map</string>
+    <string name="find_khal">Find Khaleejis</string>
+    <string name="fill_up">Fill up your profile to meetup with \nnew friends</string>
+    <string name="allow_picture">Your username and profile picture will show to others</string>
+    <string name="allow_friend_list">Allow users to see your friends list</string>
+    <string name="allow_username">Your dailies or memories will be hidden to others</string>
+    <string name="duna">Duna</string>
+    <string name="riyadh">Riyadh</string>
+    <string name="submit_big">SUBMIT</string>
+    <string name="update_btn_edit_profile">SUBMIT</string>
+
+    <string name="received_requests_big">RECEIVED\nREQUESTS</string>
+    <string name="sent_request">SENT\nREQUESTS</string>
+    <string name="my_enter_friends">MY\nFRIENDS</string>
+    <string name="see_answer">See Answer</string>
+    <string name="confirm_small">Confirm</string>
+    <string name="nudge">Nudge</string>
+    <string name="remove_small">Remove</string>
+    <string name="look_for_users">Look for <b>khaleeji users</b> in <b>my contacts</b></string>
+    <string name="you_may_know">Users you may know</string>
+    <string name="add_friend_small">Add Friend</string>
+    <string name="find_my_friends">Find My Friends</string>
+    <string name="your_answer">Your Answer</string>
+    <string name="reply_in_chat">Reply in Chat</string>
+    <string name="reject">Reject</string>
+    <string name="amend_resend">Amend and Resend</string>
+    <string name="your_question">Your\nQuestion</string>
+    <string name="their_answer">Their\nAnswer</string>
+    <string name="my_posts">My Posts</string>
+    <string name="likes_title">Likes</string>
+    <string name="no_data_location">No data available, please select category</string>
+    <string name="whoIsHere_small">Who\'s Here</string>
+    <string name="submit_profile_picture">Submit</string>
+    <string name="your_email">Your current email is </string>
+    <string name="add_status_placeholder">Add your Status here...</string>
+    <string name="add_desc_placeholder">Add your Description here...</string>
+    <string name="add_mentiontag">Add#Tag</string>
+    <string name="mention_someone">Mention Someone</string>
+    <string name="likes_post">Likes</string>
+    <string name="comments_post">Comments</string>
+    <string name="view_comments">comments</string>
+    <string name="view_all">View all</string>
+    <string name="days">days</string>
+    <string name="ago">ago</string>
+    <string name="accept_your_request">accepted your request</string>
+    <string name="hours">hours</string>
+
+    <string name="iraq">Iraq</string>
+    <string name="saudi">Saudi Arabia</string>
+    <string name="kuwait">Kuwait </string>
+    <string name="bahrain">Bahrain</string>
+    <string name="oman">Oman</string>
+    <string name="united_arab">United Arab Emirates</string>
+    <string name="yemen">Yemen</string>
+    <string name="qatar">Qatar</string>
+
+    <string name="post">Post</string>
+    <string name="reply">Reply</string>
+    <string name="status">Status</string>
+    <string name="online">Online</string>
+    <string name="offline">Offline</string>
+    <string name="location_you_check">The location you checked-in to:</string>
+    <string name="is_now_hotspot">is now a Hotspot!</string>
+    <string name="checked_into">Checked-in to</string>
+    <string name="near_by">nearby you</string>
+    <string name="your_friend">Your Friend:</string>
+    <string name="choose_country">Choose your country</string>
+    <string name="posts">Posts</string>
+    <string name="my_post">My Post</string>
+    <string name="camera">Camera</string>
+    <string name="gallery">Gallery</string>
+    <string name="faraway">You’re too far away to checkin</string>
+
+    <string name="khm">Khaleeji MeetUp</string>
+    <string name="find_users">Find Users</string>
+    <string name="khm_map">MeetUp Khaleeji</string>
+    <string name="view_account">View Account</string>
+    <string name="add_participants">Add participants to group</string>
+    <string name="country">Country</string>
+    <string name="no_data">No Data</string>
+    <string name="send_request">Send Request</string>
+    <string name="their_question">Their\nQuestion</string>
+    <string name="find_location">Find Location Directions Here</string>
+    <string name="your_checked">YOU ARE CHECKED IN</string>
+    <string name="dailies_updates">Dailies Updates</string>
+    <string name="check_in">CHECK IN</string>
+    <string name="hotspot_memory">Hotspot Memories</string>
+    <string name="no_name">Name Field is required</string>
+    <string name="no_tag">Tag Field is required</string>
+    <string name="no_city">City Field is required</string>
+    <string name="check_inbox">Check Your Inbox</string>
+    <string name="sent_email">We sent you a verification email.</string>
+    <string name="open_link">Please open the link to reset your password, and sign in again!</string>
+    <string name="report_reason">Reason for Report</string>
+    <string name="reason_abuse_me">Abusive or harmful to me</string>
+    <string name="reason_abuse_others">Abusive or harmful to others</string>
+    <string name="reason_post">Posting inappropriate content</string>
+    <string name="reason_unsafe">Unsafe behavior (stalking, blackmailing, etc)</string>
+    <string name="reason_other">Other</string>
+    <string name="are_you_sure_want_to_remove_msg">Are you sure you want to remove?</string>
+    <string name="are_you_sure_want_to_remove">Are you sure you want to remove this post?</string>
+    <string name="are_you_sure_want_to_report">Are you sure you want to report this post?</string>
+
+    <string name="no_message">No Messages</string>
+    <string name="sent_video">Sent a video</string>
+    <string name="sent_audio">Sent an audio</string>
+    <string name="sent_photo">Sent a photo</string>
+    <string name="you_sent_photo">You sent a photo</string>
+    <string name="you_sent_video">You sent a video</string>
+    <string name="user_sent_photo">%s sent a photo</string>
+    <string name="user_sent_video">%s sent a video</string>
+    <string name="typing">Typing...</string>
+    <string name="sending_your_photo">Sending your photo...</string>
+    <string name="sending_your_voice">Sending your voice...</string>
+    <string name="sending_your_video">Sending your video...</string>
+    <string name="new_group">New Group</string>
+    <string name="group_subject">Group Subject</string>
+    <string name="provide_group">Please provide a group subject and group icon</string>
+    <string name="no_group_subject">No Group Subject Or Group Image</string>
+    <string name="update_group">Update Group</string>
+    <string name="invalid_group_name">Group name is not valid</string>
+    <string name="invalid_username">Only English letters and numbers, Arabic letters, _ and  .  are allowed</string>
+    <string name="group_participant">PARTICIPANTS</string>
+    <string name="out_of">OUT OF</string>
+    <string name="invalid_phone">You have entered number incorrectly. Please only include numbers with no characters or spaces.</string>
+    <string name="no_hotspot">No Hotspot</string>
+    <string name="upload_fail">Upload failed</string>
+    <string name="groups">Groups</string>
+    <string name="group_remove_confirm">Are you sure want to remove this group?</string>
+    <string name="request_success">Your request is submitted successfully</string>
+    <string name="how_to_crop">Choose how you want your memory cropped</string>
+    <string name="friend_request">Friend Request</string>
+    <string name="words">Our Words</string>
+    <string name="trending">Trending</string>
+    <string name="nationalism">Nationalism</string>
+    <string name="sports">Sports</string>
+    <string name="spiritual">Spiritual</string>
+    <string name="email_change_success">Email changed successfully</string>
+    <string name="invalid_fullname">Only English and Arabic letters allowed</string>
+    <string name="invalid_username_title">Invalid Username</string>
+    <string name="invalid_fullname_title">Invalid Full Name</string>
+
+
+<!--applogic string-->
+    <string name="internet_connection_not_available">No internet connection</string>
+    <string name="you_need_network_access_for_delete">You need to have network access for deleting Conversation </string>
+    <string name="applozic_server_error">Oops! You caught an error, try again later</string>
+    <string name="you_need_network_access_for_block_or_unblock">You need to have network access for block/unblock a user</string>
+    <string name="internet_connection_for_group_name_info">Your phone needs an Internet connection to change the group name</string>
+    <string name="you_dont_have_any_network_access_info">You don\'t have any network access now</string>
+    <string name="failed_to_leave_group">Failed to leave group</string>
+    <string name="user_is_already_exists">User already exists in group</string>
+    <string name="delete_conversation_failed">Delete failed</string>
+    <string name="menu_search">Search</string>
+    <string name="menu_add_contact">Create a new contact</string>
+    <string name="menu_edit_contact">Edit Contact</string>
+    <string name="no_contacts">No Contacts Found</string>
+    <string name="no_contact_selected">No Contact Selected</string>
+    <string name="search_hint">Search...</string>
+    <string name="activity_contacts_list">MobiTexter</string>
+    <string name="activity_contacts_title">Select contact</string>
+    <string name="activity_contact_detail">Contact Detail</string>
+    <string name="contacts_list_search_results_title">Contact search for \"%s\"</string>
+    <string name="contactsListActivity">Contact List</string>
+    <string name="phone_number_not_present">Phone number is not present</string>
+    <string name="mobiframework_title_device">Device</string>
+    <string name="mobiframework_title_group">Group</string>
+    <string name="zero_friends_on_phone">No matching contact found on phone contacts but you can still send message by entering the email, userId or phone number</string>
+    <string name="contact_sync_in_progress">Contact sync is in progress, might take few mins</string>
+    <string name="zero_friends_on_app">Contacts not found</string>
+    <string name="zero_groups_on_app">Groups not found</string>
+    <string name="delete_thread_text">Deleting....</string>
+    <string name="search_title">Search</string>
+    <string name="applozic_user_already_in_a_group">Already added to the [groupType]</string>
+    <string name="applozic_contacts_loading_info">Loading please wait...</string>
+    <string name="applozic_contacts_loading_error">You need to have network access for loading contacts</string>
+    <string name="applozic_enter_group_name">Please enter a group name to proceed..</string>
+    <string name="snap_text">Oh Snap!</string>
+    <string name="account_disconnection_message">We’re sorry but messaging is not \navailable at the moment.\nPlease contact support for more details</string>
+    <string name="powered_by_applozic_message">We are powered by Applozic</string>
+    <string name="failed_to_load_contact">Failed to load contacts : Response : </string>
+    <string name="rupee_symbol">\u20B9</string>
+    <string name="invite_message">Download this app from this link : apps.applozic.com</string>
+    <string name="cancel_transaction">Do you want to cancel this transaction?</string>
+    <string name="go_back">Are you sure you want to exit this page?</string>
+    <string name="no_alert">No</string>
+    <string name="mandatory_fields">"Mandatory fields required."</string>
+    <string name="form_action_success">Successfully submitted</string>
+    <string name="alphabet">ABCDEFGHIJKLMNOPQRSTUVWXYZ</string>
+
+    <string name="search_match_other">Matches Other Field</string>
+    <string name="invite">Invite your friends</string>
+    <array name="alphabet_color">
+        <item>#f16364</item>
+        <item>#f58559</item>
+        <item>#f9a43e</item>
+        <item>#e4c62e</item>
+        <item>#67bf74</item>
+        <item>#59a2be</item>
+        <item>#2093cd</item>
+        <item>#ad62a7</item>
+    </array>
+    <dimen name="tile_letter_font_size">250dp</dimen>
+    <!-- The deafult tile size -->
+    <dimen name="letter_tile_size">64dp</dimen>
+
+    <string name="contact_permission">Contact permission are needed to access</string>
+    <string name="storage_permission">Storage permission are needed to access</string>
+    <string name="read_sms_permission">Read sms permission are needed to access</string>
+    <string name="location_permission">Location permission are needed to access</string>
+    <string name="phone_state_permisssion">Phone state permission are needed to access</string>
+    <string name="phone_call_permission">Phone call permission are needed to access</string>
+    <string name="phone_camera_permission">Camera permission are needed to access</string>
+    <string name="record_audio">Audio recording permission needed</string>
+    <string name="camera_audio_permission">Camera and record audio permission are needed to access</string>
+
+    <string name="contact_permission_not_granted">Permission were not granted for Contact</string>
+    <string name="storage_permission_not_granted">Permissions were not granted for Storage</string>
+    <string name="read_sms_permission_not_granted">Permissions were not granted for Read</string>
+    <string name="location_permission_not_granted">Permissions were not granted for Location</string>
+    <string name="phone_state_permission_not_granted">Permissions were not granted for Phone state</string>
+    <string name="phone_call_permission_not_granted">Permission were not granted for Phone call</string>
+    <string name="phone_camera_permission_not_granted">Permission were not granted for Camera</string>
+    <string name="record_audio_permission_not_granted">Permissions were not granted for Audio recording</string>
+    <string name="audio_or_camera_permission_not_granted">Permission were not granted for Camera or Audio recording</string>
+
+    <string name="contact_permission_granted">Contacts Permission have been granted</string>
+    <string name="storage_permission_granted">Storage Permissions have been granted</string>
+    <string name="read_sms_permission_granted">Read sms Permissions have been granted</string>
+    <string name="location_permission_granted">Location Permissions has been granted</string>
+    <string name="phone_state_permission_granted">Phone state Permissions has been granted</string>
+    <string name="phone_call_permission_granted">Phone call Permission has been granted</string>
+    <string name="phone_camera_permission_granted">Camera permission has been granted</string>
+    <string name="record_audio_permission_granted">Audio Record permissions has been granted</string>
+    <string name="phone_camera_and_audio_permission_granted">Camera and audio permissions has been granted</string>
+    <string name="mobicom_max_attachment_warning">Max attachment limit reached</string>
+    <string name="mobicom_select_attachment_text">Select at least one attachment</string>
+    <string name="audio_recording_send_text">Tap on Start to record audio</string>
+    <string name="applozic_audio_permission_missing">Unable to launch audio recorder.</string>
+    <string name="applozic_message_info">Message Info</string>
+    <string name="applozic_message_info_no_network">Not able to fetch message info.</string>
+    <string name="applozic_user_profile_heading">Profile</string>
+    <string name="send_message_to">Send to..</string>
+    <string name="info_attachment_max_allowed_file_size_exceeded">Can\'t send maximum uploading file size limit exceeded </string>
+    <string name="group_members_limit_exceeds">Limit reached, remove someone from the Group first</string>
+    <string name="please_wait_creating_group_of_two">Please wait...</string>
+    <string name="sort_contacts_by_lastSeenAt">Sort by lastSeen</string>
+    <string name="sort_contacts_by_recent_chats">Sort by recent chats</string>
+    <string name="chats">Chats</string>
+    <string name="refresh">Refresh</string>
+    <string name="start_New">Start New</string>
+    <string name="dial">Dial</string>
+    <string name="camera_option">Camera</string>
+    <string name="logout">Logout</string>
+    <string name="send_logs">Send Logs</string>
+    <string name="log_email_subject">- Applozic android SDK text logs</string>
+    <string name="select_email_app_chooser_title">Select app to send logs</string>
+    <string name="copy">Copy</string>
+    <string name="forward">Forward</string>
+    <string name="delete">Delete</string>
+    <string name="self_destruct">Self Destruct</string>
+    <string name="off">Off</string>
+    <string name="one_min">1 min</string>
+    <string name="two_min">2 min</string>
+    <string name="five_min">5 min</string>
+    <string name="ten_min">10 min</string>
+    <string name="sms">SMS</string>
+    <string name="mt">MT</string>
+    <string name="Delete_conversation">Delete conversation</string>
+    <string name="delete_group">Delete group</string>
+    <string name="exit_group">Exit group</string>
+    <string name="make_group_admin">Make group admin</string>
+    <string name="take_photo">Take photo</string>
+    <string name="attach_file">Attach file</string>
+    <string name="audio_message">Audio Message</string>
+    <string name="video_message">Video Message</string>
+    <string name="share_contact">Share Contact</string>
+    <string name="attach_price">Attach price</string>
+    <string name="al_location">:location</string>
+    <string name="al_file">:file</string>
+    <string name="al_audio">:audio</string>
+    <string name="al_camera">:camera</string>
+    <string name="al_video">:video</string>
+    <string name="al_contact">:contact</string>
+    <string name="al_price">:price</string>
+    <string name="current_location">Current Location</string>
+    <string name="price">Price</string>
+    <string name="name">Name</string>
+    <string name="phone">Phone</string>
+    <string name="Group">GROUP</string>
+    <string name="Contact">CONTACT</string>
+    <string name="Add_caption">Add caption...</string>
+    <string name="New_Attachment">New Attachment</string>
+    <string name="send_location">Send Location</string>
+    <string name="send_your_current_location">Send your current Location</string>
+    <string name="Add_Contacts">Add Contacts</string>
+    <string name="stop">STOP</string>
+    <string name="profile_status">Profile Status</string>
+    <string name="no_status">No Status</string>
+    <string name="notifications">Notifications</string>
+    <string name="push_notifications">Push Notifications</string>
+    <string name="sales_manager">Sales Manager</string>
+    <string name="display_name">Display Name</string>
+    <string name="today">Today</string>
+    <string name="kb45">45kb</string>
+    <string name="message_text">Message Text</string>
+    <string name="read">Read</string>
+    <string name="delivered">Delivered</string>
+    <string name="file_name_will_come_here_for_attachment">file name will come here for attachment</string>
+    <string name="mb_10">10 MB</string>
+    <string name="schedule">Schedule</string>
+    <string name="delivery_status">delivery status</string>
+    <string name="testTime">testTime</string>
+    <string name="created_at_time">created at time</string>
+    <string name="edit_group_name">Edit group name</string>
+    <string name="add_member">Add member</string>
+    <string name="group_not_exist">Group Not Exist</string>
+    <string name="no_groups">No Groups</string>
+    <string name="contacts_not_found">No Contacts Found</string>
+    <string name="remove_image">Remove image</string>
+    <string name="applozic_failed_to_load_contact">Failed to load Contact</string>
+    <string name="applozic_Cropping_failed">Cropping failed</string>
+    <string name="applozic_resending_attachment">Resending attachment....</string>
+    <string name="Location">Location</string>
+    <string name="processing_please_wait">Processing... Please wait</string>
+    <string name="success">success</string>
+    <string name="error">error</string>
+    <string name="mute_group_for">Mute Group For..</string>
+    <string name="mute_user_for">Mute user for..</string>
+    <string name="eight_Hours">8 Hours</string>
+    <string name="one_week">1 Week </string>
+    <string name="one_year"> 1 Year </string>
+    <string name="file_does_not_exist">file does not Exist</string>
+    <string name="copied_message">Copied message</string>
+    <string name="data_usage">Data Usage</string>
+    <string name="missed">Missed</string>
+    <string name="hold_to_record_release_to_send">Hold to record , release to send</string>
+    <string name="slide_to_cancel">Slide to cancel</string>
+    <string name="tap_on_mic_button_to_record_audio">Tap on mic button to start audio recording</string>
+    <string name="profile_contact">No Contact number</string>
+    <string name="profile_contact_number">Contact Number</string>
+    <string name="user_name">User Name</string>
+    <string name="powered_by_applozic">Powered By Applozic</string>
+    <string name="invalid_message_matching_pattern">The Regex to match message is invalid</string>
+    <string name="message_reported_successfully">This message has been reported successfully</string>
+    <string name="failed_to_report_message">Failed to report message</string>
+    <string name="long_video">This video is too long. Only 60 second videos are allowed.</string>
+
+    <string name="disagree">Disagree</string>
+    <string name="need_help">Need help?</string>
+    <string name="resend_label">Resend</string>
+    <string name="forgot_username_title">Forgot Username</string>
+    <string name="your_account_username">Your account username is:</string>
+    <string name="you_can_sign_in">You can sign in below using your username and password</string>
+    <string name="upload_info">%s Media file(s) waiting to upload</string>
+    <string name="upload_failed">Upload failed, tap here to retry.</string>
+    <string name="media_uploads">Media Uploads</string>
+    <string name="daily_uploading_ago">Your Daily posted %s min ago is uploading…</string>
+    <string name="memory_daily_uploading_ago">Your Memories Daily posted %s min ago is uploading…</string>
+    <string name="memory_uploading_ago">Your Memory posted %s min ago is uploading…</string>
+    <string name="daily_uploading_ago_sec">Your Daily posted %s sec ago is uploading…</string>
+    <string name="memory_daily_uploading_ago_sec">Your Memories Daily posted %s sec ago is uploading…</string>
+    <string name="memory_uploading_ago_sec">Your Memory posted %s sec ago is uploading…</string>
+    <string name="now">now</string>
+    <string name="choose_cancel_upload">You chose to cancel your media upload</string>
+    <string name="uploading">Uploading....</string>
+
+    <string name="received_friend_requests">Received Friend Requests</string>
+    <string name="this_user_currently">This user is currently</string>
+    <string name="away_from_you">away from you</string>
+    <string name="living_in">Living in:</string>
+    <string name="users_on_map">Users on the map</string>
+    <string name="all_contacts">All Contacts</string>
+    <string name="friend_on_khaleeji">Friends on Khaleeji</string>
+    <string name="invite_khaleeji">Invite to Khaleeji</string>
+    <string name="invite_bt">Invite</string>
+    <string name="account_code">My Account code</string>
+    <string name="hold_camera">Hold the camera to this screen or save this code to your gallery to share it </string>
+    <string name="scan">Scan</string>
+    <string name="scan_account_code">Scan my account code to add me</string>
+    <string name="qr_image">QR Code</string>
+    <string name="profile_link">Profile link</string>
+    <string name="no_question">No Question</string>
+    <string name="you_replied">You replied to their daily</string>
+    <string name="user_replied">%s replied to your daily</string>
+    <string name="here_is_how">Access your contacts list to view who is on <b>Khaleeji</b> App.
+    We do not store your contacts in our servers and you can choose to not be discovered on this list through: <b>Settings > Change Mobile Number</b></string>
+    <string name="tap_button_below">Tab button below</string>
+    <string name="privacy">Privacy</string>
+    <string name="allow_contact">And allow contacts access</string>
+    <string name="contacts">Contacts</string>
+    <string name="go_to_settings">Go to Settings</string>
+    <string name="in_memory">%s in Memories</string>
+    <string name="not_scan_own_code">You can’t scan your own code</string>
+    <string name="dailies_comment">dailies comment</string>
+    <string name="add_on_me">Add me on Khaleeji!:</string>
+    <string name="password_changed">Password changed successfully</string>
+    <string name="start_conversation">This user might be looking at your profile..</string>
+    <string name="visited_locations">Visited Locations</string>
+    <string name="visited_hotspots">Visited Hotspots</string>
+    <string name="dislike_answer">Dislike\nAnswer</string>
+    <string name="are_you_sure_want_to_remove_status">Are you sure you want to remove this status?</string>
+    <string name="are_you_sure_want_to_remove_status_comment">Are you sure you want to remove this status comment?</string>
+    <string name="are_you_sure_want_to_remove_status_reply">Are you sure you want to remove this status reply?</string>
+    <string name="are_you_sure_want_to_report_status">Are you sure you want to report this status?</string>
+    <string name="view_reply">View (%s) Replies</string>
+    <string name="status_like">Status Like</string>
+    <string name="status_viewer">Status Viewers</string>
+    <string name="users">Users</string>
+    <string name="statuses">Statuses</string>
+</resources>

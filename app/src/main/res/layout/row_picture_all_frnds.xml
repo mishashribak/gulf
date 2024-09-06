@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <CustomView.CustomTextView
+        android:id="@+id/tv_username"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/username"
+        android:textColor="#2C2D32"
+        android:textSize="@dimen/textsize_16"
+        app:customFont="@string/DroidSans"
+        android:layout_marginTop="@dimen/margin_10"
+        android:minHeight="@dimen/size_40"
+        android:gravity="start|center"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black_trans"
+        />
+
+    <!--android:background="@drawable/rounded_purple_corner_transparent_bg"-->
+
+
+</LinearLayout>
